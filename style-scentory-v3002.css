@@ -1982,7 +1982,7 @@ body {
   background:
     linear-gradient(180deg, rgba(0,0,0,.32) 0%, rgba(0,0,0,.55) 58%, rgba(0,0,0,.78) 100%),
     radial-gradient(circle at center, rgba(255,255,255,.04), transparent 55%),
-    url("hero-scentory-main-desktop.webp?v=3003") center center / cover no-repeat !important;
+    url("hero-scentory-main-desktop.webp?v=3005") center center / cover no-repeat !important;
   filter: none !important;
   transform: none !important;
   opacity: 1 !important;
@@ -2106,7 +2106,7 @@ body {
   .hero::before {
     background:
       linear-gradient(180deg, rgba(0,0,0,.12) 0%, rgba(0,0,0,.28) 24%, rgba(0,0,0,.62) 58%, rgba(0,0,0,.86) 100%),
-      url("hero-scentory-main-mobile.webp?v=3003") center top / cover no-repeat !important;
+      url("hero-scentory-main-mobile.webp?v=3005") center top / cover no-repeat !important;
   }
   .hero-inner {
     max-width: 360px !important;
@@ -2152,4 +2152,95 @@ body {
   .top-search-input { font-size: .72rem !important; padding: 9px 10px !important; }
   .brand-center { width: 142px !important; }
   .toolbar { grid-template-columns: minmax(0,1fr) minmax(0,1fr) !important; }
+}
+
+
+/* ==== v3005 patch: centered logo, smaller search, reliable hero/review/decant asset paths ==== */
+body {
+  --scentory-topbar-h: 118px !important;
+  padding-top: calc(var(--scentory-topbar-h) + env(safe-area-inset-top, 0px)) !important;
+}
+.topbar-inner {
+  position: relative !important;
+  max-width: 1180px !important;
+  min-height: 74px !important;
+  margin: 0 auto !important;
+  padding: 10px 16px !important;
+  display: grid !important;
+  grid-template-columns: 160px 1fr 60px !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+.top-search-wrap {
+  grid-column: 1 !important;
+  justify-self: start !important;
+  width: 100% !important;
+  max-width: 150px !important;
+  min-width: 0 !important;
+}
+.top-search-input {
+  min-height: 40px !important;
+  padding: 9px 13px !important;
+  font-size: .78rem !important;
+}
+.brand-center {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: clamp(180px, 18vw, 250px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+}
+.site-logo {
+  width: 100% !important;
+  display: block !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
+.cart-pill {
+  grid-column: 3 !important;
+  justify-self: end !important;
+  min-width: 54px !important;
+}
+.hero { min-height: 560px !important; }
+.hero::before {
+  background: linear-gradient(180deg, rgba(0,0,0,.16) 0%, rgba(0,0,0,.30) 40%, rgba(0,0,0,.72) 100%), url("hero-scentory-main-desktop.webp?v=3005") center center / cover no-repeat !important;
+}
+.decant-photo-card img, .review-card img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+.review-card { min-height: 220px !important; }
+.review-card img { max-height: 430px !important; object-fit: cover !important; object-position: top center !important; }
+
+@media (max-width: 960px) {
+  body { --scentory-topbar-h: 112px !important; }
+  .topbar-inner { grid-template-columns: 132px 1fr 56px !important; padding: 9px 12px !important; min-height: 70px !important; }
+  .top-search-wrap { max-width: 126px !important; }
+  .top-search-input { min-height: 38px !important; font-size: .76rem !important; }
+  .brand-center { width: 180px !important; }
+}
+
+@media (max-width: 640px) {
+  body { --scentory-topbar-h: 104px !important; }
+  .topbar-inner { grid-template-columns: 102px 1fr 46px !important; min-height: 64px !important; padding: 8px 10px !important; }
+  .top-search-wrap { max-width: 98px !important; }
+  .top-search-input { min-height: 34px !important; padding: 8px 10px !important; font-size: .7rem !important; }
+  .brand-center { width: 150px !important; }
+  .cart-pill { min-width: 44px !important; padding: 8px 7px !important; }
+  .hero { min-height: 620px !important; }
+  .hero::before {
+    background: linear-gradient(180deg, rgba(0,0,0,.02) 0%, rgba(0,0,0,.10) 22%, rgba(0,0,0,.55) 58%, rgba(0,0,0,.86) 100%), url("hero-scentory-main-mobile.webp?v=3005") center top / cover no-repeat !important;
+  }
+  .hero-inner { max-width: 360px !important; padding: 268px 14px 46px !important; }
+}
+
+@media (max-width: 390px) {
+  .topbar-inner { grid-template-columns: 92px 1fr 44px !important; }
+  .top-search-wrap { max-width: 88px !important; }
+  .brand-center { width: 142px !important; }
 }

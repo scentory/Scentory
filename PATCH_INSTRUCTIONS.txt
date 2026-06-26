@@ -1,0 +1,22 @@
+Scentory v3005 patch-only files
+
+Upload/replace these files in the root of your GitHub repo.
+If GitHub asks to replace existing files, choose Replace.
+
+Files included:
+- index.html
+- style-scentory-v3002.css
+- hero-scentory-main-desktop.webp
+- hero-scentory-main-mobile.webp
+- decant-bottles-lineup.webp
+- review-messenger-top-notch.webp
+- review-packaging-fast-delivery.webp
+- review-facebook-tanzim.webp
+- review-facebook-nahid.webp
+- plus logo/favicon helper files
+
+These fixes do: 
+1) show the hero image,
+2) center the top logo better,
+3) make the search smaller,
+4) show review images and decant image from root-level files (easier for phone upload).

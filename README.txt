@@ -24,8 +24,3 @@ Important notes:
 - This is still a static website with a strong order calculator and WhatsApp/Messenger order flow.
 - Orders are not stored in a private dashboard unless a Google Apps Script URL is added in script-scentory-v3002.js.
 - Scentory sells fragrance decants prepared from original full-size perfume bottles. Scentory is not affiliated with the perfume brands shown. Brand names are used only to identify the fragrance being decanted.
-
-V3004 cleanup:
-- Removed duplicate JPG/PNG product images where optimized WebP versions exist.
-- Product image references now point to optimized WebP files.
-- Kept logo, favicon, and JPG social preview where needed for compatibility.
