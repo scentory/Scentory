@@ -1,0 +1,2410 @@
+[
+  {
+    "id": "hawas-for-him-edp",
+    "name": "Hawas For Him EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 230,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 270,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 410,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "hawas-for-him-edp.webp"
+  },
+  {
+    "id": "hawas-ice-edp",
+    "name": "Hawas Ice EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 310,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 460,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 640,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "hawas-ice-edp.webp"
+  },
+  {
+    "id": "oud-al-layl-midnight-edp",
+    "name": "Oud Al Layl Midnight EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 160,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 190,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 350,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "oud-al-layl-midnight-edp.webp"
+  },
+  {
+    "id": "hawas-black-edp",
+    "name": "Hawas Black EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 250,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 299,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 450,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 620,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "hawas-black-edp.webp"
+  },
+  {
+    "id": "hawas-chrome",
+    "name": "Hawas Chrome EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 280,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 350,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 520,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 720,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "hawas-chrome-edp.webp"
+  },
+  {
+    "id": "hawas-kobra-edp",
+    "name": "Hawas Kobra (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 250,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 300,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 440,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 580,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "hawas-kobra-edp.webp"
+  },
+  {
+    "id": "hawas-elixir-edp",
+    "name": "Hawas Elixir EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 270,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 310,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 470,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 650,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "hawas-elixir-edp.webp"
+  },
+  {
+    "id": "hawas-fire-edp",
+    "name": "Hawas Fire EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 280,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 340,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 510,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 720,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "hawas-fire-edp.webp"
+  },
+  {
+    "id": "shuhrah-bois-e-edp",
+    "name": "Shuhrah Boisée EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 250,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 299,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 450,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 630,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "shuhrah-boisee-edp.webp"
+  },
+  {
+    "id": "shuhrah-elixir-edp",
+    "name": "Shuhrah Elixir EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 250,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 299,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 450,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 630,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "shuhrah-elixir-edp.webp"
+  },
+  {
+    "id": "rasasi-fattan-edp",
+    "name": "Rasasi Fattan EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 290,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 340,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 490,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 670,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "rasasi-fattan-edp.webp"
+  },
+  {
+    "id": "riiffs-fareed-edp",
+    "name": "Riiffs Fareed EDP",
+    "status": "out",
+    "sizes": {
+      "5ml": {
+        "price": 230,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 280,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 420,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 590,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "riiffs-fareed-edp.webp"
+  },
+  {
+    "id": "vanguard-by-maison-asrar",
+    "name": "Vanguard by Maison Asrar",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 390,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 599,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 850,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "vanguard-by-maison-asrar.webp"
+  },
+  {
+    "id": "afnan-supremacy-collector-s-edition-edp",
+    "name": "Afnan Supremacy Collector's Edition EDP",
+    "status": "out",
+    "sizes": {
+      "5ml": {
+        "price": 420,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 510,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 799,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1150,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "afnan-supremacy-collectors-edition-edp.webp"
+  },
+  {
+    "id": "supremacy-not-only-intense-edp",
+    "name": "Supremacy Not Only Intense EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 370,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 460,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 699,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 990,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "supremacy-not-only-intense-edp.webp"
+  },
+  {
+    "id": "afnan-turathi-blue-edp",
+    "name": "Afnan Turathi Blue (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 380,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 560,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 780,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "afnan-turathi-blue-edp.webp"
+  },
+  {
+    "id": "afnan-9-pm-night-out-edp",
+    "name": "Afnan 9 PM Night Out EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 510,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 799,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1170,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "afnan-9pm-night-out-edp.webp"
+  },
+  {
+    "id": "afnan-9-pm-edp",
+    "name": "Afnan 9 PM EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 280,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 330,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 499,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 699,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "afnan-9-pm-edp.webp"
+  },
+  {
+    "id": "afnan-9-pm-rebel-edp",
+    "name": "Afnan 9 PM Rebel EDP",
+    "status": "out",
+    "sizes": {
+      "5ml": {
+        "price": 330,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 399,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 630,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 890,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "afnan-9pm-rebel-edp.webp"
+  },
+  {
+    "id": "stronger-with-you-intensely-edp",
+    "name": "Stronger With You Intensely EDP",
+    "status": "out",
+    "sizes": {
+      "5ml": {
+        "price": 650,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 780,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 1280,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1890,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "stronger-with-you-intensely-edp.webp"
+  },
+  {
+    "id": "azzaro-the-most-wanted-edp-intense",
+    "name": "Azzaro The Most Wanted EDP Intense",
+    "status": "available",
+    "sizes": {
+      "3ml": {
+        "price": 310,
+        "available": true,
+        "premium": false
+      },
+      "5ml": {
+        "price": 460,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 570,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 880,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "azzaro-the-most-wanted-edp-intense.webp"
+  },
+  {
+    "id": "ysl-y-edp",
+    "name": "YSL Y (EDP)",
+    "status": "available",
+    "sizes": {
+      "3ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      },
+      "5ml": {
+        "price": 670,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 799,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 1299,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "ysl-y-edp-upcoming.webp"
+  },
+  {
+    "id": "nautica-voyage-edt",
+    "name": "Nautica Voyage EDT",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 230,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 280,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 399,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "nautica-voyage-edt.webp"
+  },
+  {
+    "id": "212-men-by-carolina-herrera",
+    "name": "212 Men by Carolina Herrera",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 420,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 520,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 810,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1180,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "212-men-by-carolina-herrera.webp"
+  },
+  {
+    "id": "versace-eros-edt",
+    "name": "Versace Eros (EDT)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 399,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 480,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 750,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1080,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "versace-eros-edt.webp"
+  },
+  {
+    "id": "kenzo-homme-edt-intense",
+    "name": "Kenzo Homme EDT Intense",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 420,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 500,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 770,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1099,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "kenzo-homme-edt-intense.webp"
+  },
+  {
+    "id": "davidoff-cool-water-edt",
+    "name": "Davidoff Cool Water (EDT)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 199,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 240,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 360,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 490,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "davidoff-cool-water-edt.webp"
+  },
+  {
+    "id": "al-haramain-amber-oud-gold-edition",
+    "name": "Al Haramain Amber Oud Gold Edition",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 370,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 450,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 690,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 990,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "al-haramain-amber-oud-gold-edition.webp"
+  },
+  {
+    "id": "al-haramain-amber-oud-aqua-dubai",
+    "name": "Al Haramain Amber Oud Aqua Dubai",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 399,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 480,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 760,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1099,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "al-haramain-amber-oud-aqua-dubai.webp"
+  },
+  {
+    "id": "kaaf-by-ahmed-edp",
+    "name": "Kaaf By Ahmed EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 280,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 490,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 690,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "kaaf-by-ahmed-edp.webp"
+  },
+  {
+    "id": "blue-by-ahmed-edp",
+    "name": "Blue By Ahmed EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 210,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 399,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 540,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "blue-by-ahmed-edp.webp"
+  },
+  {
+    "id": "zeleny-by-ahmed-edp",
+    "name": "Zeleny By Ahmed EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 199,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 250,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 370,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 499,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "zeleny-by-ahmed-edp.webp"
+  },
+  {
+    "id": "brandy-salvage-edp",
+    "name": "Brandy Salvage EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 180,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 210,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "brandy-salvage-edp.webp"
+  },
+  {
+    "id": "brandy-after-swim-edp",
+    "name": "Brandy After Swim EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 180,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 220,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "brandy-after-swim-edp.webp"
+  },
+  {
+    "id": "brandy-inspiration-edp",
+    "name": "Brandy Inspiration EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 180,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 220,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "brandy-inspiration-edp.webp"
+  },
+  {
+    "id": "brandy-ambre-leather-edp",
+    "name": "Brandy Ambre Leather EDP",
+    "status": "out",
+    "sizes": {
+      "5ml": {
+        "price": 180,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 220,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 320,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 430,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "brandy-ambre-leather-edp.webp"
+  },
+  {
+    "id": "marwa-arabian-prestige-edp",
+    "name": "Marwa by Arabiyat Prestige",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 290,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 340,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 499,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 699,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "marwa-arabian-prestige-edp.webp"
+  },
+  {
+    "id": "absolute-chill-atralia-edp",
+    "name": "Absolute Chill Atralia EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 270,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 390,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "absolute-chill-atralia-edp.webp"
+  },
+  {
+    "id": "kayaan-midnight-edp",
+    "name": "Kayaan Midnight EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 240,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 290,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 420,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 580,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "kayaan-midnight-edp.webp"
+  },
+  {
+    "id": "rayhaan-azul-edp",
+    "name": "Rayhaan Azul EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-azul-edp-upcoming.webp"
+  },
+  {
+    "id": "rayhaan-pacific-aloha-edp",
+    "name": "Rayhaan Pacific Aloha EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-pacific-aloha-edp.webp"
+  },
+  {
+    "id": "rayhaan-nocturno-elixir-edp",
+    "name": "Rayhaan Nocturno Elixir EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-nocturno-elixir-edp.webp"
+  },
+  {
+    "id": "rayhaan-pharaoh-edp",
+    "name": "Rayhaan Pharaoh EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-pharaoh-edp.webp"
+  },
+  {
+    "id": "rayhaan-italia-edp",
+    "name": "Rayhaan Italia EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-italia-edp.webp"
+  },
+  {
+    "id": "rayhaan-jungle-vibe-edp",
+    "name": "Rayhaan Jungle Vibe EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-jungle-vibe-edp.webp"
+  },
+  {
+    "id": "rayhaan-lion-edp",
+    "name": "Rayhaan Lion EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-lion-edp.webp"
+  },
+  {
+    "id": "rayhaan-tiger-edp",
+    "name": "Rayhaan Tiger EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-tiger-edp.webp"
+  },
+  {
+    "id": "rayhaan-wolf-edp",
+    "name": "Rayhaan Wolf EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-wolf-edp.webp"
+  },
+  {
+    "id": "rayhaan-aquatica-edp",
+    "name": "Rayhaan Aquatica EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-aquatica-edp.webp"
+  },
+  {
+    "id": "rayhaan-pacific-aura-edp",
+    "name": "Rayhaan Pacific Aura EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-pacific-aura-edp.webp"
+  },
+  {
+    "id": "rayhaan-tropical-vibe-edp",
+    "name": "Rayhaan Tropical Vibe EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-tropical-vibe-edp.webp"
+  },
+  {
+    "id": "rayhaan-terra-edp",
+    "name": "Rayhaan Terra EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-terra-edp.webp"
+  },
+  {
+    "id": "rayhaan-elixir-edp",
+    "name": "Rayhaan Elixir EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-elixir-edp.webp"
+  },
+  {
+    "id": "bade-e-al-oud-oud-for-glory",
+    "name": "Bade'e Al Oud - 'Oud for Glory'",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 230,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 280,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 590,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "badee-al-oud-oud-for-glory.webp"
+  },
+  {
+    "id": "bade-e-al-oud-honor-glory",
+    "name": "Bade'e Al Oud - 'Honor & Glory'",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 230,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 280,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 590,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "badee-al-oud-honor-and-glory.webp"
+  },
+  {
+    "id": "armaf-dunescape-edp",
+    "name": "Armaf Dunescape EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 350,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 530,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 750,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "armaf-dunescape-edp.webp"
+  },
+  {
+    "id": "club-de-nuit-intense-man-pure-parfum",
+    "name": "Club De Nuit Intense Man PURE Parfum",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 350,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 540,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 760,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "club-de-nuit-intense-man-pure-parfum.webp"
+  },
+  {
+    "id": "club-de-nuit-intesne-man-edp",
+    "name": "Club De Nuit Intense Man EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 290,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 440,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 590,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "club-de-nuit-intense-man-edp.webp"
+  },
+  {
+    "id": "club-de-nuit-precieux-extrait-de-parfum",
+    "name": "Club de Nuit Precieux Extrait De Parfum",
+    "status": "out",
+    "sizes": {
+      "5ml": {
+        "price": 630,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 760,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 1230,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": null,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "club-de-nuit-precieux-extrait-de-parfum.webp"
+  },
+  {
+    "id": "club-de-nuit-intesne-man-edt",
+    "name": "Club De Nuit Intense Man EDT",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 290,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 499,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 690,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "club-de-nuit-intesne-man-edt.webp"
+  },
+  {
+    "id": "club-de-nuit-urban-man-elixir-edp",
+    "name": "Club De Nuit Urban man Elixir EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 290,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 499,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 690,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "club-de-nuit-urban-man-elixir-edp.webp"
+  },
+  {
+    "id": "club-de-nuit-blue-iconic",
+    "name": "Club de Nuit Blue Iconic",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 370,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 580,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 820,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "club-de-nuit-blue-iconic.webp"
+  },
+  {
+    "id": "atlantis-extrait-by-french-avenue-edp",
+    "name": "Atlantis Extrait by French Avenue (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 350,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 760,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "atlantis-extrait-by-french-avenue-edp.webp"
+  },
+  {
+    "id": "zenith-blue-by-french-avenue-edp",
+    "name": "Zenith Blue by French Avenue (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 290,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 340,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 520,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 720,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "zenith-blue-by-french-avenue-edp.webp"
+  },
+  {
+    "id": "liquid-brun-by-french-avenue-edp",
+    "name": "Liquid Brun by French Avenue (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 350,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 560,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 770,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "liquid-brun-by-french-avenue-edp.webp"
+  },
+  {
+    "id": "vulcan-feu-by-french-avenue-edp",
+    "name": "Vulcan Feu by French Avenue (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 350,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 560,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 770,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "vulcan-feu-by-french-avenue-edp.webp"
+  },
+  {
+    "id": "naseem-by-gulf-orchid",
+    "name": "Naseem by Gulf Orchid",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 199,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 240,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 350,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 480,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "naseem-by-gulf-orchid.webp"
+  },
+  {
+    "id": "mango-ice-by-gulf-orchid",
+    "name": "Mango Ice by Gulf Orchid",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 270,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 310,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 480,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 670,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "mango-ice-by-gulf-orchid.webp"
+  },
+  {
+    "id": "lattafa-opulent-dubai-edp",
+    "name": "Lattafa Opulent Dubai (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 199,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 240,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 350,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 440,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-opulent-dubai-edp.webp"
+  },
+  {
+    "id": "lattafa-art-of-universe-edp",
+    "name": "Lattafa Art of Universe (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 360,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 430,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 660,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 930,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-art-of-universe-edp.webp"
+  },
+  {
+    "id": "lattafa-maahir-legacy-edp",
+    "name": "Lattafa Maahir Legacy (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 299,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 470,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 640,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-maahir-legacy-edp.webp"
+  },
+  {
+    "id": "lattafa-yara-edp",
+    "name": "Lattafa Yara EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 270,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 390,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 520,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-yara-edp.webp"
+  },
+  {
+    "id": "rave-now-by-lattafa-edp",
+    "name": "Rave Now by Lattafa (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 199,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 240,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 350,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 470,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "rave-now-by-lattafa-edp.webp"
+  },
+  {
+    "id": "dynasty-by-lattafa-edp",
+    "name": "Dynasty by Lattafa (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 310,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 470,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 660,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "dynasty-by-lattafa-edp.webp"
+  },
+  {
+    "id": "teriaq-intense-by-lattafa-edp",
+    "name": "Teriaq Intense by Lattafa (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 310,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 370,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 560,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 780,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "teriaq-intense-by-lattafa-edp.webp"
+  },
+  {
+    "id": "lattafa-khamrah-qahwa-edp",
+    "name": "Lattafa Khamrah Qahwa EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 310,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 470,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 660,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-khamrah-qahwa-edp.webp"
+  },
+  {
+    "id": "lattafa-asad-bourbon-edp",
+    "name": "Lattafa Asad Bourbon EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 270,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 399,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-asad-bourbon-edp.webp"
+  },
+  {
+    "id": "lattafa-asad-edp",
+    "name": "Lattafa Asad EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 270,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 399,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-asad-edp.webp"
+  },
+  {
+    "id": "lattafa-fakhar-black-edp",
+    "name": "Lattafa Fakhar Black EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 230,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 270,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 399,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-fakhar-black-edp.webp"
+  },
+  {
+    "id": "lattafa-najdia-edp",
+    "name": "Lattafa Najdia (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 180,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 220,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 440,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-najdia-edp.webp"
+  },
+  {
+    "id": "lattafa-haayati-edp",
+    "name": "Lattafa Haayati (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 180,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 220,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 440,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "lattafa-haayati-edp.webp"
+  },
+  {
+    "id": "khadlaj-island-edp",
+    "name": "Khadlaj Island EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 240,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 290,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 440,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 599,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "khadlaj-island-edp.webp"
+  },
+  {
+    "id": "khadlaj-island-dream-edp",
+    "name": "Khadlaj Island Dream EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 240,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 290,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 440,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 599,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "khadlaj-island-dream-edp.webp"
+  },
+  {
+    "id": "titan-by-khadlaj-edp",
+    "name": "Titan by Khadlaj (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 480,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 670,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "titan-by-khadlaj-edp.webp"
+  },
+  {
+    "id": "qaed-al-fursan-edp",
+    "name": "Qaed Al Fursan EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 180,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 220,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 330,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "qaed-al-fursan-edp.webp"
+  },
+  {
+    "id": "daring-blue-edp",
+    "name": "Daring Blue EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 180,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 220,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 430,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "daring-blue-edp.webp"
+  }
+]
