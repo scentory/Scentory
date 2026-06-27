@@ -1,13 +1,9 @@
-Scentory v3006 decant bottle photo patch
+Scentory v3015 price + Modest Une poster update
 
-Upload this file to the ROOT of your GitHub repository:
-- decant-bottles-lineup.webp
+Upload/replace these files in the ROOT of your GitHub repository:
+1. perfumes.json
+2. afnan-modest-une.webp
 
-Choose replace/overwrite if GitHub asks.
-
-Because the website already points to this filename, this will update the Decant Bottles section.
-
+This keeps 30 ML out of the website price list and adds the Modest Une poster image.
 After upload, check:
-https://scentoryfragrance.com/?v=3006
-
-If the old image still appears, clear browser cache or open in incognito/private mode.
+https://scentoryfragrance.com/?v=3015
