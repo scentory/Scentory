@@ -444,21 +444,21 @@
   {
     "id": "afnan-supremacy-collector-s-edition-edp",
     "name": "Afnan Supremacy Collector's Edition EDP",
-    "status": "out",
+    "status": "available",
     "sizes": {
       "5ml": {
         "price": 420,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "6ml": {
         "price": 510,
-        "available": false,
+        "available": true,
         "premium": true
       },
       "10ml": {
         "price": 799,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
@@ -644,6 +644,40 @@
       "Office"
     ],
     "recommendation": "Best for date nights, clubbing, outdoor events, and office wear."
+  },
+  {
+    "id": "afnan-modest-une-edp",
+    "name": "Afnan Modest Une (Coming Soon)",
+    "status": "upcoming",
+    "sizes": {
+      "5ml": {
+        "price": 270,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 330,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 499,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 690,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "afnan-modest-une.webp",
+    "tags": [
+      "Blue",
+      "Fresh",
+      "Office"
+    ],
+    "recommendation": "Upcoming at Scentory. A clean blue-style pick for daily wear, office, and casual use."
   },
   {
     "id": "stronger-with-you-intensely-edp",
@@ -1857,7 +1891,7 @@
       },
       "15ml": {
         "price": 590,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -1920,12 +1954,12 @@
       },
       "10ml": {
         "price": 540,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
         "price": 760,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -2124,7 +2158,7 @@
       },
       "10ml": {
         "price": 550,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
@@ -2231,7 +2265,7 @@
       },
       "15ml": {
         "price": 770,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -2265,7 +2299,7 @@
       },
       "15ml": {
         "price": 480,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -2367,7 +2401,7 @@
       },
       "15ml": {
         "price": 930,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
