@@ -94,7 +94,7 @@ body {
     linear-gradient(180deg, rgba(0,0,0,.72), rgba(0,0,0,.84)),
     linear-gradient(120deg, rgba(255,255,255,.06), transparent 30%),
     radial-gradient(ellipse at center, rgba(255,255,255,.08), transparent 55%),
-    url("hero-intro-bg.jpg?v=3002") center center / cover no-repeat;
+    url("hero-intro-bg.jpg?v=3012") center center / cover no-repeat;
   filter: blur(13px) saturate(.76) brightness(.72);
   transform: scale(1.07);
   opacity: .78;
@@ -676,7 +676,7 @@ input, select, textarea { font-size: .84rem; padding: 11px 12px; border-radius: 
   background-image:
     linear-gradient(180deg, rgba(0,0,0,.66) 0%, rgba(5,5,5,.56) 38%, rgba(0,0,0,.72) 100%),
     radial-gradient(circle at 50% 45%, rgba(255,255,255,.10), transparent 55%),
-    url("hero-scentory-sizes.jpg?v=3002");
+    url("hero-scentory-sizes.jpg?v=3012");
   background-size: cover, auto, cover;
   background-position: center, center, center;
   background-repeat: no-repeat;
@@ -685,7 +685,7 @@ input, select, textarea { font-size: .84rem; padding: 11px 12px; border-radius: 
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("hero-scentory-sizes.jpg?v=3002");
+  background-image: url("hero-scentory-sizes.jpg?v=3012");
   background-size: cover;
   background-position: center;
   filter: blur(10px) saturate(.72) brightness(.42);
@@ -1982,7 +1982,7 @@ body {
   background:
     linear-gradient(180deg, rgba(0,0,0,.32) 0%, rgba(0,0,0,.55) 58%, rgba(0,0,0,.78) 100%),
     radial-gradient(circle at center, rgba(255,255,255,.04), transparent 55%),
-    url("hero-scentory-main-desktop.webp?v=3005") center center / cover no-repeat !important;
+    url("hero-scentory-main-desktop.webp?v=3012") center center / cover no-repeat !important;
   filter: none !important;
   transform: none !important;
   opacity: 1 !important;
@@ -2106,7 +2106,7 @@ body {
   .hero::before {
     background:
       linear-gradient(180deg, rgba(0,0,0,.12) 0%, rgba(0,0,0,.28) 24%, rgba(0,0,0,.62) 58%, rgba(0,0,0,.86) 100%),
-      url("hero-scentory-main-mobile.webp?v=3005") center top / cover no-repeat !important;
+      url("hero-scentory-main-desktop.webp?v=3012") center top / cover no-repeat !important;
   }
   .hero-inner {
     max-width: 360px !important;
@@ -2155,92 +2155,109 @@ body {
 }
 
 
-/* ==== v3005 patch: centered logo, smaller search, reliable hero/review/decant asset paths ==== */
-body {
-  --scentory-topbar-h: 118px !important;
-  padding-top: calc(var(--scentory-topbar-h) + env(safe-area-inset-top, 0px)) !important;
+/* ==== Scentory v3011 final full build ==== */
+/* Force same hero photo on all devices, mobile header fixed, and no hero stat boxes */
+.hero-mini-grid { display: none !important; }
+
+.hero::before {
+  display: block !important;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.16) 0%, rgba(0,0,0,.30) 40%, rgba(0,0,0,.72) 100%),
+    url("hero-scentory-main-desktop.webp?v=3012") center center / cover no-repeat !important;
 }
-.topbar-inner {
-  position: relative !important;
-  max-width: 1180px !important;
-  min-height: 74px !important;
-  margin: 0 auto !important;
-  padding: 10px 16px !important;
-  display: grid !important;
-  grid-template-columns: 160px 1fr 60px !important;
-  align-items: center !important;
-  gap: 10px !important;
-}
-.top-search-wrap {
-  grid-column: 1 !important;
-  justify-self: start !important;
-  width: 100% !important;
-  max-width: 150px !important;
-  min-width: 0 !important;
-}
-.top-search-input {
-  min-height: 40px !important;
-  padding: 9px 13px !important;
-  font-size: .78rem !important;
-}
+
 .brand-center {
   position: absolute !important;
   left: 50% !important;
   top: 50% !important;
   transform: translate(-50%, -50%) !important;
-  width: clamp(180px, 18vw, 250px) !important;
+  margin: 0 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  margin: 0 !important;
 }
-.site-logo {
-  width: 100% !important;
-  display: block !important;
-  object-fit: contain !important;
-  object-position: center !important;
-}
-.cart-pill {
-  grid-column: 3 !important;
-  justify-self: end !important;
-  min-width: 54px !important;
-}
-.hero { min-height: 560px !important; }
-.hero::before {
-  background: linear-gradient(180deg, rgba(0,0,0,.16) 0%, rgba(0,0,0,.30) 40%, rgba(0,0,0,.72) 100%), url("hero-scentory-main-desktop.webp?v=3005") center center / cover no-repeat !important;
-}
-.decant-photo-card img, .review-card img {
-  width: 100% !important;
-  height: auto !important;
-  display: block !important;
-}
-.review-card { min-height: 220px !important; }
-.review-card img { max-height: 430px !important; object-fit: cover !important; object-position: top center !important; }
 
-@media (max-width: 960px) {
-  body { --scentory-topbar-h: 112px !important; }
-  .topbar-inner { grid-template-columns: 132px 1fr 56px !important; padding: 9px 12px !important; min-height: 70px !important; }
-  .top-search-wrap { max-width: 126px !important; }
-  .top-search-input { min-height: 38px !important; font-size: .76rem !important; }
-  .brand-center { width: 180px !important; }
+.cart-pill { justify-self: end !important; }
+
+@media (min-width: 641px) {
+  .topbar-inner { grid-template-columns: 160px minmax(0, 1fr) 60px !important; }
+  .top-search-wrap { max-width: 150px !important; }
 }
 
 @media (max-width: 640px) {
-  body { --scentory-topbar-h: 104px !important; }
-  .topbar-inner { grid-template-columns: 102px 1fr 46px !important; min-height: 64px !important; padding: 8px 10px !important; }
-  .top-search-wrap { max-width: 98px !important; }
-  .top-search-input { min-height: 34px !important; padding: 8px 10px !important; font-size: .7rem !important; }
-  .brand-center { width: 150px !important; }
-  .cart-pill { min-width: 44px !important; padding: 8px 7px !important; }
-  .hero { min-height: 620px !important; }
-  .hero::before {
-    background: linear-gradient(180deg, rgba(0,0,0,.02) 0%, rgba(0,0,0,.10) 22%, rgba(0,0,0,.55) 58%, rgba(0,0,0,.86) 100%), url("hero-scentory-main-mobile.webp?v=3005") center top / cover no-repeat !important;
+  body {
+    --scentory-topbar-h: 154px !important;
+    padding-top: calc(var(--scentory-topbar-h) + env(safe-area-inset-top, 0px)) !important;
   }
-  .hero-inner { max-width: 360px !important; padding: 268px 14px 46px !important; }
+  .topbar { min-height: var(--scentory-topbar-h) !important; }
+  .topbar-inner {
+    position: relative !important;
+    min-height: 104px !important;
+    padding: 10px 12px 8px !important;
+    display: grid !important;
+    grid-template-columns: 1fr auto 1fr !important;
+    grid-template-rows: auto auto !important;
+    align-items: center !important;
+    column-gap: 8px !important;
+    row-gap: 8px !important;
+  }
+  .brand-center {
+    position: static !important;
+    transform: none !important;
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    justify-self: center !important;
+    align-self: center !important;
+    width: 158px !important;
+    max-width: 46vw !important;
+    z-index: 4 !important;
+  }
+  .site-logo { max-height: 42px !important; width: 100% !important; }
+  .cart-pill {
+    grid-column: 3 !important;
+    grid-row: 1 !important;
+    justify-self: end !important;
+    align-self: center !important;
+    min-width: 48px !important;
+    padding: 8px 8px !important;
+    z-index: 5 !important;
+  }
+  .top-search-wrap {
+    grid-column: 1 / -1 !important;
+    grid-row: 2 !important;
+    justify-self: center !important;
+    width: min(330px, calc(100vw - 28px)) !important;
+    max-width: min(330px, calc(100vw - 28px)) !important;
+    z-index: 4 !important;
+  }
+  .top-search-input {
+    min-height: 38px !important;
+    padding: 9px 14px !important;
+    font-size: .78rem !important;
+    text-align: left !important;
+  }
+  .site-nav { padding: 0 10px 10px !important; gap: 6px !important; }
+  .hero { min-height: 550px !important; }
+  .hero::before {
+    display: block !important;
+    background:
+      linear-gradient(180deg, rgba(0,0,0,.18) 0%, rgba(0,0,0,.36) 42%, rgba(0,0,0,.78) 100%),
+      url("hero-scentory-main-desktop.webp?v=3012") center center / cover no-repeat !important;
+  }
+  .hero-inner { max-width: 360px !important; padding: 168px 14px 48px !important; }
+  .toolbar { top: calc(var(--scentory-topbar-h) + env(safe-area-inset-top, 0px) + 8px) !important; }
+  .order-card { top: calc(var(--scentory-topbar-h) + env(safe-area-inset-top, 0px) + 16px) !important; }
+  .product, #priceList, #hotArrivals, #bestSelling, #myOrder, #collection, #whyScentory, #decantBottles, #customerReviews, #howToOrder, #aboutScentory, #faq, #contactScentory {
+    scroll-margin-top: 210px !important;
+  }
 }
 
 @media (max-width: 390px) {
-  .topbar-inner { grid-template-columns: 92px 1fr 44px !important; }
-  .top-search-wrap { max-width: 88px !important; }
-  .brand-center { width: 142px !important; }
+  .brand-center { width: 145px !important; }
+  .top-search-wrap { width: min(310px, calc(100vw - 24px)) !important; max-width: min(310px, calc(100vw - 24px)) !important; }
 }
+
+
+/* v3011 correction: product images are normal bottle/product images. Posters were used only as tag reference. */
+.product-card .product-image, .product img { object-fit: cover; }
+.hero-mini-grid { display: none !important; }

@@ -25,7 +25,13 @@
         "premium": false
       }
     },
-    "image": "hawas-for-him-edp.webp"
+    "image": "hawas-for-him-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Fresh"
+    ],
+    "recommendation": "Best for summer/spring, casual day outs, beach days, errands, and hanging out."
   },
   {
     "id": "hawas-ice-edp",
@@ -53,7 +59,13 @@
         "premium": false
       }
     },
-    "image": "hawas-ice-edp.webp"
+    "image": "hawas-ice-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for clean fresh summer use, gym, daytime casual outings, and office."
   },
   {
     "id": "oud-al-layl-midnight-edp",
@@ -81,7 +93,13 @@
         "premium": false
       }
     },
-    "image": "oud-al-layl-midnight-edp.webp"
+    "image": "oud-al-layl-midnight-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for summer days, office, gym, and clubbing."
   },
   {
     "id": "hawas-black-edp",
@@ -109,7 +127,13 @@
         "premium": false
       }
     },
-    "image": "hawas-black-edp.webp"
+    "image": "hawas-black-edp.webp",
+    "tags": [
+      "Office",
+      "Date Night",
+      "Beast Mode"
+    ],
+    "recommendation": "A bold fresh-dark style for office, evening plans, and confident daily wear."
   },
   {
     "id": "hawas-chrome",
@@ -137,7 +161,13 @@
         "premium": false
       }
     },
-    "image": "hawas-chrome-edp.webp"
+    "image": "hawas-chrome-edp.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Daily Wear"
+    ],
+    "recommendation": "Best for summer, casual outings, university, beach trips, day hangouts, evening plans, and AC environments."
   },
   {
     "id": "hawas-kobra-edp",
@@ -165,7 +195,13 @@
         "premium": false
       }
     },
-    "image": "hawas-kobra-edp.webp"
+    "image": "hawas-kobra-edp.webp",
+    "tags": [
+      "Office",
+      "Gym",
+      "Summer"
+    ],
+    "recommendation": "Best for office, university, gym, casual outings, summer/daytime, and clean daily use."
   },
   {
     "id": "hawas-elixir-edp",
@@ -193,7 +229,13 @@
         "premium": false
       }
     },
-    "image": "hawas-elixir-edp.webp"
+    "image": "hawas-elixir-edp.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for evening plans, dates, parties, and when you want a stronger impression."
   },
   {
     "id": "hawas-fire-edp",
@@ -221,7 +263,13 @@
         "premium": false
       }
     },
-    "image": "hawas-fire-edp.webp"
+    "image": "hawas-fire-edp.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for fresh casual wear, warm weather, gym, and daytime plans."
   },
   {
     "id": "shuhrah-bois-e-edp",
@@ -249,7 +297,13 @@
         "premium": false
       }
     },
-    "image": "shuhrah-boisee-edp.webp"
+    "image": "shuhrah-boisee-edp.webp",
+    "tags": [
+      "Date Night",
+      "Winter",
+      "Formal"
+    ],
+    "recommendation": "Best for evening wear, colder weather, formal occasions, and deeper scent moods."
   },
   {
     "id": "shuhrah-elixir-edp",
@@ -277,7 +331,13 @@
         "premium": false
       }
     },
-    "image": "shuhrah-elixir-edp.webp"
+    "image": "shuhrah-elixir-edp.webp",
+    "tags": [
+      "Office",
+      "Formal",
+      "Date Night"
+    ],
+    "recommendation": "Best for daily use, office, formal occasions, and day-to-night wear."
   },
   {
     "id": "rasasi-fattan-edp",
@@ -305,7 +365,13 @@
         "premium": false
       }
     },
-    "image": "rasasi-fattan-edp.webp"
+    "image": "rasasi-fattan-edp.webp",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Summer"
+    ],
+    "recommendation": "Best for office, university, business meetings, summer/daytime, and formal casual wear."
   },
   {
     "id": "riiffs-fareed-edp",
@@ -333,7 +399,13 @@
         "premium": false
       }
     },
-    "image": "riiffs-fareed-edp.webp"
+    "image": "riiffs-fareed-edp.webp",
+    "tags": [
+      "Date Night",
+      "Office",
+      "Winter"
+    ],
+    "recommendation": "Best for date nights, evening gatherings, and office wear."
   },
   {
     "id": "vanguard-by-maison-asrar",
@@ -361,7 +433,13 @@
         "premium": false
       }
     },
-    "image": "vanguard-by-maison-asrar.webp"
+    "image": "vanguard-by-maison-asrar.webp",
+    "tags": [
+      "Office",
+      "Formal",
+      "Date Night"
+    ],
+    "recommendation": "Best for office, formal events, and evening dates."
   },
   {
     "id": "afnan-supremacy-collector-s-edition-edp",
@@ -389,7 +467,13 @@
         "premium": false
       }
     },
-    "image": "afnan-supremacy-collectors-edition-edp.webp"
+    "image": "afnan-supremacy-collectors-edition-edp.webp",
+    "tags": [
+      "Office",
+      "Date Night",
+      "Formal"
+    ],
+    "recommendation": "A versatile signature scent for office, dates, formal events, and balanced year-round wear."
   },
   {
     "id": "supremacy-not-only-intense-edp",
@@ -417,7 +501,13 @@
         "premium": false
       }
     },
-    "image": "supremacy-not-only-intense-edp.webp"
+    "image": "supremacy-not-only-intense-edp.webp",
+    "tags": [
+      "Office",
+      "Date Night",
+      "Formal"
+    ],
+    "recommendation": "Best for office, evening outings, dates, and special occasions."
   },
   {
     "id": "afnan-turathi-blue-edp",
@@ -445,7 +535,13 @@
         "premium": false
       }
     },
-    "image": "afnan-turathi-blue-edp.webp"
+    "image": "afnan-turathi-blue-edp.webp",
+    "tags": [
+      "Blue",
+      "Office",
+      "Summer"
+    ],
+    "recommendation": "Best for the office, high-heat summer days, and polished formal daytime wear."
   },
   {
     "id": "afnan-9-pm-night-out-edp",
@@ -473,7 +569,13 @@
         "premium": false
       }
     },
-    "image": "afnan-9pm-night-out-edp.webp"
+    "image": "afnan-9pm-night-out-edp.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for clubs, outdoors, winter/fall dates, and strong night-out wear."
   },
   {
     "id": "afnan-9-pm-edp",
@@ -501,7 +603,13 @@
         "premium": false
       }
     },
-    "image": "afnan-9-pm-edp.webp"
+    "image": "afnan-9-pm-edp.webp",
+    "tags": [
+      "Sweet",
+      "Date Night",
+      "Winter"
+    ],
+    "recommendation": "Best for evening wear, dates, parties, and cooler weather."
   },
   {
     "id": "afnan-9-pm-rebel-edp",
@@ -529,7 +637,13 @@
         "premium": false
       }
     },
-    "image": "afnan-9pm-rebel-edp.webp"
+    "image": "afnan-9pm-rebel-edp.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Office"
+    ],
+    "recommendation": "Best for date nights, clubbing, outdoor events, and office wear."
   },
   {
     "id": "stronger-with-you-intensely-edp",
@@ -557,7 +671,13 @@
         "premium": false
       }
     },
-    "image": "stronger-with-you-intensely-edp.webp"
+    "image": "stronger-with-you-intensely-edp.webp",
+    "tags": [
+      "Sweet",
+      "Date Night",
+      "Winter"
+    ],
+    "recommendation": "Best for night time, dates, winter/fall, romantic evenings, parties, and special occasions."
   },
   {
     "id": "azzaro-the-most-wanted-edp-intense",
@@ -585,7 +705,13 @@
         "premium": false
       }
     },
-    "image": "azzaro-the-most-wanted-edp-intense.webp"
+    "image": "azzaro-the-most-wanted-edp-intense.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Winter"
+    ],
+    "recommendation": "Best for date night, evening hangouts, parties, dinner, winter/fall, cold weather, and AC environments."
   },
   {
     "id": "ysl-y-edp",
@@ -613,7 +739,13 @@
         "premium": false
       }
     },
-    "image": "ysl-y-edp-upcoming.webp"
+    "image": "ysl-y-edp-upcoming.webp",
+    "tags": [
+      "Blue",
+      "Office",
+      "Date Night"
+    ],
+    "recommendation": "Best for office, university, casual outings, dates, and evening wear."
   },
   {
     "id": "nautica-voyage-edt",
@@ -641,7 +773,13 @@
         "premium": false
       }
     },
-    "image": "nautica-voyage-edt.webp"
+    "image": "nautica-voyage-edt.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for casual daytime settings, gym, office, beach outings, spring, and summer."
   },
   {
     "id": "212-men-by-carolina-herrera",
@@ -669,7 +807,13 @@
         "premium": false
       }
     },
-    "image": "212-men-by-carolina-herrera.webp"
+    "image": "212-men-by-carolina-herrera.webp",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Summer"
+    ],
+    "recommendation": "Best for office or daily casual use, especially spring and summer days."
   },
   {
     "id": "versace-eros-edt",
@@ -697,7 +841,13 @@
         "premium": false
       }
     },
-    "image": "versace-eros-edt.webp"
+    "image": "versace-eros-edt.webp",
+    "tags": [
+      "Party",
+      "Date Night",
+      "Office"
+    ],
+    "recommendation": "Best for nightclubs, parties, evening social events, and office wear."
   },
   {
     "id": "kenzo-homme-edt-intense",
@@ -725,7 +875,13 @@
         "premium": false
       }
     },
-    "image": "kenzo-homme-edt-intense.webp"
+    "image": "kenzo-homme-edt-intense.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Fresh"
+    ],
+    "recommendation": "Best for beach, summer outings, outdoor hangouts, casual day wear, travel, and seaside evening vibes."
   },
   {
     "id": "davidoff-cool-water-edt",
@@ -753,7 +909,13 @@
         "premium": false
       }
     },
-    "image": "davidoff-cool-water-edt.webp"
+    "image": "davidoff-cool-water-edt.webp",
+    "tags": [
+      "Aquatic",
+      "Office",
+      "Gym"
+    ],
+    "recommendation": "Best for office, daily use, casual wear, gym, and daytime freshness."
   },
   {
     "id": "al-haramain-amber-oud-gold-edition",
@@ -781,7 +943,13 @@
         "premium": false
       }
     },
-    "image": "al-haramain-amber-oud-gold-edition.webp"
+    "image": "al-haramain-amber-oud-gold-edition.webp",
+    "tags": [
+      "Sweet",
+      "Party",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for spring/summer parties, clubbing, outdoor events, and times you want to be noticed."
   },
   {
     "id": "al-haramain-amber-oud-aqua-dubai",
@@ -809,7 +977,13 @@
         "premium": false
       }
     },
-    "image": "al-haramain-amber-oud-aqua-dubai.webp"
+    "image": "al-haramain-amber-oud-aqua-dubai.webp",
+    "tags": [
+      "Aquatic",
+      "Office",
+      "Summer"
+    ],
+    "recommendation": "Best for office, high-heat summer days, casual daytime outings, and daily wear."
   },
   {
     "id": "kaaf-by-ahmed-edp",
@@ -837,7 +1011,13 @@
         "premium": false
       }
     },
-    "image": "kaaf-by-ahmed-edp.webp"
+    "image": "kaaf-by-ahmed-edp.webp",
+    "tags": [
+      "Fresh",
+      "Gym",
+      "Summer"
+    ],
+    "recommendation": "Best for daytime, gym, office, casual outdoor events, summer, spring, and high heat."
   },
   {
     "id": "blue-by-ahmed-edp",
@@ -865,7 +1045,13 @@
         "premium": false
       }
     },
-    "image": "blue-by-ahmed-edp.webp"
+    "image": "blue-by-ahmed-edp.webp",
+    "tags": [
+      "Blue",
+      "Office",
+      "Summer"
+    ],
+    "recommendation": "Best for daily, office, daytime, spring, and summer wear."
   },
   {
     "id": "zeleny-by-ahmed-edp",
@@ -893,7 +1079,13 @@
         "premium": false
       }
     },
-    "image": "zeleny-by-ahmed-edp.webp"
+    "image": "zeleny-by-ahmed-edp.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Office"
+    ],
+    "recommendation": "Best for daytime, summer, and office wear."
   },
   {
     "id": "brandy-salvage-edp",
@@ -921,7 +1113,13 @@
         "premium": false
       }
     },
-    "image": "brandy-salvage-edp.webp"
+    "image": "brandy-salvage-edp.webp",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Gym"
+    ],
+    "recommendation": "Best for office, gym, casual daily wear, and fresh all-season use."
   },
   {
     "id": "brandy-after-swim-edp",
@@ -949,7 +1147,13 @@
         "premium": false
       }
     },
-    "image": "brandy-after-swim-edp.webp"
+    "image": "brandy-after-swim-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for summer, office, gym, and casual daytime."
   },
   {
     "id": "brandy-inspiration-edp",
@@ -977,7 +1181,13 @@
         "premium": false
       }
     },
-    "image": "brandy-inspiration-edp.webp"
+    "image": "brandy-inspiration-edp.webp",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Daily Wear"
+    ],
+    "recommendation": "Best as a signature daily scent for office, professional meetings, and high-end casual events."
   },
   {
     "id": "brandy-ambre-leather-edp",
@@ -1005,7 +1215,13 @@
         "premium": false
       }
     },
-    "image": "brandy-ambre-leather-edp.webp"
+    "image": "brandy-ambre-leather-edp.webp",
+    "tags": [
+      "Date Night",
+      "Formal",
+      "Winter"
+    ],
+    "recommendation": "Best for evening wear, date nights, and formal events."
   },
   {
     "id": "marwa-arabian-prestige-edp",
@@ -1033,7 +1249,13 @@
         "premium": false
       }
     },
-    "image": "marwa-arabian-prestige-edp.webp"
+    "image": "marwa-arabian-prestige-edp.webp",
+    "tags": [
+      "Office",
+      "Formal",
+      "Summer"
+    ],
+    "recommendation": "Best for office, garden parties, weddings, summer galas, and gym."
   },
   {
     "id": "absolute-chill-atralia-edp",
@@ -1061,7 +1283,13 @@
         "premium": false
       }
     },
-    "image": "absolute-chill-atralia-edp.webp"
+    "image": "absolute-chill-atralia-edp.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for spring and summer days, office, gym, casual brunches, and outdoor summer events."
   },
   {
     "id": "kayaan-midnight-edp",
@@ -1089,7 +1317,13 @@
         "premium": false
       }
     },
-    "image": "kayaan-midnight-edp.webp"
+    "image": "kayaan-midnight-edp.webp",
+    "tags": [
+      "Office",
+      "Daily Wear",
+      "Date Night"
+    ],
+    "recommendation": "Best for office, everyday use, and evening events."
   },
   {
     "id": "rayhaan-azul-edp",
@@ -1117,7 +1351,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-azul-edp-upcoming.webp"
+    "image": "rayhaan-azul-edp-upcoming.webp",
+    "tags": [
+      "Blue",
+      "Aquatic",
+      "Summer"
+    ],
+    "recommendation": "Best for summer, daytime, office, university, gym, casual outings, beach, and travel."
   },
   {
     "id": "rayhaan-pacific-aloha-edp",
@@ -1145,7 +1385,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-pacific-aloha-edp.webp"
+    "image": "rayhaan-pacific-aloha-edp.webp",
+    "tags": [
+      "Summer",
+      "Fresh",
+      "Gym"
+    ],
+    "recommendation": "Best for summer, beach, vacation, daytime outings, casual hangouts, university, and gym."
   },
   {
     "id": "rayhaan-nocturno-elixir-edp",
@@ -1173,7 +1419,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-nocturno-elixir-edp.webp"
+    "image": "rayhaan-nocturno-elixir-edp.webp",
+    "tags": [
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
+    "recommendation": "Best for evening outings, date nights, formal events, and office."
   },
   {
     "id": "rayhaan-pharaoh-edp",
@@ -1201,7 +1453,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-pharaoh-edp.webp"
+    "image": "rayhaan-pharaoh-edp.webp",
+    "tags": [
+      "Date Night",
+      "Winter",
+      "Formal"
+    ],
+    "recommendation": "Best for evening, winter/cool weather, date night, party, formal events, and AC room."
   },
   {
     "id": "rayhaan-italia-edp",
@@ -1229,7 +1487,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-italia-edp.webp"
+    "image": "rayhaan-italia-edp.webp",
+    "tags": [
+      "Office",
+      "Daily Wear",
+      "Date Night"
+    ],
+    "recommendation": "Best for daily wear, office, nights out, and special occasions."
   },
   {
     "id": "rayhaan-jungle-vibe-edp",
@@ -1257,7 +1521,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-jungle-vibe-edp.webp"
+    "image": "rayhaan-jungle-vibe-edp.webp",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Summer"
+    ],
+    "recommendation": "Best for office-safe wear, gym, casual daytime outings, daily wear, spring, and summer."
   },
   {
     "id": "rayhaan-lion-edp",
@@ -1285,7 +1555,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-lion-edp.webp"
+    "image": "rayhaan-lion-edp.webp",
+    "tags": [
+      "Date Night",
+      "Winter",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for cool/cold weather, evenings, dates, parties, and formal occasions."
   },
   {
     "id": "rayhaan-tiger-edp",
@@ -1313,7 +1589,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-tiger-edp.webp"
+    "image": "rayhaan-tiger-edp.webp",
+    "tags": [
+      "Date Night",
+      "Formal",
+      "Winter"
+    ],
+    "recommendation": "Best for date nights, weddings, evening outings, and winter/cooler weather."
   },
   {
     "id": "rayhaan-wolf-edp",
@@ -1341,7 +1623,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-wolf-edp.webp"
+    "image": "rayhaan-wolf-edp.webp",
+    "tags": [
+      "Date Night",
+      "Winter",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for evening, date, winter, and night events."
   },
   {
     "id": "rayhaan-aquatica-edp",
@@ -1369,7 +1657,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-aquatica-edp.webp"
+    "image": "rayhaan-aquatica-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for summer days, clubbing, casual outings, office, and gym."
   },
   {
     "id": "rayhaan-pacific-aura-edp",
@@ -1397,7 +1691,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-pacific-aura-edp.webp"
+    "image": "rayhaan-pacific-aura-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Office"
+    ],
+    "recommendation": "Best for summer, daytime, office, university, casual outings, travel, and clean fresh daily use."
   },
   {
     "id": "rayhaan-tropical-vibe-edp",
@@ -1425,7 +1725,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-tropical-vibe-edp.webp"
+    "image": "rayhaan-tropical-vibe-edp.webp",
+    "tags": [
+      "Sweet",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for beach, tropical vacations, casual outdoor summer hangouts, and gym."
   },
   {
     "id": "rayhaan-terra-edp",
@@ -1453,7 +1759,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-terra-edp.webp"
+    "image": "rayhaan-terra-edp.webp",
+    "tags": [
+      "Oud",
+      "Date Night",
+      "Formal"
+    ],
+    "recommendation": "Best for evening outings, night dates, and formal occasions."
   },
   {
     "id": "rayhaan-elixir-edp",
@@ -1481,7 +1793,13 @@
         "premium": false
       }
     },
-    "image": "rayhaan-elixir-edp.webp"
+    "image": "rayhaan-elixir-edp.webp",
+    "tags": [
+      "Date Night",
+      "Formal",
+      "Winter"
+    ],
+    "recommendation": "Best for night outs, dates, and formal evening events in autumn and winter."
   },
   {
     "id": "bade-e-al-oud-oud-for-glory",
@@ -1509,7 +1827,13 @@
         "premium": false
       }
     },
-    "image": "badee-al-oud-oud-for-glory.webp"
+    "image": "badee-al-oud-oud-for-glory.webp",
+    "tags": [
+      "Oud",
+      "Formal",
+      "Date Night"
+    ],
+    "recommendation": "Best for formal events, weddings, and evening dinners."
   },
   {
     "id": "bade-e-al-oud-honor-glory",
@@ -1537,7 +1861,13 @@
         "premium": false
       }
     },
-    "image": "badee-al-oud-honor-and-glory.webp"
+    "image": "badee-al-oud-honor-and-glory.webp",
+    "tags": [
+      "Sweet",
+      "Date Night",
+      "Party"
+    ],
+    "recommendation": "Best for highly versatile casual outings, dates, and evening events."
   },
   {
     "id": "armaf-dunescape-edp",
@@ -1565,7 +1895,13 @@
         "premium": false
       }
     },
-    "image": "armaf-dunescape-edp.webp"
+    "image": "armaf-dunescape-edp.webp",
+    "tags": [
+      "Office",
+      "Formal",
+      "Gym"
+    ],
+    "recommendation": "Best for office, spring time, formal events, and gym."
   },
   {
     "id": "club-de-nuit-intense-man-pure-parfum",
@@ -1593,7 +1929,13 @@
         "premium": false
       }
     },
-    "image": "club-de-nuit-intense-man-pure-parfum.webp"
+    "image": "club-de-nuit-intense-man-pure-parfum.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for evening, date nights, parties, and longer-lasting presence."
   },
   {
     "id": "club-de-nuit-intesne-man-edp",
@@ -1621,7 +1963,13 @@
         "premium": false
       }
     },
-    "image": "club-de-nuit-intense-man-edp.webp"
+    "image": "club-de-nuit-intense-man-edp.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for evening, date nights, parties, and strong performance."
   },
   {
     "id": "club-de-nuit-precieux-extrait-de-parfum",
@@ -1649,7 +1997,13 @@
         "premium": false
       }
     },
-    "image": "club-de-nuit-precieux-extrait-de-parfum.webp"
+    "image": "club-de-nuit-precieux-extrait-de-parfum.webp",
+    "tags": [
+      "Date Night",
+      "Formal",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for year-round wear, semi-formal events, date nights, and stronger evening use."
   },
   {
     "id": "club-de-nuit-intesne-man-edt",
@@ -1677,7 +2031,13 @@
         "premium": false
       }
     },
-    "image": "club-de-nuit-intesne-man-edt.webp"
+    "image": "club-de-nuit-intesne-man-edt.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for evening, date nights, parties, and a lasting impression."
   },
   {
     "id": "club-de-nuit-urban-man-elixir-edp",
@@ -1705,7 +2065,13 @@
         "premium": false
       }
     },
-    "image": "club-de-nuit-urban-man-elixir-edp.webp"
+    "image": "club-de-nuit-urban-man-elixir-edp.webp",
+    "tags": [
+      "Office",
+      "Date Night",
+      "Party"
+    ],
+    "recommendation": "Best for spring days, office, nights out, clubbing, and casual dates."
   },
   {
     "id": "club-de-nuit-blue-iconic",
@@ -1733,7 +2099,13 @@
         "premium": false
       }
     },
-    "image": "club-de-nuit-blue-iconic.webp"
+    "image": "club-de-nuit-blue-iconic.webp",
+    "tags": [
+      "Blue",
+      "Office",
+      "Date Night"
+    ],
+    "recommendation": "Best for office, gym, casual day outings, and date nights."
   },
   {
     "id": "atlantis-extrait-by-french-avenue-edp",
@@ -1761,7 +2133,13 @@
         "premium": false
       }
     },
-    "image": "atlantis-extrait-by-french-avenue-edp.webp"
+    "image": "atlantis-extrait-by-french-avenue-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Office"
+    ],
+    "recommendation": "Best for fresh aquatic daytime wear, warm weather, and easy casual/office use."
   },
   {
     "id": "zenith-blue-by-french-avenue-edp",
@@ -1789,7 +2167,13 @@
         "premium": false
       }
     },
-    "image": "zenith-blue-by-french-avenue-edp.webp"
+    "image": "zenith-blue-by-french-avenue-edp.webp",
+    "tags": [
+      "Blue",
+      "Office",
+      "Gym"
+    ],
+    "recommendation": "Best for office, gym, casual dates, and daytime wear in spring, summer, and autumn."
   },
   {
     "id": "liquid-brun-by-french-avenue-edp",
@@ -1817,7 +2201,13 @@
         "premium": false
       }
     },
-    "image": "liquid-brun-by-french-avenue-edp.webp"
+    "image": "liquid-brun-by-french-avenue-edp.webp",
+    "tags": [
+      "Sweet",
+      "Date Night",
+      "Winter"
+    ],
+    "recommendation": "Best for evening wear, dates, cooler weather, and warm gourmand moods."
   },
   {
     "id": "vulcan-feu-by-french-avenue-edp",
@@ -1845,7 +2235,13 @@
         "premium": false
       }
     },
-    "image": "vulcan-feu-by-french-avenue-edp.webp"
+    "image": "vulcan-feu-by-french-avenue-edp.webp",
+    "tags": [
+      "Sweet",
+      "Summer",
+      "Date Night"
+    ],
+    "recommendation": "Best for spring/summer day and evening, casual wear, and nights out."
   },
   {
     "id": "naseem-by-gulf-orchid",
@@ -1873,7 +2269,13 @@
         "premium": false
       }
     },
-    "image": "naseem-by-gulf-orchid.webp"
+    "image": "naseem-by-gulf-orchid.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Office"
+    ],
+    "recommendation": "Best for spring/summer, daytime, casual, office, and outdoor wear."
   },
   {
     "id": "mango-ice-by-gulf-orchid",
@@ -1901,7 +2303,13 @@
         "premium": false
       }
     },
-    "image": "mango-ice-by-gulf-orchid.webp"
+    "image": "mango-ice-by-gulf-orchid.webp",
+    "tags": [
+      "Sweet",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for summer and spring, daytime casual outings, beach trips, gym sessions, and office."
   },
   {
     "id": "lattafa-opulent-dubai-edp",
@@ -1929,7 +2337,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-opulent-dubai-edp.webp"
+    "image": "lattafa-opulent-dubai-edp.webp",
+    "tags": [
+      "Sweet",
+      "Summer",
+      "Party"
+    ],
+    "recommendation": "Best for summer day, tropical weather, vacation, daytime outings, party, casual luxury events, and AC rooms."
   },
   {
     "id": "lattafa-art-of-universe-edp",
@@ -1957,7 +2371,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-art-of-universe-edp.webp"
+    "image": "lattafa-art-of-universe-edp.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Daily Wear"
+    ],
+    "recommendation": "Best for spring and summer days, warm-weather outings, and everyday use."
   },
   {
     "id": "lattafa-maahir-legacy-edp",
@@ -1985,7 +2405,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-maahir-legacy-edp.webp"
+    "image": "lattafa-maahir-legacy-edp.webp",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Gym"
+    ],
+    "recommendation": "Best for office, gym, casual summer outings, and regular use."
   },
   {
     "id": "lattafa-yara-edp",
@@ -2013,7 +2439,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-yara-edp.webp"
+    "image": "lattafa-yara-edp.webp",
+    "tags": [
+      "Sweet",
+      "Office",
+      "Date Night"
+    ],
+    "recommendation": "Best for daily use, office, university, casual outings, dates, indoor AC, spring/summer, and evening."
   },
   {
     "id": "rave-now-by-lattafa-edp",
@@ -2041,7 +2473,13 @@
         "premium": false
       }
     },
-    "image": "rave-now-by-lattafa-edp.webp"
+    "image": "rave-now-by-lattafa-edp.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for summer and spring, casual daytime, outdoor events, and gym."
   },
   {
     "id": "dynasty-by-lattafa-edp",
@@ -2069,7 +2507,13 @@
         "premium": false
       }
     },
-    "image": "dynasty-by-lattafa-edp.webp"
+    "image": "dynasty-by-lattafa-edp.webp",
+    "tags": [
+      "Office",
+      "Formal",
+      "Daily Wear"
+    ],
+    "recommendation": "Best for office, library, formal meetings, and casual daytime use."
   },
   {
     "id": "teriaq-intense-by-lattafa-edp",
@@ -2097,7 +2541,13 @@
         "premium": false
       }
     },
-    "image": "teriaq-intense-by-lattafa-edp.webp"
+    "image": "teriaq-intense-by-lattafa-edp.webp",
+    "tags": [
+      "Sweet",
+      "Date Night",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for special evening events, date nights, parties, and cold-weather outings."
   },
   {
     "id": "lattafa-khamrah-qahwa-edp",
@@ -2125,7 +2575,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-khamrah-qahwa-edp.webp"
+    "image": "lattafa-khamrah-qahwa-edp.webp",
+    "tags": [
+      "Sweet",
+      "Date Night",
+      "Winter"
+    ],
+    "recommendation": "Best for cold weather, evening wear, dates, and warm sweet gourmand moods."
   },
   {
     "id": "lattafa-asad-bourbon-edp",
@@ -2153,7 +2609,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-asad-bourbon-edp.webp"
+    "image": "lattafa-asad-bourbon-edp.webp",
+    "tags": [
+      "Sweet",
+      "Date Night",
+      "Winter"
+    ],
+    "recommendation": "Best for cooler evenings, dates, parties, and warm spicy scent lovers."
   },
   {
     "id": "lattafa-asad-edp",
@@ -2181,7 +2643,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-asad-edp.webp"
+    "image": "lattafa-asad-edp.webp",
+    "tags": [
+      "Sweet",
+      "Winter",
+      "Date Night"
+    ],
+    "recommendation": "Best for cooler weather and evening wear."
   },
   {
     "id": "lattafa-fakhar-black-edp",
@@ -2209,7 +2677,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-fakhar-black-edp.webp"
+    "image": "lattafa-fakhar-black-edp.webp",
+    "tags": [
+      "Blue",
+      "Office",
+      "Fresh"
+    ],
+    "recommendation": "Best for office, daytime, clean casual wear, and easy daily freshness."
   },
   {
     "id": "lattafa-najdia-edp",
@@ -2237,7 +2711,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-najdia-edp.webp"
+    "image": "lattafa-najdia-edp.webp",
+    "tags": [
+      "Gym",
+      "Summer",
+      "Fresh"
+    ],
+    "recommendation": "Best for gym, casual daytime, and hot outdoor settings."
   },
   {
     "id": "lattafa-haayati-edp",
@@ -2265,7 +2745,13 @@
         "premium": false
       }
     },
-    "image": "lattafa-haayati-edp.webp"
+    "image": "lattafa-haayati-edp.webp",
+    "tags": [
+      "Gym",
+      "Summer",
+      "Office"
+    ],
+    "recommendation": "Best for gym, casual daytime outings, office, and summer outdoor events."
   },
   {
     "id": "khadlaj-island-edp",
@@ -2293,7 +2779,13 @@
         "premium": false
       }
     },
-    "image": "khadlaj-island-edp.webp"
+    "image": "khadlaj-island-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Party"
+    ],
+    "recommendation": "Best for summer, late spring, beach parties, vacations, pool days, and casual daytime hangouts."
   },
   {
     "id": "khadlaj-island-dream-edp",
@@ -2321,7 +2813,13 @@
         "premium": false
       }
     },
-    "image": "khadlaj-island-dream-edp.webp"
+    "image": "khadlaj-island-dream-edp.webp",
+    "tags": [
+      "Aquatic",
+      "Summer",
+      "Gym"
+    ],
+    "recommendation": "Best for summer days, office, gym, and casual outings."
   },
   {
     "id": "titan-by-khadlaj-edp",
@@ -2349,7 +2847,13 @@
         "premium": false
       }
     },
-    "image": "titan-by-khadlaj-edp.webp"
+    "image": "titan-by-khadlaj-edp.webp",
+    "tags": [
+      "Date Night",
+      "Winter",
+      "Formal"
+    ],
+    "recommendation": "Best for evenings, cooler weather, dates, and events."
   },
   {
     "id": "qaed-al-fursan-edp",
@@ -2377,7 +2881,13 @@
         "premium": false
       }
     },
-    "image": "qaed-al-fursan-edp.webp"
+    "image": "qaed-al-fursan-edp.webp",
+    "tags": [
+      "Sweet",
+      "Party",
+      "Summer"
+    ],
+    "recommendation": "Best for casual sweet fruity wear, parties, and warm weather."
   },
   {
     "id": "daring-blue-edp",
@@ -2405,6 +2915,12 @@
         "premium": false
       }
     },
-    "image": "daring-blue-edp.webp"
+    "image": "daring-blue-edp.webp",
+    "tags": [
+      "Blue",
+      "Fresh",
+      "Office"
+    ],
+    "recommendation": "Best for fresh blue daily wear, office, and casual daytime use."
   }
 ]

@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3002';
+const DATA_VERSION = '3012';
 const BEST_SELLING_IDS = [
   '212-men-by-carolina-herrera',
   'club-de-nuit-intesne-man-edp',
@@ -169,35 +169,43 @@ const imagePath = p => p.image || `images/${p.id}.jpg`;
 const hideBrokenImage = img => { img.closest('.product-image-wrap')?.classList.add('image-missing'); };
 
 
-const SCENT_TAGS = ['Fresh','Sweet','Oud','Blue','Aquatic','Office','Date Night','Summer','Winter','Budget Pick','Beast Mode'];
+const SCENT_TAGS = ['Fresh','Sweet','Oud','Blue','Aquatic','Office','Daily Wear','Gym','Date Night','Party','Formal','Summer','Winter','Beast Mode'];
 function getScentProfile(p) {
+  const safeTags = Array.isArray(p?.tags)
+    ? p.tags.filter(tag => SCENT_TAGS.includes(tag)).slice(0, 3)
+    : [];
+
+  if (safeTags.length) {
+    return {
+      tags: safeTags,
+      recommendation: p?.recommendation || buildRecommendationFromTags(safeTags)
+    };
+  }
+
   const name = `${p?.name || ''} ${p?.id || ''}`.toLowerCase();
   const tags = new Set();
-  const add = (...items) => items.forEach(item => tags.add(item));
-  const priceValues = Object.values(p?.sizes || {}).filter(s => s && s.available && s.price !== null).map(s => Number(s.price));
-  const minPrice = priceValues.length ? Math.min(...priceValues) : 0;
-  const maxPrice = priceValues.length ? Math.max(...priceValues) : 0;
+  const add = (...items) => items.forEach(item => { if (SCENT_TAGS.includes(item)) tags.add(item); });
 
-  if (/hawas|aqua|aquatica|voyage|cool water|blue|azul|iconic|turathi|pacific|aloha|chrome|daring|zenith|kaaf|maahir|universe|zeleny|after swim|island|mango ice|absolute chill/.test(name)) add('Fresh','Blue','Aquatic','Summer','Office');
-  if (/oud|amber|khamrah|qahwa|asad|bourbon|opulent|pharaoh|layl|leather|ambre|teriaq|liquid brun|honor|glory|fursan|shuhrah|dynasty/.test(name)) add('Sweet','Oud','Winter','Date Night');
-  if (/9pm|eros|wanted|intensely|rebel|night out|elixir|kobra|tiger|lion|wolf|vulcan|fakhar|najdia|haayati|rave|vanguard|dunescape|precieux|urban|intense man|club de nuit|snoi|supremacy/.test(name)) add('Date Night','Beast Mode','Winter');
-  if (/yara|naseem|island dream|tropical|jungle|y\b|italia/.test(name)) add('Sweet','Summer','Date Night');
-  if (/212|cool water|fattan|fareed|salvage|inspiration|brandy|najdia|haayati|voyage|blue/.test(name)) add('Budget Pick','Office');
-  if (/office|fattan|212|cool water|voyage|blue|turathi|y\b|kaaf|maahir|zeleny/.test(name)) add('Office');
-  if (minPrice && minPrice <= 220) add('Budget Pick');
-  if (maxPrice >= 650) add('Beast Mode');
-  if (!tags.size) add('Fresh','Office');
+  if (/hawas|aqua|aquatica|voyage|cool water|blue|azul|turathi|pacific|aloha|chrome|daring|zenith|kaaf|maahir|zeleny|after swim|island|mango ice|absolute chill/.test(name)) add('Fresh','Summer','Office');
+  if (/oud|amber|khamrah|qahwa|asad|bourbon|opulent|pharaoh|layl|leather|ambre|teriaq|honor|glory|shuhrah|dynasty/.test(name)) add('Sweet','Date Night','Winter');
+  if (/9pm|eros|wanted|intensely|rebel|night out|elixir|kobra|tiger|lion|wolf|vulcan|precieux|urban|intense man|club de nuit|snoi|supremacy/.test(name)) add('Date Night','Party','Winter');
+  if (/yara|naseem|island dream|tropical|jungle|italia/.test(name)) add('Sweet','Summer','Daily Wear');
+  if (/office|fattan|212|cool water|voyage|blue|turathi|kaaf|maahir|zeleny|inspiration/.test(name)) add('Office');
+  if (!tags.size) add('Fresh','Office','Daily Wear');
 
-  const tagList = Array.from(tags).filter(t => SCENT_TAGS.includes(t)).slice(0, 5);
-  let recommendation = 'A versatile pick for exploring something new from Scentory.';
-  if (tagList.includes('Fresh') && tagList.includes('Office')) recommendation = 'Easy to wear for daily use, office, classes, and clean casual outings.';
-  if (tagList.includes('Aquatic')) recommendation = 'A fresh choice for warm weather, daytime use, and clean shower-like vibes.';
-  if (tagList.includes('Sweet') && tagList.includes('Date Night')) recommendation = 'Best for evening plans, date night, gifting, and people who enjoy sweeter scents.';
-  if (tagList.includes('Oud')) recommendation = 'A deeper style for people who like rich, warm, and bold perfume profiles.';
-  if (tagList.includes('Beast Mode')) recommendation = 'Choose this when you want a stronger scent with more presence.';
-  if (tagList.includes('Budget Pick')) recommendation = 'Good value pick if you want to explore more scents without spending too much.';
+  const tagList = Array.from(tags).slice(0, 3);
+  return { tags: tagList, recommendation: buildRecommendationFromTags(tagList) };
+}
 
-  return { tags: tagList, recommendation };
+function buildRecommendationFromTags(tagList = []) {
+  if (tagList.includes('Aquatic')) return 'Best for fresh daytime wear, summer heat, gym, beach, and clean casual use.';
+  if (tagList.includes('Oud')) return 'Best for richer moments like evening wear, formal settings, dinners, and colder weather.';
+  if (tagList.includes('Beast Mode')) return 'Choose this when you want stronger projection, longer wear, and a bold presence.';
+  if (tagList.includes('Date Night')) return 'Best for dates, evening plans, parties, and special occasions.';
+  if (tagList.includes('Office')) return 'Easy to wear for office, university, meetings, and daily use.';
+  if (tagList.includes('Gym')) return 'Great for gym, casual daytime use, and fresh outdoor plans.';
+  if (tagList.includes('Summer')) return 'A good choice for warm weather, daytime outings, and casual summer plans.';
+  return 'A versatile pick for exploring something new from Scentory.';
 }
 
 function renderTagPills(p, limit = 4) {
