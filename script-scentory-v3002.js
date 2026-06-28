@@ -5,19 +5,19 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3012';
+const DATA_VERSION = '3018';
 const BEST_SELLING_IDS = [
+  'afnan-supremacy-collector-s-edition-edp',
   '212-men-by-carolina-herrera',
   'club-de-nuit-intesne-man-edp',
-  'kenzo-homme-edt-intense',
-  'marwa-arabian-prestige-edp'
+  'kenzo-homme-edt-intense'
 ];
 
 const HOT_ARRIVAL_IDS = [
+  'afnan-supremacy-collector-s-edition-edp',
   'azzaro-the-most-wanted-edp-intense',
   'rayhaan-pacific-aloha-edp',
-  'ysl-y-edp',
-  'rayhaan-azul-edp'
+  'ysl-y-edp'
 ];
 
 

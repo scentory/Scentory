@@ -447,12 +447,12 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 420,
+        "price": 430,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 510,
+        "price": 520,
         "available": true,
         "premium": true
       },
@@ -463,7 +463,7 @@
       },
       "15ml": {
         "price": 1150,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -473,7 +473,13 @@
       "Date Night",
       "Formal"
     ],
-    "recommendation": "A versatile signature scent for office, dates, formal events, and balanced year-round wear."
+    "recommendation": "A versatile signature scent for office, dates, formal events, and balanced year-round wear.",
+    "prices": {
+      "5 ML": 430,
+      "6 ML": 520,
+      "10 ML": 799,
+      "15 ML": 1150
+    }
   },
   {
     "id": "supremacy-not-only-intense-edp",
