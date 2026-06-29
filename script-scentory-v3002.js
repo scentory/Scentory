@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3018';
+const DATA_VERSION = '3019';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
   '212-men-by-carolina-herrera',
@@ -15,8 +15,8 @@ const BEST_SELLING_IDS = [
 
 const HOT_ARRIVAL_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
+  'bois-blanc-by-arabiyat-prestige',
   'azzaro-the-most-wanted-edp-intense',
-  'rayhaan-pacific-aloha-edp',
   'ysl-y-edp'
 ];
 
