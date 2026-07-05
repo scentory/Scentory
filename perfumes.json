@@ -181,7 +181,7 @@
       },
       "15ml": {
         "price": 720,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -482,21 +482,21 @@
   {
     "id": "vanguard-by-maison-asrar",
     "name": "Vanguard by Maison Asrar",
-    "status": "available",
+    "status": "out",
     "sizes": {
       "5ml": {
         "price": 320,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "6ml": {
         "price": 390,
-        "available": true,
+        "available": false,
         "premium": true
       },
       "10ml": {
         "price": 599,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
@@ -541,7 +541,7 @@
       },
       "15ml": {
         "price": 1150,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -565,22 +565,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 370,
+        "price": 330,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 460,
+        "price": 399,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 699,
+        "price": 599,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 990,
+        "price": 820,
         "available": true,
         "premium": false
       }
@@ -593,10 +593,10 @@
     ],
     "recommendation": "Best for office, evening outings, dates, and special occasions.",
     "prices": {
-      "5 ML": 370,
-      "6 ML": 460,
-      "10 ML": 699,
-      "15 ML": 990
+      "5 ML": 330,
+      "6 ML": 399,
+      "10 ML": 599,
+      "15 ML": 820
     }
   },
   {
@@ -781,7 +781,7 @@
       },
       "15ml": {
         "price": 690,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -1006,22 +1006,22 @@
     "sizes": {
       "5ml": {
         "price": 399,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "6ml": {
         "price": 480,
-        "available": true,
+        "available": false,
         "premium": true
       },
       "10ml": {
         "price": 750,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
         "price": 1080,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -1318,6 +1318,47 @@
       "10 ML": 370,
       "15 ML": 499
     }
+  },
+  {
+    "id": "miami-blue-by-ard",
+    "name": "Miami Blue by Ard",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 209,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 240,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 350,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 460,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "miami-blue-by-ard.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Daily Use"
+    ],
+    "recommendation": "A fresh blue-style pick for daily wear, warm weather, office, university, and casual outings.",
+    "prices": {
+      "5 ML": 209,
+      "6 ML": 240,
+      "10 ML": 350,
+      "15 ML": 460
+    },
+    "posterImage": "miami-blue-by-ard.webp"
   },
   {
     "id": "brandy-salvage-edp",

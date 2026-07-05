@@ -1,16 +1,17 @@
-Scentory Master Full Website v3019
+Scentory Master Full Website v3022
 
-Main updates:
-- Full price list updated from latest list
-- 30 ML remains removed from website display
-- Added new products with images: Rayhaan Obsidian EDP, Bois Blanc by Arabiyat Prestige
-- Hot Arrivals updated: #1 Supremacy Collector, #2 Bois Blanc, #3 Azzaro The Most Wanted, #4 YSL Y
-- Removed Rayhaan Pacific Aloha from Hot Arrivals
-- Best Selling keeps Supremacy Collector at #1
+Latest update:
+- Miami Blue by Ard added to the price list:
+  5 ML - 209 Tk
+  6 ML - 240 Tk
+  10 ML - 350 Tk
+  15 ML - 460 Tk
+- 30 ML remains removed from the website.
+- All previous features from v3020 are kept.
 
 Upload:
-1. Extract ZIP
-2. Upload all extracted files to GitHub repo root
-3. Replace old files
-4. Commit and refresh site
-5. Check https://scentoryfragrance.com/?v=3019
+1. Extract this ZIP
+2. Upload all extracted files to your GitHub repo root
+3. Replace existing files
+4. Commit changes
+5. Check: https://scentoryfragrance.com/?v=3022
