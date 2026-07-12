@@ -181,7 +181,7 @@
       },
       "15ml": {
         "price": 720,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -197,6 +197,46 @@
       "6 ML": 350,
       "10 ML": 520,
       "15 ML": 720
+    }
+  },
+  {
+    "id": "hawas-majestic-edp",
+    "name": "Hawas Majestic EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 370,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 780,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "hawas-majestic-edp.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Evening"
+    ],
+    "recommendation": "Best for dates, parties, evening outings, and special occasions.",
+    "prices": {
+      "5 ML": 299,
+      "6 ML": 370,
+      "10 ML": 550,
+      "15 ML": 780
     }
   },
   {
@@ -480,28 +520,68 @@
     }
   },
   {
+    "id": "riiffs-freeze-edp",
+    "name": "Riiffs Freeze EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 370,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 550,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 780,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "riiffs-freeze-edp.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Office"
+    ],
+    "recommendation": "Best for office, university, casual outings, and summer days.",
+    "prices": {
+      "5 ML": 299,
+      "6 ML": 370,
+      "10 ML": 550,
+      "15 ML": 780
+    }
+  },
+  {
     "id": "vanguard-by-maison-asrar",
     "name": "Vanguard by Maison Asrar",
     "status": "out",
     "sizes": {
       "5ml": {
         "price": 320,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "6ml": {
         "price": 390,
-        "available": false,
+        "available": true,
         "premium": true
       },
       "10ml": {
         "price": 599,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
         "price": 850,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -621,7 +701,7 @@
       },
       "15ml": {
         "price": 780,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -781,7 +861,7 @@
       },
       "15ml": {
         "price": 690,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -981,7 +1061,7 @@
       },
       "15ml": {
         "price": 1180,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -1006,22 +1086,22 @@
     "sizes": {
       "5ml": {
         "price": 399,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "6ml": {
         "price": 480,
-        "available": false,
+        "available": true,
         "premium": true
       },
       "10ml": {
         "price": 750,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
         "price": 1080,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -1301,7 +1381,7 @@
       },
       "15ml": {
         "price": 499,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -2466,7 +2546,7 @@
         "premium": false
       }
     },
-    "image": "club-de-nuit-intesne-man-edp.webp",
+    "image": "club-de-nuit-intense-man-edp.webp",
     "tags": [
       "Signature",
       "Versatile"
@@ -2654,12 +2734,12 @@
       },
       "10ml": {
         "price": 550,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
         "price": 760,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -2694,12 +2774,12 @@
       },
       "10ml": {
         "price": 520,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
         "price": 720,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -2739,7 +2819,7 @@
       },
       "15ml": {
         "price": 770,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -2819,7 +2899,7 @@
       },
       "15ml": {
         "price": 480,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -2979,7 +3059,7 @@
       },
       "15ml": {
         "price": 640,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -3139,7 +3219,7 @@
       },
       "15ml": {
         "price": 780,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },

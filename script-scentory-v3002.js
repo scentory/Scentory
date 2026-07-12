@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3022';
+const DATA_VERSION = '3024';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
   '212-men-by-carolina-herrera',
@@ -60,6 +60,16 @@ const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
 
 const shortOrderName = name => {
   const custom = {
+    "Club De Nuit Intesne Man EDP": "CDNIM EDP",
+    "Club De Nuit Intense Man PURE Parfum": "CDNIM Pure Parfum",
+    "Club De Nuit Intesne Man EDT": "CDNIM EDT",
+    "Club De Nuit Urban man Elixir EDP": "CDN Urban Man",
+    "Club de Nuit Blue Iconic": "CDN Iconic Blue",
+    "Club de Nuit Precieux Extrait De Parfum": "CDN Precuix",
+    "Al Haramain Amber Oud Gold Edition": "Al Haramain Gold Edition",
+    "Al Haramain Amber Oud Aqua Dubai": "Al Haramain Aqua Dubai",
+    "Marwa by Arabiyat Prestige": "Marwa by Arabiyat",
+    "Liquid Brun by French Avenue (EDP)": "Liquid Brun",
     "Hawas For Him EDP": "Hawas",
     "Hawas Ice EDP": "Hawas Ice",
     "Oud Al Layl Midnight EDP": "Oud Al Layl",
@@ -656,7 +666,7 @@ function renderProducts() {
     return matchesTerm(p) && matchesStock && matchesTag;
   });
 
-  if (perfumeCount) perfumeCount.textContent = '90+ Premium Decants';
+  if (perfumeCount) perfumeCount.textContent = '100+ Different Perfumes';
 
   if (!filtered.length) {
     productGrid.innerHTML = '<p class="order-items empty">No perfume found. Try a different search or tag.</p>';

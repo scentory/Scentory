@@ -19,3 +19,6 @@ After upload, check:
 https://scentoryfragrance.com/?v=3013
 
 If you still see old content, open in incognito/private mode or clear browser cache.
+
+
+Updated master package v3024: refreshed prices/availability and added Hawas Majestic EDP + Riiffs Freeze EDP.

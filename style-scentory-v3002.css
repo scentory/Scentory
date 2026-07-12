@@ -94,7 +94,7 @@ body {
     linear-gradient(180deg, rgba(0,0,0,.72), rgba(0,0,0,.84)),
     linear-gradient(120deg, rgba(255,255,255,.06), transparent 30%),
     radial-gradient(ellipse at center, rgba(255,255,255,.08), transparent 55%),
-    url("hero-intro-bg.jpg?v=3022") center center / cover no-repeat;
+    url("hero-intro-bg.jpg?v=3024") center center / cover no-repeat;
   filter: blur(13px) saturate(.76) brightness(.72);
   transform: scale(1.07);
   opacity: .78;
@@ -676,7 +676,7 @@ input, select, textarea { font-size: .84rem; padding: 11px 12px; border-radius: 
   background-image:
     linear-gradient(180deg, rgba(0,0,0,.66) 0%, rgba(5,5,5,.56) 38%, rgba(0,0,0,.72) 100%),
     radial-gradient(circle at 50% 45%, rgba(255,255,255,.10), transparent 55%),
-    url("hero-scentory-sizes.jpg?v=3022");
+    url("hero-scentory-sizes.jpg?v=3024");
   background-size: cover, auto, cover;
   background-position: center, center, center;
   background-repeat: no-repeat;
@@ -685,7 +685,7 @@ input, select, textarea { font-size: .84rem; padding: 11px 12px; border-radius: 
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("hero-scentory-sizes.jpg?v=3022");
+  background-image: url("hero-scentory-sizes.jpg?v=3024");
   background-size: cover;
   background-position: center;
   filter: blur(10px) saturate(.72) brightness(.42);
@@ -1982,7 +1982,7 @@ body {
   background:
     linear-gradient(180deg, rgba(0,0,0,.32) 0%, rgba(0,0,0,.55) 58%, rgba(0,0,0,.78) 100%),
     radial-gradient(circle at center, rgba(255,255,255,.04), transparent 55%),
-    url("hero-scentory-main-desktop.webp?v=3022") center center / cover no-repeat !important;
+    url("hero-scentory-main-desktop.webp?v=3024") center center / cover no-repeat !important;
   filter: none !important;
   transform: none !important;
   opacity: 1 !important;
@@ -2106,7 +2106,7 @@ body {
   .hero::before {
     background:
       linear-gradient(180deg, rgba(0,0,0,.12) 0%, rgba(0,0,0,.28) 24%, rgba(0,0,0,.62) 58%, rgba(0,0,0,.86) 100%),
-      url("hero-scentory-main-desktop.webp?v=3022") center top / cover no-repeat !important;
+      url("hero-scentory-main-desktop.webp?v=3024") center top / cover no-repeat !important;
   }
   .hero-inner {
     max-width: 360px !important;
@@ -2163,7 +2163,7 @@ body {
   display: block !important;
   background:
     linear-gradient(180deg, rgba(0,0,0,.16) 0%, rgba(0,0,0,.30) 40%, rgba(0,0,0,.72) 100%),
-    url("hero-scentory-main-desktop.webp?v=3022") center center / cover no-repeat !important;
+    url("hero-scentory-main-desktop.webp?v=3024") center center / cover no-repeat !important;
 }
 
 .brand-center {
@@ -2242,7 +2242,7 @@ body {
     display: block !important;
     background:
       linear-gradient(180deg, rgba(0,0,0,.18) 0%, rgba(0,0,0,.36) 42%, rgba(0,0,0,.78) 100%),
-      url("hero-scentory-main-desktop.webp?v=3022") center center / cover no-repeat !important;
+      url("hero-scentory-main-desktop.webp?v=3024") center center / cover no-repeat !important;
   }
   .hero-inner { max-width: 360px !important; padding: 168px 14px 48px !important; }
   .toolbar { top: calc(var(--scentory-topbar-h) + env(safe-area-inset-top, 0px) + 8px) !important; }
