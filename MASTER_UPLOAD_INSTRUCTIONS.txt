@@ -1,4 +1,4 @@
-Scentory Master Full Website v3024
+Scentory Master Full Website v3025
 
 Latest update:
 - Miami Blue by Ard added to the price list:
@@ -14,4 +14,4 @@ Upload:
 2. Upload all extracted files to your GitHub repo root
 3. Replace existing files
 4. Commit changes
-5. Check: https://scentoryfragrance.com/?v=3024
+5. Check: https://scentoryfragrance.com/?v=3025

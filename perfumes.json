@@ -141,7 +141,7 @@
       },
       "15ml": {
         "price": 620,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -282,7 +282,7 @@
   {
     "id": "hawas-elixir-edp",
     "name": "Hawas Elixir EDP",
-    "status": "available",
+    "status": "out",
     "sizes": {
       "5ml": {
         "price": 270,
@@ -376,7 +376,7 @@
       },
       "10ml": {
         "price": 450,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
@@ -560,6 +560,86 @@
     }
   },
   {
+    "id": "reef-33-edp",
+    "name": "Reef 33 (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 309,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 560,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 780,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "scentory-preview.jpg",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Versatile"
+    ],
+    "recommendation": "A new Scentory selection for fragrance discovery and everyday rotation.",
+    "prices": {
+      "5 ML": 309,
+      "6 ML": 380,
+      "10 ML": 560,
+      "15 ML": 780
+    }
+  },
+  {
+    "id": "thriller-iii-maison-x-cal-cologne",
+    "name": "Thriller III - Maison X Cal Cologne",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 319,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 390,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 590,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 830,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "scentory-preview.jpg",
+    "tags": [
+      "Signature",
+      "Party",
+      "Versatile"
+    ],
+    "recommendation": "A new Scentory selection for fragrance discovery and everyday rotation.",
+    "prices": {
+      "5 ML": 319,
+      "6 ML": 390,
+      "10 ML": 590,
+      "15 ML": 830
+    }
+  },
+  {
     "id": "vanguard-by-maison-asrar",
     "name": "Vanguard by Maison Asrar",
     "status": "out",
@@ -621,7 +701,7 @@
       },
       "15ml": {
         "price": 1150,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -661,7 +741,7 @@
       },
       "15ml": {
         "price": 820,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -701,7 +781,7 @@
       },
       "15ml": {
         "price": 780,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -941,7 +1021,7 @@
       },
       "10ml": {
         "price": 880,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -1061,7 +1141,7 @@
       },
       "15ml": {
         "price": 1180,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -1362,7 +1442,7 @@
   {
     "id": "zeleny-by-ahmed-edp",
     "name": "Zeleny By Ahmed EDP",
-    "status": "available",
+    "status": "out",
     "sizes": {
       "5ml": {
         "price": 199,
@@ -1657,7 +1737,7 @@
       },
       "10ml": {
         "price": 480,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
@@ -1717,6 +1797,46 @@
       "5 ML": 220,
       "6 ML": 270,
       "10 ML": 390,
+      "15 ML": 550
+    }
+  },
+  {
+    "id": "absolute-ice-by-atralia-edp",
+    "name": "Absolute Ice by Atralia (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 230,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 280,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 409,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 550,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "scentory-preview.jpg",
+    "tags": [
+      "Fresh",
+      "Aquatic",
+      "Summer"
+    ],
+    "recommendation": "A new Scentory selection for fragrance discovery and everyday rotation.",
+    "prices": {
+      "5 ML": 230,
+      "6 ML": 280,
+      "10 ML": 409,
       "15 ML": 550
     }
   },
@@ -2595,7 +2715,8 @@
     "prices": {
       "5 ML": 630,
       "6 ML": 760,
-      "10 ML": 1230
+      "10 ML": 1230,
+      "15 ML": null
     }
   },
   {
@@ -2715,6 +2836,46 @@
       "6 ML": 370,
       "10 ML": 580,
       "15 ML": 820
+    }
+  },
+  {
+    "id": "aromatix-platine-blanc-extract",
+    "name": "Aromatix Platine Blanc Extract",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 330,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 399,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 599,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 850,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "scentory-preview.jpg",
+    "tags": [
+      "Signature",
+      "Formal",
+      "Versatile"
+    ],
+    "recommendation": "A new Scentory selection for fragrance discovery and everyday rotation.",
+    "prices": {
+      "5 ML": 330,
+      "6 ML": 399,
+      "10 ML": 599,
+      "15 ML": 850
     }
   },
   {
@@ -2979,7 +3140,7 @@
       },
       "15ml": {
         "price": 440,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -3120,7 +3281,7 @@
   {
     "id": "rave-now-by-lattafa-edp",
     "name": "Rave Now by Lattafa (EDP)",
-    "status": "available",
+    "status": "out",
     "sizes": {
       "5ml": {
         "price": 199,
