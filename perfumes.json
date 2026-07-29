@@ -561,7 +561,7 @@
   },
   {
     "id": "reef-33-edp",
-    "name": "Reef 33 (EDP)",
+    "name": "Reef 33 Mother’s Day (Limited Edition)",
     "status": "available",
     "sizes": {
       "5ml": {
@@ -585,7 +585,7 @@
         "premium": false
       }
     },
-    "image": "scentory-preview.jpg",
+    "image": "reef-33-mothers-day-limited-edition.jpg",
     "tags": [
       "Fresh",
       "Summer",
@@ -625,7 +625,7 @@
         "premium": false
       }
     },
-    "image": "scentory-preview.jpg",
+    "image": "thriller-iii-maison-x-cal-cologne.jpg",
     "tags": [
       "Signature",
       "Party",
@@ -1826,7 +1826,7 @@
         "premium": false
       }
     },
-    "image": "scentory-preview.jpg",
+    "image": "absolute-ice-by-atralia-edp.png",
     "tags": [
       "Fresh",
       "Aquatic",
@@ -2864,7 +2864,7 @@
         "premium": false
       }
     },
-    "image": "scentory-preview.jpg",
+    "image": "aromatix-platine-blanc-extract.jpg",
     "tags": [
       "Signature",
       "Formal",
