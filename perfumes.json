@@ -141,7 +141,7 @@
       },
       "15ml": {
         "price": 620,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -821,7 +821,7 @@
       },
       "15ml": {
         "price": 1170,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -882,7 +882,7 @@
   {
     "id": "afnan-9-pm-rebel-edp",
     "name": "Afnan 9 PM Rebel EDP",
-    "status": "out",
+    "status": "available",
     "sizes": {
       "5ml": {
         "price": 330,
@@ -1702,7 +1702,7 @@
       },
       "15ml": {
         "price": 699,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -2102,7 +2102,7 @@
       },
       "15ml": {
         "price": 530,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -3220,7 +3220,7 @@
       },
       "15ml": {
         "price": 640,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -3260,7 +3260,7 @@
       },
       "15ml": {
         "price": 520,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -3700,7 +3700,7 @@
       },
       "15ml": {
         "price": 599,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -3836,6 +3836,130 @@
       "6 ML": 220,
       "10 ML": 320,
       "15 ML": 430
+    }
+  },
+  {
+    "id": "hawas-la-mer-edp",
+    "name": "Hawas La Mer EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 290,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 360,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 540,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 750,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "hawas-la-mer-edp.jpg",
+    "tags": [
+      "Aquatic",
+      "Fresh",
+      "Summer",
+      "Office",
+      "Daily Wear"
+    ],
+    "recommendation": "Fresh ocean-inspired daily wear for office, daytime travel, casual outings, and warm weather.",
+    "prices": {
+      "5 ML": 290,
+      "6 ML": 360,
+      "10 ML": 540,
+      "15 ML": 750
+    }
+  },
+  {
+    "id": "burberry-touch-edt",
+    "name": "Burberry Touch (EDT)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 360,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 540,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 750,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "burberry-touch-edt.jpg",
+    "tags": [
+      "Office",
+      "Daily Wear",
+      "Fresh",
+      "Versatile"
+    ],
+    "recommendation": "A clean, easygoing scent for office, daily wear, smart-casual settings, and relaxed occasions.",
+    "prices": {
+      "5 ML": 299,
+      "6 ML": 360,
+      "10 ML": 540,
+      "15 ML": 750
+    }
+  },
+  {
+    "id": "khadlaj-karus-gold-absolu-edp",
+    "name": "Khadlaj Karus Gold Absolu EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 470,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 650,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "khadlaj-karus-gold-absolu-edp.jpg",
+    "tags": [
+      "Office",
+      "Date Night",
+      "Daily Wear",
+      "Formal"
+    ],
+    "recommendation": "Best for office, daily wear, dates, smart-casual occasions, special events, and elevated everyday wear.",
+    "prices": {
+      "5 ML": 260,
+      "6 ML": 320,
+      "10 ML": 470,
+      "15 ML": 650
     }
   }
 ]
