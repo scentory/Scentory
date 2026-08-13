@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3025';
+const DATA_VERSION = '3033';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
   '212-men-by-carolina-herrera',
@@ -409,7 +409,7 @@ function showToast(message, type = 'info') {
 async function loadPerfumes() {
   try {
     productGrid.innerHTML = '<p class="order-items empty">Loading perfumes...</p>';
-    const response = await fetch(`perfumes.json?v=${DATA_VERSION}`, { cache: 'force-cache' });
+    const response = await fetch(`perfumes.json?v=${DATA_VERSION}`, { cache: 'no-store' });
     if (!response.ok) throw new Error('Could not load perfume database');
     perfumes = await response.json();
     normalizeCartAfterLoad();
@@ -666,7 +666,7 @@ function renderProducts() {
     return matchesTerm(p) && matchesStock && matchesTag;
   });
 
-  if (perfumeCount) perfumeCount.textContent = '110+ Different Perfumes';
+  if (perfumeCount) perfumeCount.textContent = '120+ Different Perfumes';
 
   if (!filtered.length) {
     productGrid.innerHTML = '<p class="order-items empty">No perfume found. Try a different search or tag.</p>';
