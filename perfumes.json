@@ -172,7 +172,7 @@
       "6ml": {
         "price": 350,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 520,
@@ -212,7 +212,7 @@
       "6ml": {
         "price": 370,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 550,
@@ -532,7 +532,7 @@
       "6ml": {
         "price": 370,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 550,
@@ -572,7 +572,7 @@
       "6ml": {
         "price": 380,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 560,
@@ -612,7 +612,7 @@
       "6ml": {
         "price": 390,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 590,
@@ -932,7 +932,7 @@
       "6ml": {
         "price": 330,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 499,
@@ -1492,7 +1492,7 @@
       "6ml": {
         "price": 240,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 350,
@@ -1813,7 +1813,7 @@
       "6ml": {
         "price": 280,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 409,
@@ -2851,7 +2851,7 @@
       "6ml": {
         "price": 399,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 599,
@@ -2980,7 +2980,7 @@
       },
       "15ml": {
         "price": 770,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -3251,7 +3251,7 @@
       "6ml": {
         "price": 270,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 390,
@@ -3281,7 +3281,7 @@
   {
     "id": "rave-now-by-lattafa-edp",
     "name": "Rave Now by Lattafa (EDP)",
-    "status": "out",
+    "status": "available",
     "sizes": {
       "5ml": {
         "price": 199,
@@ -3851,7 +3851,7 @@
       "6ml": {
         "price": 360,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 540,
@@ -3893,7 +3893,7 @@
       "6ml": {
         "price": 360,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 540,
@@ -3934,7 +3934,7 @@
       "6ml": {
         "price": 320,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 470,
@@ -3960,6 +3960,90 @@
       "6 ML": 320,
       "10 ML": 470,
       "15 ML": 650
+    }
+  },
+  {
+    "id": "yusuf-bhai-wulong-cha",
+    "name": "Yusuf Bhai - Wulong Cha",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 470,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 730,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1030,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "yusuf-bhai-wulong-cha.jpg",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Summer",
+      "Daily Wear",
+      "Versatile"
+    ],
+    "recommendation": "Best for office, university, daytime outings, brunch, travel, and upscale casual wear, especially in spring and summer.",
+    "prices": {
+      "5 ML": 380,
+      "6 ML": 470,
+      "10 ML": 730,
+      "15 ML": 1030
+    }
+  },
+  {
+    "id": "rayhaan-cedrus-blanc-edp",
+    "name": "Rayhaan Cedrus Blanc EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-cedrus-blanc-edp.jpg",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Summer",
+      "Daily Wear",
+      "Formal"
+    ],
+    "recommendation": "Best for office, university, daytime outings, smart-casual and formal settings, especially in spring, summer, and warm weather.",
+    "prices": {
+      "5 ML": 220,
+      "6 ML": 260,
+      "10 ML": 380,
+      "15 ML": 530
     }
   }
 ]

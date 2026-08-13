@@ -666,7 +666,7 @@ function renderProducts() {
     return matchesTerm(p) && matchesStock && matchesTag;
   });
 
-  if (perfumeCount) perfumeCount.textContent = '100+ Different Perfumes';
+  if (perfumeCount) perfumeCount.textContent = '110+ Different Perfumes';
 
   if (!filtered.length) {
     productGrid.innerHTML = '<p class="order-items empty">No perfume found. Try a different search or tag.</p>';
