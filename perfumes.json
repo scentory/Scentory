@@ -240,6 +240,48 @@
     }
   },
   {
+    "id": "hawas-la-mer-edp",
+    "name": "Hawas La Mer EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 290,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 360,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 540,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 750,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "hawas-la-mer-edp.jpg",
+    "tags": [
+      "Aquatic",
+      "Fresh",
+      "Summer",
+      "Office",
+      "Daily Wear"
+    ],
+    "recommendation": "Fresh ocean-inspired daily wear for office, daytime travel, casual outings, and warm weather.",
+    "prices": {
+      "5 ML": 290,
+      "6 ML": 360,
+      "10 ML": 540,
+      "15 ML": 750
+    }
+  },
+  {
     "id": "hawas-kobra-edp",
     "name": "Hawas Kobra (EDP)",
     "status": "available",
@@ -480,6 +522,48 @@
     }
   },
   {
+    "id": "yusuf-bhai-wulong-cha",
+    "name": "Yusuf Bhai - Wulong Cha",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 470,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 730,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1030,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "yusuf-bhai-wulong-cha.jpg",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Summer",
+      "Daily Wear",
+      "Versatile"
+    ],
+    "recommendation": "Best for office, university, daytime outings, brunch, travel, and upscale casual wear, especially in spring and summer.",
+    "prices": {
+      "5 ML": 380,
+      "6 ML": 470,
+      "10 ML": 730,
+      "15 ML": 1030
+    }
+  },
+  {
     "id": "riiffs-fareed-edp",
     "name": "Riiffs Fareed EDP",
     "status": "out",
@@ -561,7 +645,7 @@
   },
   {
     "id": "reef-33-edp",
-    "name": "Reef 33 Mother’s Day (Limited Edition)",
+    "name": "Reef 33 Mother's Day (Limited Edition)",
     "status": "available",
     "sizes": {
       "5ml": {
@@ -621,7 +705,7 @@
       },
       "15ml": {
         "price": 830,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -816,7 +900,7 @@
       },
       "10ml": {
         "price": 799,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
@@ -1017,7 +1101,7 @@
       "6ml": {
         "price": 570,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 880,
@@ -1057,7 +1141,7 @@
       "6ml": {
         "price": 799,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 1299,
@@ -1277,6 +1361,47 @@
       "6 ML": 240,
       "10 ML": 360,
       "15 ML": 490
+    }
+  },
+  {
+    "id": "burberry-touch-edt",
+    "name": "Burberry Touch (EDT)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 360,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 540,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 750,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "burberry-touch-edt.jpg",
+    "tags": [
+      "Office",
+      "Daily Wear",
+      "Fresh",
+      "Versatile"
+    ],
+    "recommendation": "A clean, easygoing scent for office, daily wear, smart-casual settings, and relaxed occasions.",
+    "prices": {
+      "5 ML": 299,
+      "6 ML": 360,
+      "10 ML": 540,
+      "15 ML": 750
     }
   },
   {
@@ -1702,7 +1827,7 @@
       },
       "15ml": {
         "price": 699,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -1733,7 +1858,7 @@
       "6ml": {
         "price": 330,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 480,
@@ -1762,7 +1887,7 @@
   },
   {
     "id": "absolute-chill-atralia-edp",
-    "name": "Absolute Chill Atralia EDP",
+    "name": "Absolute Chill by Atralia (EDP)",
     "status": "available",
     "sizes": {
       "5ml": {
@@ -1913,6 +2038,48 @@
       "Summer"
     ],
     "recommendation": "Best for summer, daytime, office, university, gym, casual outings, beach, and travel.",
+    "prices": {
+      "5 ML": 220,
+      "6 ML": 260,
+      "10 ML": 380,
+      "15 ML": 530
+    }
+  },
+  {
+    "id": "rayhaan-cedrus-blanc-edp",
+    "name": "Rayhaan Cedrus Blanc EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 220,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 260,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 380,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 530,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "rayhaan-cedrus-blanc-edp.jpg",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Summer",
+      "Daily Wear",
+      "Formal"
+    ],
+    "recommendation": "Best for office, university, daytime outings, smart-casual and formal settings, especially in spring, summer, and warm weather.",
     "prices": {
       "5 ML": 220,
       "6 ML": 260,
@@ -2342,7 +2509,7 @@
       },
       "15ml": {
         "price": 530,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -2641,6 +2808,48 @@
     }
   },
   {
+    "id": "club-de-nuit-intense-overdose",
+    "name": "Club De Nuit Intense Overdose",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 420,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 510,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 780,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1120,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "club-de-nuit-intense-overdose.jpg",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Formal",
+      "Winter",
+      "Beast Mode"
+    ],
+    "recommendation": "Best for parties, weddings, date nights, formal events, and special occasions, especially evenings and cooler weather.",
+    "prices": {
+      "5 ML": 420,
+      "6 ML": 510,
+      "10 ML": 780,
+      "15 ML": 1120
+    }
+  },
+  {
     "id": "club-de-nuit-intesne-man-edp",
     "name": "Club De Nuit Intesne Man EDP",
     "status": "available",
@@ -2935,7 +3144,7 @@
       },
       "10ml": {
         "price": 520,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
@@ -3639,6 +3848,47 @@
     }
   },
   {
+    "id": "khadlaj-karus-gold-absolu-edp",
+    "name": "Khadlaj Karus Gold Absolu EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 470,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 650,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "khadlaj-karus-gold-absolu-edp.jpg",
+    "tags": [
+      "Office",
+      "Date Night",
+      "Daily Wear",
+      "Formal"
+    ],
+    "recommendation": "Best for office, daily wear, dates, smart-casual occasions, special events, and elevated everyday wear.",
+    "prices": {
+      "5 ML": 260,
+      "6 ML": 320,
+      "10 ML": 470,
+      "15 ML": 650
+    }
+  },
+  {
     "id": "khadlaj-island-edp",
     "name": "Khadlaj Island EDP",
     "status": "available",
@@ -3836,214 +4086,6 @@
       "6 ML": 220,
       "10 ML": 320,
       "15 ML": 430
-    }
-  },
-  {
-    "id": "hawas-la-mer-edp",
-    "name": "Hawas La Mer EDP",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 290,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 360,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 540,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 750,
-        "available": false,
-        "premium": false
-      }
-    },
-    "image": "hawas-la-mer-edp.jpg",
-    "tags": [
-      "Aquatic",
-      "Fresh",
-      "Summer",
-      "Office",
-      "Daily Wear"
-    ],
-    "recommendation": "Fresh ocean-inspired daily wear for office, daytime travel, casual outings, and warm weather.",
-    "prices": {
-      "5 ML": 290,
-      "6 ML": 360,
-      "10 ML": 540,
-      "15 ML": 750
-    }
-  },
-  {
-    "id": "burberry-touch-edt",
-    "name": "Burberry Touch (EDT)",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 299,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 360,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 540,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 750,
-        "available": false,
-        "premium": false
-      }
-    },
-    "image": "burberry-touch-edt.jpg",
-    "tags": [
-      "Office",
-      "Daily Wear",
-      "Fresh",
-      "Versatile"
-    ],
-    "recommendation": "A clean, easygoing scent for office, daily wear, smart-casual settings, and relaxed occasions.",
-    "prices": {
-      "5 ML": 299,
-      "6 ML": 360,
-      "10 ML": 540,
-      "15 ML": 750
-    }
-  },
-  {
-    "id": "khadlaj-karus-gold-absolu-edp",
-    "name": "Khadlaj Karus Gold Absolu EDP",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 260,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 320,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 470,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 650,
-        "available": false,
-        "premium": false
-      }
-    },
-    "image": "khadlaj-karus-gold-absolu-edp.jpg",
-    "tags": [
-      "Office",
-      "Date Night",
-      "Daily Wear",
-      "Formal"
-    ],
-    "recommendation": "Best for office, daily wear, dates, smart-casual occasions, special events, and elevated everyday wear.",
-    "prices": {
-      "5 ML": 260,
-      "6 ML": 320,
-      "10 ML": 470,
-      "15 ML": 650
-    }
-  },
-  {
-    "id": "yusuf-bhai-wulong-cha",
-    "name": "Yusuf Bhai - Wulong Cha",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 380,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 470,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 730,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 1030,
-        "available": false,
-        "premium": false
-      }
-    },
-    "image": "yusuf-bhai-wulong-cha.jpg",
-    "tags": [
-      "Fresh",
-      "Office",
-      "Summer",
-      "Daily Wear",
-      "Versatile"
-    ],
-    "recommendation": "Best for office, university, daytime outings, brunch, travel, and upscale casual wear, especially in spring and summer.",
-    "prices": {
-      "5 ML": 380,
-      "6 ML": 470,
-      "10 ML": 730,
-      "15 ML": 1030
-    }
-  },
-  {
-    "id": "rayhaan-cedrus-blanc-edp",
-    "name": "Rayhaan Cedrus Blanc EDP",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 220,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 260,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 380,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 530,
-        "available": false,
-        "premium": false
-      }
-    },
-    "image": "rayhaan-cedrus-blanc-edp.jpg",
-    "tags": [
-      "Fresh",
-      "Office",
-      "Summer",
-      "Daily Wear",
-      "Formal"
-    ],
-    "recommendation": "Best for office, university, daytime outings, smart-casual and formal settings, especially in spring, summer, and warm weather.",
-    "prices": {
-      "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
-      "15 ML": 530
     }
   }
 ]

@@ -2261,3 +2261,15 @@ body {
 /* v3011 correction: product images are normal bottle/product images. Posters were used only as tag reference. */
 .product-card .product-image, .product img { object-fit: cover; }
 .hero-mini-grid { display: none !important; }
+
+
+/* v3034 performance layer: high-refresh friendly, fast native scrolling */
+html { scroll-behavior: auto !important; }
+body { overscroll-behavior-y: none; -webkit-font-smoothing: antialiased; text-rendering: optimizeSpeed; }
+.product, .hot-arrival-card, .best-seller-card { contain: layout paint style; }
+.product img, .hot-arrival-card img, .best-seller-card img { transform: translateZ(0); backface-visibility: hidden; }
+.trust-marquee__track { will-change: transform; transform: translate3d(0,0,0); }
+button, a, .product, .hot-arrival-card, .best-seller-card { touch-action: manipulation; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

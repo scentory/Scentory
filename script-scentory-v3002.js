@@ -5,19 +5,19 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3033';
+const DATA_VERSION = '3034';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
-  '212-men-by-carolina-herrera',
-  'club-de-nuit-intesne-man-edp',
-  'kenzo-homme-edt-intense'
+  'hawas-black-edp',
+  'khadlaj-karus-gold-absolu-edp',
+  'club-de-nuit-urban-man-elixir-edp'
 ];
 
 const HOT_ARRIVAL_IDS = [
-  'afnan-supremacy-collector-s-edition-edp',
-  'bois-blanc-by-arabiyat-prestige',
-  'azzaro-the-most-wanted-edp-intense',
-  'ysl-y-edp'
+  'club-de-nuit-intense-overdose',
+  'khadlaj-karus-gold-absolu-edp',
+  'hawas-la-mer-edp',
+  'rayhaan-cedrus-blanc-edp'
 ];
 
 
@@ -64,6 +64,7 @@ const shortOrderName = name => {
     "Club De Nuit Intense Man PURE Parfum": "CDNIM Pure Parfum",
     "Club De Nuit Intesne Man EDT": "CDNIM EDT",
     "Club De Nuit Urban man Elixir EDP": "CDN Urban Man",
+    "Club De Nuit Intense Overdose": "CDN Intense Overdose",
     "Club de Nuit Blue Iconic": "CDN Iconic Blue",
     "Club de Nuit Precieux Extrait De Parfum": "CDN Precuix",
     "Al Haramain Amber Oud Gold Edition": "Al Haramain Gold Edition",
@@ -586,8 +587,22 @@ function getFixedSearchOffset() {
 
 function smoothScrollToElement(element, extraOffset = 0) {
   if (!element) return;
-  const targetTop = element.getBoundingClientRect().top + window.pageYOffset - getFixedSearchOffset() - extraOffset;
-  window.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
+  const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  const targetTop = element.getBoundingClientRect().top + window.scrollY - getFixedSearchOffset() - extraOffset;
+  const destination = Math.max(0, targetTop);
+  if (reduceMotion) { window.scrollTo(0, destination); return; }
+  const start = window.scrollY;
+  const distance = destination - start;
+  if (Math.abs(distance) < 2) return;
+  const duration = Math.min(260, Math.max(150, Math.abs(distance) * 0.06));
+  const t0 = performance.now();
+  const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
+  const frame = now => {
+    const t = Math.min(1, (now - t0) / duration);
+    window.scrollTo(0, start + distance * easeOutCubic(t));
+    if (t < 1) requestAnimationFrame(frame);
+  };
+  requestAnimationFrame(frame);
 }
 
 function highlightElement(element, className = 'jump-highlight', duration = 1800) {
@@ -666,7 +681,7 @@ function renderProducts() {
     return matchesTerm(p) && matchesStock && matchesTag;
   });
 
-  if (perfumeCount) perfumeCount.textContent = '120+ Different Perfumes';
+  if (perfumeCount) perfumeCount.textContent = '120+ Collections';
 
   if (!filtered.length) {
     productGrid.innerHTML = '<p class="order-items empty">No perfume found. Try a different search or tag.</p>';
@@ -1078,7 +1093,7 @@ if (topCartButton) {
 if (brandHomeButton) {
   brandHomeButton.addEventListener('click', event => {
     event.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    smoothScrollToElement(document.documentElement, -getFixedSearchOffset());
     hideSearchSuggestions();
     if (history && history.replaceState) {
       history.replaceState(null, '', '#pageTop');
