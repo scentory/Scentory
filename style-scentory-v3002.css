@@ -94,7 +94,7 @@ body {
     linear-gradient(180deg, rgba(0,0,0,.72), rgba(0,0,0,.84)),
     linear-gradient(120deg, rgba(255,255,255,.06), transparent 30%),
     radial-gradient(ellipse at center, rgba(255,255,255,.08), transparent 55%),
-    url("hero-intro-bg.jpg?v=3024") center center / cover no-repeat;
+    url("hero-intro-bg.jpg?v=3035") center center / cover no-repeat;
   filter: blur(13px) saturate(.76) brightness(.72);
   transform: scale(1.07);
   opacity: .78;
@@ -2263,13 +2263,120 @@ body {
 .hero-mini-grid { display: none !important; }
 
 
-/* v3034 performance layer: high-refresh friendly, fast native scrolling */
-html { scroll-behavior: auto !important; }
-body { overscroll-behavior-y: none; -webkit-font-smoothing: antialiased; text-rendering: optimizeSpeed; }
-.product, .hot-arrival-card, .best-seller-card { contain: layout paint style; }
-.product img, .hot-arrival-card img, .best-seller-card img { transform: translateZ(0); backface-visibility: hidden; }
-.trust-marquee__track { will-change: transform; transform: translate3d(0,0,0); }
-button, a, .product, .hot-arrival-card, .best-seller-card { touch-action: manipulation; }
+
+
+
+/* v3035 LITE UI — mobile-first performance and reliable native scrolling */
+html {
+  scroll-behavior: auto !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+body {
+  padding-top: 0 !important;
+  overflow-y: visible !important;
+  overscroll-behavior-y: auto !important;
+  text-rendering: auto !important;
+}
+
+/* Keep navigation in normal/sticky flow instead of permanently composited fixed layers. */
+.topbar {
+  position: sticky !important;
+  top: 0 !important;
+  inset: auto !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  background: rgba(5,5,5,.98) !important;
+  box-shadow: none !important;
+}
+.catalog-panel { padding-top: 0 !important; }
+.toolbar {
+  position: sticky !important;
+  top: 0 !important;
+  left: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  margin: 0 0 18px !important;
+  min-height: 0 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  background: #0a0a0a !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,.18) !important;
+  z-index: 45 !important;
+}
+
+/* Heavy real-time blur/filter effects are costly while scrolling. */
+.hero::before {
+  filter: none !important;
+  transform: none !important;
+  inset: 0 !important;
+  opacity: .58 !important;
+}
+.hero-mini-grid span,
+.trust-marquee,
+.product-modal,
+.image-modal,
+.toast,
+.floating-cart {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Let the browser skip off-screen product rendering. */
+.product {
+  content-visibility: auto !important;
+  contain: layout paint !important;
+  contain-intrinsic-size: 190px !important;
+  animation: none !important;
+  transition: none !important;
+  box-shadow: 0 5px 14px rgba(0,0,0,.14) !important;
+}
+.product img,
+.hot-arrival-card img,
+.best-seller-card img {
+  transform: none !important;
+  backface-visibility: visible !important;
+}
+.product, .hot-arrival-card, .best-seller-card, .price-tile,
+button, a { will-change: auto !important; }
+
+/* Keep only the lightweight ticker animation; reduce its compositor cost. */
+.trust-marquee__track { will-change: auto !important; }
+
+/* Avoid animated jump/highlight effects during navigation. */
+.jump-highlight,
+.order-jump-highlight,
+.product.jump-highlight,
+.order-card.order-jump-highlight {
+  animation: none !important;
+}
+
+/* Native vertical panning everywhere; controls remain tappable. */
+body, main, section, .product-list, .product, .catalog-panel {
+  touch-action: pan-y pinch-zoom !important;
+}
+button, a, input, select, textarea, .price-tile {
+  touch-action: manipulation !important;
+}
+
+/* Simplify shadows and visual effects on smaller/mobile devices. */
+@media (max-width: 760px) {
+  :root { --shadow: 0 5px 14px rgba(0,0,0,.16); }
+  .topbar-inner { min-height: 64px !important; }
+  .site-nav { padding-bottom: 7px !important; }
+  .toolbar {
+    top: 0 !important;
+    border-radius: 0 0 14px 14px !important;
+    padding: 8px !important;
+  }
+  .product, .hot-arrival-card, .best-seller-card,
+  .brand-showcase-card, .review-card, .order-card {
+    box-shadow: none !important;
+  }
+  .hero::before { background-position: center !important; }
+  .trust-marquee__track { animation-duration: 48s !important; }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .trust-marquee__track { animation: none !important; transform: none !important; }
 }

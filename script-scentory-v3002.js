@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3034';
+const DATA_VERSION = '3035';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
   'hawas-black-edp',
@@ -587,22 +587,8 @@ function getFixedSearchOffset() {
 
 function smoothScrollToElement(element, extraOffset = 0) {
   if (!element) return;
-  const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
   const targetTop = element.getBoundingClientRect().top + window.scrollY - getFixedSearchOffset() - extraOffset;
-  const destination = Math.max(0, targetTop);
-  if (reduceMotion) { window.scrollTo(0, destination); return; }
-  const start = window.scrollY;
-  const distance = destination - start;
-  if (Math.abs(distance) < 2) return;
-  const duration = Math.min(260, Math.max(150, Math.abs(distance) * 0.06));
-  const t0 = performance.now();
-  const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
-  const frame = now => {
-    const t = Math.min(1, (now - t0) / duration);
-    window.scrollTo(0, start + distance * easeOutCubic(t));
-    if (t < 1) requestAnimationFrame(frame);
-  };
-  requestAnimationFrame(frame);
+  window.scrollTo({ top: Math.max(0, targetTop), behavior: 'auto' });
 }
 
 function highlightElement(element, className = 'jump-highlight', duration = 1800) {

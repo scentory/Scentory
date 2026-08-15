@@ -1,0 +1,11 @@
+SCENTORY MASTER v3035
+
+- Fixes mobile lag / difficult scrolling by replacing custom animated scrolling with native scrolling.
+- Converts heavy fixed blurred UI layers to lightweight sticky solid layers.
+- Removes costly blur/filter/compositor hints from scrolling content.
+- Restores content-visibility for off-screen catalogue cards.
+- Keeps all v3034 catalogue data, prices, order, images, hot arrivals, best sellers and ordering features.
+- Fixes social/link thumbnail MIME mismatch: old .png file contained JPEG bytes.
+- Uses versioned scentory-share-preview-v3035.jpg with image/jpeg Open Graph metadata.
+- Removes unnecessary preload of social preview image.
+- Cache/data version updated to 3035.
