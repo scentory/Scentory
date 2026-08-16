@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3036';
+const DATA_VERSION = '3037';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
   'hawas-black-edp',
@@ -392,11 +392,27 @@ function renderSearchSuggestions() {
 function selectSearchPerfume(id) {
   const perfume = getPerfumeById(id);
   if (!perfume) return;
-  if (searchInput) searchInput.value = perfume.name;
+
+  // Exact selection: keep one dedicated result, close the keyboard, then perform one jump.
+  if (searchInput) {
+    searchInput.value = perfume.name;
+    searchInput.dataset.selectedId = id;
+    searchInput.blur();
+  }
   if (stockFilter) stockFilter.value = 'all';
+  if (tagFilter) tagFilter.value = 'all';
   hideSearchSuggestions();
   renderProducts();
-  scrollToPerfume(id, { preserveSearch: true });
+
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    const card = document.getElementById(`perfume-${id}`);
+    if (!card) {
+      showToast('Could not open the selected perfume. Please try again.', 'error');
+      return;
+    }
+    card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    highlightElement(card, 'jump-highlight', 900);
+  }));
 }
 
 function showToast(message, type = 'info') {
@@ -579,26 +595,26 @@ function renderBestSelling() {
   });
 }
 
-function getFixedSearchOffset() {
+function syncTopbarHeight() {
   const topbar = document.querySelector('.topbar');
-  if (!topbar) return 12;
-  const style = window.getComputedStyle(topbar);
-  const isSticky = style.position === 'sticky' || style.position === 'fixed';
-  return (isSticky ? topbar.getBoundingClientRect().height : 0) + 12;
+  if (!topbar) return 0;
+  const height = Math.ceil(topbar.getBoundingClientRect().height);
+  document.documentElement.style.setProperty('--scentory-live-header-h', `${height}px`);
+  return height;
 }
 
-function scrollElementIntoView(element, extraOffset = 0) {
+function scrollElementIntoView(element, extraOffset = 0, behavior = 'smooth') {
   if (!element) return;
-  element.scrollIntoView({ behavior: 'auto', block: 'start' });
-  const offset = getFixedSearchOffset() + extraOffset;
-  if (offset > 0) window.scrollBy({ top: -offset, left: 0, behavior: 'auto' });
+  syncTopbarHeight();
+  if (extraOffset) element.style.scrollMarginTop = `calc(var(--scentory-live-header-h, 112px) + ${extraOffset}px)`;
+  element.scrollIntoView({ behavior, block: 'start' });
 }
 
 function smoothScrollToElement(element, extraOffset = 0) {
-  scrollElementIntoView(element, extraOffset);
+  scrollElementIntoView(element, extraOffset, 'smooth');
 }
 
-function highlightElement(element, className = 'jump-highlight', duration = 1800) {
+function highlightElement(element, className = 'jump-highlight', duration = 900) {
   if (!element) return;
   element.classList.remove(className);
   element.classList.add(className);
@@ -609,14 +625,10 @@ function highlightElement(element, className = 'jump-highlight', duration = 1800
 function scrollToOrderCard() {
   const orderCard = document.getElementById('myOrder');
   if (!orderCard) return;
-  requestAnimationFrame(() => {
-    scrollElementIntoView(orderCard, 4);
-    highlightElement(orderCard, 'order-jump-highlight', 1200);
-  });
+  requestAnimationFrame(() => scrollElementIntoView(orderCard, 10, 'smooth'));
 }
 
 function scrollToPerfume(id, options = {}) {
-  const { preserveSearch = false } = options;
   if (!id) return;
   const perfume = getPerfumeById(id);
   if (!perfume) {
@@ -624,42 +636,38 @@ function scrollToPerfume(id, options = {}) {
     return;
   }
 
-  // Search selection should show the exact product and navigate immediately.
-  if (searchInput) searchInput.value = preserveSearch ? perfume.name : '';
+  if (searchInput) {
+    searchInput.value = perfume.name;
+    searchInput.dataset.selectedId = id;
+    searchInput.blur();
+  }
   if (stockFilter) stockFilter.value = 'all';
   if (tagFilter) tagFilter.value = 'all';
   hideSearchSuggestions();
   renderProducts();
 
-  let attempts = 0;
-  const revealTarget = () => {
-    const card = document.getElementById(`perfume-${id}`) ||
-      Array.from(document.querySelectorAll('[data-perfume-id]')).find(el => el.dataset.perfumeId === id);
-
-    if (!card && attempts++ < 4) {
-      requestAnimationFrame(revealTarget);
-      return;
-    }
+  // One render, one scroll. Two frames only allow layout/keyboard state to settle.
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    const card = document.getElementById(`perfume-${id}`);
     if (!card) {
       showToast('Could not open the selected perfume. Please try again.', 'error');
       return;
     }
-
-    const img = card.querySelector('.product-image');
-    if (img) img.setAttribute('fetchpriority', 'high');
-    scrollElementIntoView(card, 8);
-    highlightElement(card, 'jump-highlight', 1200);
-  };
-
-  requestAnimationFrame(revealTarget);
+    syncTopbarHeight();
+    card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    highlightElement(card, 'jump-highlight', 900);
+  }));
 }
 
 function renderProducts() {
   const term = (searchInput?.value || '').trim().toLowerCase();
+  const exactId = searchInput?.dataset.selectedId || '';
   const stock = stockFilter?.value || 'all';
   const selectedTag = tagFilter?.value || 'all';
 
-  const matchesTerm = p => !term || `${p.name} ${p.id} ${shortOrderName(p.name)}`.toLowerCase().includes(term);
+  const matchesTerm = p => exactId
+    ? p.id === exactId
+    : (!term || `${p.name} ${p.id} ${shortOrderName(p.name)}`.toLowerCase().includes(term));
 
   const filtered = perfumes.filter(p => {
     const hasAvailable = productHasAvailableSize(p);
@@ -1018,18 +1026,18 @@ function restoreCustomerData() {
 
 
 
-let renderProductsFrame = 0;
-function scheduleRenderProducts() {
-  cancelAnimationFrame(renderProductsFrame);
-  renderProductsFrame = requestAnimationFrame(renderProducts);
-}
 searchInput.addEventListener('input', () => {
-  scheduleRenderProducts();
+  delete searchInput.dataset.selectedId;
   renderSearchSuggestions();
+  // Clearing the field immediately restores the full catalogue; typing itself stays lightweight.
+  if (!searchInput.value.trim()) renderProducts();
 });
 searchInput.addEventListener('focus', renderSearchSuggestions);
 searchInput.addEventListener('keydown', event => {
-  if (event.key === 'Escape') hideSearchSuggestions();
+  if (event.key === 'Escape') {
+    hideSearchSuggestions();
+    searchInput.blur();
+  }
   if (event.key === 'Enter') {
     const first = getSearchMatches(searchInput.value, 1)[0];
     if (first) {
@@ -1084,13 +1092,13 @@ if (topCartButton) {
 if (brandHomeButton) {
   brandHomeButton.addEventListener('click', event => {
     event.preventDefault();
-    if (searchInput) searchInput.value = '';
+    if (searchInput) { searchInput.value = ''; delete searchInput.dataset.selectedId; searchInput.blur(); }
     if (stockFilter) stockFilter.value = 'all';
     if (tagFilter) tagFilter.value = 'all';
     hideSearchSuggestions();
     renderProducts();
     const collection = document.getElementById('collection');
-    if (collection) requestAnimationFrame(() => scrollElementIntoView(collection, 0));
+    if (collection) requestAnimationFrame(() => scrollElementIntoView(collection, 8, 'smooth'));
     if (history && history.replaceState) {
       history.replaceState(null, '', '#collection');
     }
@@ -1113,4 +1121,14 @@ document.addEventListener('keydown', event => {
 
 restoreCart();
 restoreCustomerData();
+
+// Keep fixed-header spacing accurate across mobile orientation, browser UI and font/layout changes.
+window.addEventListener('resize', syncTopbarHeight, { passive: true });
+window.addEventListener('orientationchange', syncTopbarHeight, { passive: true });
+if ('ResizeObserver' in window) {
+  const headerObserver = new ResizeObserver(() => syncTopbarHeight());
+  const observedTopbar = document.querySelector('.topbar');
+  if (observedTopbar) headerObserver.observe(observedTopbar);
+}
+requestAnimationFrame(syncTopbarHeight);
 loadPerfumes();
