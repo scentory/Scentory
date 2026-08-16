@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3035';
+const DATA_VERSION = '3036';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
   'hawas-black-edp',
@@ -580,21 +580,27 @@ function renderBestSelling() {
 }
 
 function getFixedSearchOffset() {
-  const topbarHeight = document.querySelector('.topbar')?.offsetHeight || 0;
-  const toolbarHeight = document.querySelector('.toolbar')?.offsetHeight || 0;
-  return topbarHeight + toolbarHeight + 18;
+  const topbar = document.querySelector('.topbar');
+  if (!topbar) return 12;
+  const style = window.getComputedStyle(topbar);
+  const isSticky = style.position === 'sticky' || style.position === 'fixed';
+  return (isSticky ? topbar.getBoundingClientRect().height : 0) + 12;
+}
+
+function scrollElementIntoView(element, extraOffset = 0) {
+  if (!element) return;
+  element.scrollIntoView({ behavior: 'auto', block: 'start' });
+  const offset = getFixedSearchOffset() + extraOffset;
+  if (offset > 0) window.scrollBy({ top: -offset, left: 0, behavior: 'auto' });
 }
 
 function smoothScrollToElement(element, extraOffset = 0) {
-  if (!element) return;
-  const targetTop = element.getBoundingClientRect().top + window.scrollY - getFixedSearchOffset() - extraOffset;
-  window.scrollTo({ top: Math.max(0, targetTop), behavior: 'auto' });
+  scrollElementIntoView(element, extraOffset);
 }
 
 function highlightElement(element, className = 'jump-highlight', duration = 1800) {
   if (!element) return;
   element.classList.remove(className);
-  void element.offsetWidth;
   element.classList.add(className);
   clearTimeout(element._scentoryHighlightTimer);
   element._scentoryHighlightTimer = setTimeout(() => element.classList.remove(className), duration);
@@ -604,8 +610,8 @@ function scrollToOrderCard() {
   const orderCard = document.getElementById('myOrder');
   if (!orderCard) return;
   requestAnimationFrame(() => {
-    smoothScrollToElement(orderCard, 4);
-    highlightElement(orderCard, 'order-jump-highlight', 1600);
+    scrollElementIntoView(orderCard, 4);
+    highlightElement(orderCard, 'order-jump-highlight', 1200);
   });
 }
 
@@ -618,35 +624,34 @@ function scrollToPerfume(id, options = {}) {
     return;
   }
 
-  if (searchInput && !preserveSearch) searchInput.value = '';
+  // Search selection should show the exact product and navigate immediately.
+  if (searchInput) searchInput.value = preserveSearch ? perfume.name : '';
   if (stockFilter) stockFilter.value = 'all';
+  if (tagFilter) tagFilter.value = 'all';
   hideSearchSuggestions();
   renderProducts();
 
+  let attempts = 0;
   const revealTarget = () => {
-    let card = document.getElementById(`perfume-${id}`) ||
+    const card = document.getElementById(`perfume-${id}`) ||
       Array.from(document.querySelectorAll('[data-perfume-id]')).find(el => el.dataset.perfumeId === id);
 
-    if (!card && searchInput) {
-      searchInput.value = '';
-      renderProducts();
-      card = document.getElementById(`perfume-${id}`) ||
-        Array.from(document.querySelectorAll('[data-perfume-id]')).find(el => el.dataset.perfumeId === id);
+    if (!card && attempts++ < 4) {
+      requestAnimationFrame(revealTarget);
+      return;
     }
-
     if (!card) {
-      showToast('Could not open the selected perfume. Please clear search and try again.', 'error');
+      showToast('Could not open the selected perfume. Please try again.', 'error');
       return;
     }
 
     const img = card.querySelector('.product-image');
     if (img) img.setAttribute('fetchpriority', 'high');
-    smoothScrollToElement(card, 8);
-    highlightElement(card, 'jump-highlight', 1900);
+    scrollElementIntoView(card, 8);
+    highlightElement(card, 'jump-highlight', 1200);
   };
 
-  requestAnimationFrame(() => requestAnimationFrame(revealTarget));
-  setTimeout(revealTarget, 90);
+  requestAnimationFrame(revealTarget);
 }
 
 function renderProducts() {
@@ -1079,10 +1084,15 @@ if (topCartButton) {
 if (brandHomeButton) {
   brandHomeButton.addEventListener('click', event => {
     event.preventDefault();
-    smoothScrollToElement(document.documentElement, -getFixedSearchOffset());
+    if (searchInput) searchInput.value = '';
+    if (stockFilter) stockFilter.value = 'all';
+    if (tagFilter) tagFilter.value = 'all';
     hideSearchSuggestions();
+    renderProducts();
+    const collection = document.getElementById('collection');
+    if (collection) requestAnimationFrame(() => scrollElementIntoView(collection, 0));
     if (history && history.replaceState) {
-      history.replaceState(null, '', '#pageTop');
+      history.replaceState(null, '', '#collection');
     }
   });
 }
