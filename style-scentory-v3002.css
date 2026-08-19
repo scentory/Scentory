@@ -2423,7 +2423,7 @@ button, a, input, select, textarea, .price-tile {
 }
 
 
-/* ==========================================================================\n   Scentory v3037 — definitive lightweight frozen header + exact search jump\n   ========================================================================== */
+/* ==========================================================================\n   Scentory v3038 — definitive lightweight frozen header + exact search jump\n   ========================================================================== */
 :root { --scentory-live-header-h: 118px; }
 html {
   scroll-behavior: auto !important;
