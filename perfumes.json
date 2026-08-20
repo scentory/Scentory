@@ -4087,5 +4087,45 @@
       "10 ML": 320,
       "15 ML": 430
     }
+  },
+  {
+    "id": "rave-plato-lattafa",
+    "name": "Rave Plato by Lattafa (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 210,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 250,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 360,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 480,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "rave-plato-by-lattafa.jpg",
+    "tags": [
+      "Woody",
+      "Fresh",
+      "Elegant"
+    ],
+    "recommendation": "Best for office, formal events, meetings, smart-casual outings, dinner dates and elegant occasions, especially evenings.",
+    "prices": {
+      "5 ML": 210,
+      "6 ML": 250,
+      "10 ML": 360,
+      "15 ML": 480
+    }
   }
 ]
