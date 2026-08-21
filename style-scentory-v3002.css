@@ -2602,7 +2602,7 @@ body {
 
 
 /* ==========================================================================
-   Scentory v3044 — original discovery studio and six interactive scent tools
+   Scentory v3045 — five original perfume discovery tools
    ========================================================================== */
 .discovery-studio {
   width: min(1180px, calc(100% - 28px));
@@ -2949,54 +2949,6 @@ body {
 .discovery-box-item b { display: block; font-size: .76rem; }
 .discovery-box-item small { color: #888; font-size: .62rem; }
 .discovery-box-item strong { font-size: .74rem; white-space: nowrap; }
-.passport-card {
-  display: grid;
-  grid-template-columns: minmax(190px, 280px) minmax(0,1fr);
-  gap: 18px;
-  margin-top: 16px;
-  padding: 16px;
-  border: 1px solid rgba(255,255,255,.13);
-  border-radius: 22px;
-  background: linear-gradient(145deg, rgba(255,255,255,.07), rgba(255,255,255,.025));
-}
-.passport-card > img {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 17px;
-  background: #151515;
-}
-.passport-code {
-  display: inline-flex;
-  margin-bottom: 10px;
-  padding: 6px 9px;
-  border: 1px solid rgba(255,255,255,.17);
-  border-radius: 999px;
-  color: #aaa;
-  font-size: .63rem;
-  font-weight: 900;
-  letter-spacing: .08em;
-}
-.passport-copy h3 { margin: 0 0 6px; font-size: 1.35rem; }
-.passport-copy > p { color: #aaa; line-height: 1.55; font-size: .76rem; }
-.passport-facts { display: grid; gap: 7px; margin: 14px 0; }
-.passport-fact {
-  display: flex;
-  justify-content: space-between;
-  gap: 14px;
-  padding: 9px 0;
-  border-bottom: 1px solid rgba(255,255,255,.09);
-  font-size: .72rem;
-}
-.passport-fact span { color: #888; }
-.passport-sizes { display: flex; flex-wrap: wrap; gap: 7px; }
-.passport-size {
-  padding: 7px 9px;
-  border: 1px solid rgba(255,255,255,.14);
-  border-radius: 10px;
-  font-size: .64rem;
-}
-.passport-size.out { opacity: .48; text-decoration: line-through; }
 .cost-wear-card {
   margin-top: 16px;
   padding: 16px;
@@ -3060,7 +3012,139 @@ body {
   .discovery-result-grid { grid-template-columns: 1fr; }
   .discovery-result-card { grid-template-columns: 78px minmax(0,1fr); }
   .discovery-result-card img { width: 78px; height: 98px; }
-  .passport-card { grid-template-columns: 1fr; }
-  .passport-card > img { max-height: 310px; }
   .discovery-box-summary { align-items: flex-start; flex-direction: column; }
+}
+
+/* Similar Perfumes — transparent five-factor matching */
+.similarity-method {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 16px 0 0;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,.11);
+  border-radius: 15px;
+  background: rgba(255,255,255,.035);
+}
+.similarity-method strong {
+  flex: 1 0 100%;
+  font-size: .78rem;
+}
+.similarity-method span,
+.similarity-source div span,
+.box-option-label {
+  display: inline-flex;
+  width: fit-content;
+  padding: 5px 8px;
+  border: 1px solid rgba(255,255,255,.13);
+  border-radius: 999px;
+  color: #aaa;
+  font-size: .59rem;
+  font-weight: 800;
+}
+.similarity-source {
+  margin-bottom: 14px;
+  padding: 13px 15px;
+  border-left: 3px solid #fff;
+  border-radius: 4px 15px 15px 4px;
+  background: rgba(255,255,255,.05);
+}
+.similarity-source > span {
+  display: block;
+  color: #888;
+  font-size: .61rem;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+}
+.similarity-source > strong {
+  display: block;
+  margin: 5px 0 9px;
+  font-size: 1rem;
+}
+.similarity-source div { display: flex; flex-wrap: wrap; gap: 5px; }
+.similarity-grid { grid-template-columns: 1fr; }
+.similarity-result-card { grid-template-columns: 112px minmax(0,1fr); }
+.similarity-result-card > img { width: 112px; height: 138px; }
+.similarity-breakdown {
+  display: grid;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 9px;
+  border-radius: 11px;
+  background: rgba(0,0,0,.28);
+}
+.similarity-factor {
+  display: grid;
+  grid-template-columns: 110px minmax(80px,1fr) 34px;
+  align-items: center;
+  gap: 8px;
+  font-size: .58rem;
+}
+.similarity-factor > span { color: #bbb; }
+.similarity-factor > span small { color: #666; }
+.similarity-factor > div {
+  height: 5px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255,255,255,.1);
+}
+.similarity-factor > div i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #777, #fff);
+}
+.similarity-factor > b { text-align: right; color: #ddd; }
+
+/* Decant Box option generator */
+.discovery-box-summary > div { display: grid; gap: 4px; }
+.box-option-label { margin-bottom: 2px; color: #fff; }
+.box-option-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+/* Cost Per Spray guide */
+.spray-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 8px;
+  margin: 16px 0 0;
+}
+.spray-guide-card {
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 14px;
+  background: rgba(255,255,255,.035);
+}
+.spray-guide-card strong { display: block; font-size: .72rem; }
+.spray-guide-card p { margin: 6px 0 0; color: #888; font-size: .64rem; line-height: 1.45; }
+.cost-wear-grid.five-stats { grid-template-columns: repeat(3, minmax(0,1fr)); }
+.cost-wear-stat.featured {
+  border-color: rgba(255,255,255,.3);
+  background: rgba(255,255,255,.09);
+}
+.cost-size-message {
+  display: grid;
+  gap: 4px;
+  margin: 11px 0 0;
+  padding: 11px 13px;
+  border-radius: 13px;
+  background: rgba(255,255,255,.055);
+}
+.cost-size-message strong { font-size: .74rem; }
+.cost-size-message span { color: #999; font-size: .67rem; line-height: 1.45; }
+
+@media (max-width: 640px) {
+  .similarity-result-card { grid-template-columns: 78px minmax(0,1fr); }
+  .similarity-result-card > img { width: 78px; height: 98px; }
+  .similarity-factor { grid-template-columns: 86px minmax(60px,1fr) 30px; gap: 6px; }
+  .similarity-factor > span small { display: none; }
+  .spray-guide-grid,
+  .cost-wear-grid.five-stats { grid-template-columns: 1fr; }
+  .box-option-actions { justify-content: stretch; }
+  .box-option-actions .discovery-action { flex: 1 1 160px; }
 }
