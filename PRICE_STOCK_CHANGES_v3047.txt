@@ -1,0 +1,34 @@
+SCENTORY v3047 — UPDATE SUMMARY
+
+Baseline: Scentory master v3046
+New version: Scentory master v3047
+
+Changed catalogue files:
+- perfumes.json
+- script-scentory-v3002.js
+- index.html
+
+Added catalogue assets:
+- yusuf-bhai-bois-imperial.jpg
+- yusuf-bhai-men-212.jpg
+- yusuf-bhai-allure-homme-sport.jpg
+- hawas-rouge-edp.svg
+
+Update totals:
+- 107 perfume cards total.
+- Four new cards.
+- 170 existing size-price changes.
+- 51 existing size-stock changes.
+- Nine perfumes fully out of stock.
+- 30 ML remains excluded from perfumes.json and the website.
+
+Serial rules applied:
+- Three new Yusuf Bhai cards appear immediately after Yusuf Bhai - Wulong Cha.
+- Rave Plato appears immediately before Rave Now.
+- Oud Al Layl Midnight EDP is the final perfume.
+
+Important final-list overrides preserved:
+- Hawas Majestic: 300 / 370 / 560 / 790 Tk.
+- YSL Y: 3 ML 430, 5 ML 670, 6 ML 799, 10 ML 1299 Tk.
+- Rayhaan Aquatica: 220 / 270 / 390 / 530 Tk.
+- Rave Plato 6 ML remains a regular atomizer.

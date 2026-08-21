@@ -1,17 +1,22 @@
-Scentory Master Full Website v3025
+Scentory Master Full Website v3047
 
 Latest update:
-- Miami Blue by Ard added to the price list:
-  5 ML - 209 Tk
-  6 ML - 240 Tk
-  10 ML - 350 Tk
-  15 ML - 460 Tk
+- August 2026 final prices and stock applied to the full catalogue.
+- Catalogue expanded from 103 to 107 perfume cards.
+- Three new Yusuf Bhai cards and their supplied images added.
+- Hawas Rouge added in the supplied serial position as out of stock.
+- Website catalogue order now follows the supplied price-list order.
+- Five original Scentory perfume discovery tools remain available.
+- Transparent five-factor Similar Perfumes engine remains available.
+- Multi-option Decant Box Builder with Next Option remains available.
+- Cost Per Spray remains available.
+- Passport remains removed.
 - 30 ML remains removed from the website.
-- All previous features from v3020 are kept.
+- All previous shopping and ordering features remain available.
 
 Upload:
 1. Extract this ZIP
 2. Upload all extracted files to your GitHub repo root
 3. Replace existing files
 4. Commit changes
-5. Check: https://scentoryfragrance.com/?v=3025
+5. Check: https://scentoryfragrance.com/?v=3047

@@ -5,22 +5,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 230,
+        "price": 240,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 270,
+        "price": 290,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 410,
+        "price": 420,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 550,
+        "price": 580,
         "available": true,
         "premium": false
       }
@@ -33,10 +33,10 @@
     ],
     "recommendation": "Best for summer/spring, casual day outs, beach days, errands, and hanging out.",
     "prices": {
-      "5 ML": 230,
-      "6 ML": 270,
-      "10 ML": 410,
-      "15 ML": 550
+      "5 ML": 240,
+      "6 ML": 290,
+      "10 ML": 420,
+      "15 ML": 580
     }
   },
   {
@@ -50,17 +50,17 @@
         "premium": false
       },
       "6ml": {
-        "price": 310,
+        "price": 320,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 460,
+        "price": 480,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 640,
+        "price": 660,
         "available": true,
         "premium": false
       }
@@ -74,49 +74,9 @@
     "recommendation": "Best for clean fresh summer use, gym, daytime casual outings, and office.",
     "prices": {
       "5 ML": 260,
-      "6 ML": 310,
-      "10 ML": 460,
-      "15 ML": 640
-    }
-  },
-  {
-    "id": "oud-al-layl-midnight-edp",
-    "name": "Oud Al Layl Midnight EDP",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 160,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 190,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 260,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 350,
-        "available": true,
-        "premium": false
-      }
-    },
-    "image": "oud-al-layl-midnight-edp.webp",
-    "tags": [
-      "Aquatic",
-      "Summer",
-      "Gym"
-    ],
-    "recommendation": "Best for summer days, office, gym, and clubbing.",
-    "prices": {
-      "5 ML": 160,
-      "6 ML": 190,
-      "10 ML": 260,
-      "15 ML": 350
+      "6 ML": 320,
+      "10 ML": 480,
+      "15 ML": 660
     }
   },
   {
@@ -165,7 +125,7 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 280,
+        "price": 290,
         "available": true,
         "premium": false
       },
@@ -175,12 +135,12 @@
         "premium": true
       },
       "10ml": {
-        "price": 520,
+        "price": 540,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 720,
+        "price": 750,
         "available": true,
         "premium": false
       }
@@ -193,50 +153,10 @@
     ],
     "recommendation": "Best for summer, casual outings, university, beach trips, day hangouts, evening plans, and AC environments.",
     "prices": {
-      "5 ML": 280,
+      "5 ML": 290,
       "6 ML": 350,
-      "10 ML": 520,
-      "15 ML": 720
-    }
-  },
-  {
-    "id": "hawas-majestic-edp",
-    "name": "Hawas Majestic EDP",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 299,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 370,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 550,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 780,
-        "available": true,
-        "premium": false
-      }
-    },
-    "image": "hawas-majestic-edp.webp",
-    "tags": [
-      "Date Night",
-      "Party",
-      "Evening"
-    ],
-    "recommendation": "Best for dates, parties, evening outings, and special occasions.",
-    "prices": {
-      "5 ML": 299,
-      "6 ML": 370,
-      "10 ML": 550,
-      "15 ML": 780
+      "10 ML": 540,
+      "15 ML": 750
     }
   },
   {
@@ -261,7 +181,7 @@
       },
       "15ml": {
         "price": 750,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -279,6 +199,86 @@
       "6 ML": 360,
       "10 ML": 540,
       "15 ML": 750
+    }
+  },
+  {
+    "id": "hawas-rouge-edp",
+    "name": "Hawas Rouge EDP",
+    "status": "out",
+    "sizes": {
+      "5ml": {
+        "price": 290,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 350,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 540,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 750,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "hawas-rouge-edp.svg",
+    "tags": [
+      "Fresh",
+      "Sweet",
+      "Date Night"
+    ],
+    "recommendation": "A fresh-sweet option for evening plans, dates, parties and cooler weather. Currently out of stock.",
+    "prices": {
+      "5 ML": 290,
+      "6 ML": 350,
+      "10 ML": 540,
+      "15 ML": 750
+    }
+  },
+  {
+    "id": "hawas-majestic-edp",
+    "name": "Hawas Majestic EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 300,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 370,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 560,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 790,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "hawas-majestic-edp.webp",
+    "tags": [
+      "Date Night",
+      "Party",
+      "Evening"
+    ],
+    "recommendation": "Best for dates, parties, evening outings, and special occasions.",
+    "prices": {
+      "5 ML": 300,
+      "6 ML": 370,
+      "10 ML": 560,
+      "15 ML": 790
     }
   },
   {
@@ -302,7 +302,7 @@
         "premium": false
       },
       "15ml": {
-        "price": 580,
+        "price": 600,
         "available": true,
         "premium": false
       }
@@ -318,7 +318,7 @@
       "5 ML": 250,
       "6 ML": 300,
       "10 ML": 440,
-      "15 ML": 580
+      "15 ML": 600
     }
   },
   {
@@ -328,12 +328,12 @@
     "sizes": {
       "5ml": {
         "price": 270,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "6ml": {
-        "price": 310,
-        "available": true,
+        "price": 320,
+        "available": false,
         "premium": true
       },
       "10ml": {
@@ -356,7 +356,7 @@
     "recommendation": "Best for evening plans, dates, parties, and when you want a stronger impression.",
     "prices": {
       "5 ML": 270,
-      "6 ML": 310,
+      "6 ML": 320,
       "10 ML": 470,
       "15 ML": 650
     }
@@ -367,23 +367,23 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 280,
+        "price": 290,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 340,
+        "price": 350,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 510,
+        "price": 540,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 720,
-        "available": true,
+        "price": 750,
+        "available": false,
         "premium": false
       }
     },
@@ -395,10 +395,10 @@
     ],
     "recommendation": "Best for fresh casual wear, warm weather, gym, and daytime plans.",
     "prices": {
-      "5 ML": 280,
-      "6 ML": 340,
-      "10 ML": 510,
-      "15 ML": 720
+      "5 ML": 290,
+      "6 ML": 350,
+      "10 ML": 540,
+      "15 ML": 750
     }
   },
   {
@@ -407,22 +407,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 250,
+        "price": 260,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 299,
+        "price": 320,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 450,
+        "price": 470,
         "available": false,
         "premium": false
       },
       "15ml": {
-        "price": 630,
+        "price": 650,
         "available": false,
         "premium": false
       }
@@ -435,10 +435,10 @@
     ],
     "recommendation": "Best for evening wear, colder weather, formal occasions, and deeper perfume moods.",
     "prices": {
-      "5 ML": 250,
-      "6 ML": 299,
-      "10 ML": 450,
-      "15 ML": 630
+      "5 ML": 260,
+      "6 ML": 320,
+      "10 ML": 470,
+      "15 ML": 650
     }
   },
   {
@@ -452,12 +452,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 299,
+        "price": 310,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 450,
+        "price": 460,
         "available": true,
         "premium": false
       },
@@ -476,8 +476,8 @@
     "recommendation": "Best for daily use, office, formal occasions, and day-to-night wear.",
     "prices": {
       "5 ML": 250,
-      "6 ML": 299,
-      "10 ML": 450,
+      "6 ML": 310,
+      "10 ML": 460,
       "15 ML": 630
     }
   },
@@ -497,12 +497,12 @@
         "premium": true
       },
       "10ml": {
-        "price": 490,
+        "price": 500,
         "available": false,
         "premium": false
       },
       "15ml": {
-        "price": 670,
+        "price": 690,
         "available": false,
         "premium": false
       }
@@ -517,8 +517,8 @@
     "prices": {
       "5 ML": 290,
       "6 ML": 340,
-      "10 ML": 490,
-      "15 ML": 670
+      "10 ML": 500,
+      "15 ML": 690
     }
   },
   {
@@ -527,7 +527,7 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -537,12 +537,12 @@
         "premium": true
       },
       "10ml": {
-        "price": 730,
+        "price": 740,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 1030,
+        "price": 1050,
         "available": false,
         "premium": false
       }
@@ -557,95 +557,15 @@
     ],
     "recommendation": "Best for office, university, daytime outings, brunch, travel, and upscale casual wear, especially in spring and summer.",
     "prices": {
-      "5 ML": 380,
+      "5 ML": 390,
       "6 ML": 470,
-      "10 ML": 730,
-      "15 ML": 1030
+      "10 ML": 740,
+      "15 ML": 1050
     }
   },
   {
-    "id": "riiffs-fareed-edp",
-    "name": "Riiffs Fareed EDP",
-    "status": "out",
-    "sizes": {
-      "5ml": {
-        "price": 230,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 280,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 420,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 590,
-        "available": true,
-        "premium": false
-      }
-    },
-    "image": "riiffs-fareed-edp.webp",
-    "tags": [
-      "Date Night",
-      "Office",
-      "Winter"
-    ],
-    "recommendation": "Best for date nights, evening gatherings, and office wear.",
-    "prices": {
-      "5 ML": 230,
-      "6 ML": 280,
-      "10 ML": 420,
-      "15 ML": 590
-    }
-  },
-  {
-    "id": "riiffs-freeze-edp",
-    "name": "Riiffs Freeze EDP",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 299,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 370,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 550,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 780,
-        "available": true,
-        "premium": false
-      }
-    },
-    "image": "riiffs-freeze-edp.webp",
-    "tags": [
-      "Fresh",
-      "Summer",
-      "Office"
-    ],
-    "recommendation": "Best for office, university, casual outings, and summer days.",
-    "prices": {
-      "5 ML": 299,
-      "6 ML": 370,
-      "10 ML": 550,
-      "15 ML": 780
-    }
-  },
-  {
-    "id": "reef-33-edp",
-    "name": "Reef 33 Mother's Day (Limited Edition)",
+    "id": "yusuf-bhai-bois-imperial",
+    "name": "Yusuf Bhai - Bois Imperial",
     "status": "available",
     "sizes": {
       "5ml": {
@@ -669,6 +589,206 @@
         "premium": false
       }
     },
+    "image": "yusuf-bhai-bois-imperial.jpg",
+    "tags": [
+      "Woody",
+      "Fresh",
+      "Office"
+    ],
+    "recommendation": "Best for office, formal settings, smart-casual wear and refined everyday use.",
+    "prices": {
+      "5 ML": 309,
+      "6 ML": 380,
+      "10 ML": 560,
+      "15 ML": 780
+    }
+  },
+  {
+    "id": "yusuf-bhai-men-212",
+    "name": "Yusuf Bhai - Men 212",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 470,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 640,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "yusuf-bhai-men-212.jpg",
+    "tags": [
+      "Fresh",
+      "Office",
+      "Daily Wear"
+    ],
+    "recommendation": "Best for office, university, daytime plans and clean versatile daily wear.",
+    "prices": {
+      "5 ML": 260,
+      "6 ML": 320,
+      "10 ML": 470,
+      "15 ML": 640
+    }
+  },
+  {
+    "id": "yusuf-bhai-allure-homme-sport",
+    "name": "Yusuf Bhai - Allure Homme Sport",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 470,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 640,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "yusuf-bhai-allure-homme-sport.jpg",
+    "tags": [
+      "Fresh",
+      "Aquatic",
+      "Gym"
+    ],
+    "recommendation": "Best for Bangladesh heat, gym, travel, daytime use and sporty casual occasions.",
+    "prices": {
+      "5 ML": 260,
+      "6 ML": 320,
+      "10 ML": 470,
+      "15 ML": 640
+    }
+  },
+  {
+    "id": "riiffs-fareed-edp",
+    "name": "Riiffs Fareed EDP",
+    "status": "out",
+    "sizes": {
+      "5ml": {
+        "price": 240,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 290,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 430,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 590,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "riiffs-fareed-edp.webp",
+    "tags": [
+      "Date Night",
+      "Office",
+      "Winter"
+    ],
+    "recommendation": "Best for date nights, evening gatherings, and office wear.",
+    "prices": {
+      "5 ML": 240,
+      "6 ML": 290,
+      "10 ML": 430,
+      "15 ML": 590
+    }
+  },
+  {
+    "id": "riiffs-freeze-edp",
+    "name": "Riiffs Freeze EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 299,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 370,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 560,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 790,
+        "available": true,
+        "premium": false
+      }
+    },
+    "image": "riiffs-freeze-edp.webp",
+    "tags": [
+      "Fresh",
+      "Summer",
+      "Office"
+    ],
+    "recommendation": "Best for office, university, casual outings, and summer days.",
+    "prices": {
+      "5 ML": 299,
+      "6 ML": 370,
+      "10 ML": 560,
+      "15 ML": 790
+    }
+  },
+  {
+    "id": "reef-33-edp",
+    "name": "Reef 33 Mother's Day (Limited Edition)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 309,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 380,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 560,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 790,
+        "available": false,
+        "premium": false
+      }
+    },
     "image": "reef-33-mothers-day-limited-edition.jpg",
     "tags": [
       "Fresh",
@@ -680,7 +800,7 @@
       "5 ML": 309,
       "6 ML": 380,
       "10 ML": 560,
-      "15 ML": 780
+      "15 ML": 790
     }
   },
   {
@@ -699,13 +819,13 @@
         "premium": true
       },
       "10ml": {
-        "price": 590,
+        "price": 600,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 830,
-        "available": true,
+        "price": 840,
+        "available": false,
         "premium": false
       }
     },
@@ -719,8 +839,8 @@
     "prices": {
       "5 ML": 319,
       "6 ML": 390,
-      "10 ML": 590,
-      "15 ML": 830
+      "10 ML": 600,
+      "15 ML": 840
     }
   },
   {
@@ -729,23 +849,23 @@
     "status": "out",
     "sizes": {
       "5ml": {
-        "price": 320,
-        "available": true,
+        "price": 330,
+        "available": false,
         "premium": false
       },
       "6ml": {
-        "price": 390,
-        "available": true,
+        "price": 410,
+        "available": false,
         "premium": true
       },
       "10ml": {
-        "price": 599,
-        "available": true,
+        "price": 620,
+        "available": false,
         "premium": false
       },
       "15ml": {
-        "price": 850,
-        "available": true,
+        "price": 880,
+        "available": false,
         "premium": false
       }
     },
@@ -757,10 +877,10 @@
     ],
     "recommendation": "Best for office, formal events, and evening dates.",
     "prices": {
-      "5 ML": 320,
-      "6 ML": 390,
-      "10 ML": 599,
-      "15 ML": 850
+      "5 ML": 330,
+      "6 ML": 410,
+      "10 ML": 620,
+      "15 ML": 880
     }
   },
   {
@@ -769,22 +889,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 430,
+        "price": 450,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 520,
+        "price": 550,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 799,
+        "price": 860,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 1150,
+        "price": 1240,
         "available": false,
         "premium": false
       }
@@ -797,10 +917,10 @@
     ],
     "recommendation": "A versatile signature perfume for office, dates, formal events, and balanced year-round wear.",
     "prices": {
-      "5 ML": 430,
-      "6 ML": 520,
-      "10 ML": 799,
-      "15 ML": 1150
+      "5 ML": 450,
+      "6 ML": 550,
+      "10 ML": 860,
+      "15 ML": 1240
     }
   },
   {
@@ -819,12 +939,12 @@
         "premium": true
       },
       "10ml": {
-        "price": 630,
+        "price": 640,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 880,
+        "price": 900,
         "available": false,
         "premium": false
       }
@@ -839,8 +959,8 @@
     "prices": {
       "5 ML": 350,
       "6 ML": 420,
-      "10 ML": 630,
-      "15 ML": 880
+      "10 ML": 640,
+      "15 ML": 900
     }
   },
   {
@@ -854,18 +974,18 @@
         "premium": false
       },
       "6ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 560,
+        "price": 600,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 780,
-        "available": true,
+        "price": 840,
+        "available": false,
         "premium": false
       }
     },
@@ -878,9 +998,9 @@
     "recommendation": "Best for the office, high-heat summer days, and polished formal daytime wear.",
     "prices": {
       "5 ML": 320,
-      "6 ML": 380,
-      "10 ML": 560,
-      "15 ML": 780
+      "6 ML": 390,
+      "10 ML": 600,
+      "15 ML": 840
     }
   },
   {
@@ -900,12 +1020,12 @@
       },
       "10ml": {
         "price": 799,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
         "price": 1170,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -929,22 +1049,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 280,
+        "price": 290,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 330,
+        "price": 350,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 499,
+        "price": 540,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 699,
+        "price": 750,
         "available": true,
         "premium": false
       }
@@ -957,10 +1077,10 @@
     ],
     "recommendation": "Best for evening wear, dates, parties, and cooler weather.",
     "prices": {
-      "5 ML": 280,
-      "6 ML": 330,
-      "10 ML": 499,
-      "15 ML": 699
+      "5 ML": 290,
+      "6 ML": 350,
+      "10 ML": 540,
+      "15 ML": 750
     }
   },
   {
@@ -969,22 +1089,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 330,
+        "price": 340,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 399,
+        "price": 410,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 630,
+        "price": 640,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 890,
+        "price": 900,
         "available": false,
         "premium": false
       }
@@ -997,10 +1117,10 @@
     ],
     "recommendation": "Best for date nights, clubbing, outdoor events, and office wear.",
     "prices": {
-      "5 ML": 330,
-      "6 ML": 399,
-      "10 ML": 630,
-      "15 ML": 890
+      "5 ML": 340,
+      "6 ML": 410,
+      "10 ML": 640,
+      "15 ML": 900
     }
   },
   {
@@ -1025,7 +1145,7 @@
       },
       "15ml": {
         "price": 690,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -1049,23 +1169,23 @@
     "status": "out",
     "sizes": {
       "5ml": {
-        "price": 650,
-        "available": true,
+        "price": 670,
+        "available": false,
         "premium": false
       },
       "6ml": {
-        "price": 780,
-        "available": true,
+        "price": 810,
+        "available": false,
         "premium": true
       },
       "10ml": {
-        "price": 1280,
-        "available": true,
+        "price": 1310,
+        "available": false,
         "premium": false
       },
       "15ml": {
-        "price": 1890,
-        "available": true,
+        "price": 1910,
+        "available": false,
         "premium": false
       }
     },
@@ -1077,10 +1197,10 @@
     ],
     "recommendation": "Best for night time, dates, winter/fall, romantic evenings, parties, and special occasions.",
     "prices": {
-      "5 ML": 650,
-      "6 ML": 780,
-      "10 ML": 1280,
-      "15 ML": 1890
+      "5 ML": 670,
+      "6 ML": 810,
+      "10 ML": 1310,
+      "15 ML": 1910
     }
   },
   {
@@ -1094,7 +1214,7 @@
         "premium": false
       },
       "5ml": {
-        "price": 460,
+        "price": 470,
         "available": true,
         "premium": false
       },
@@ -1104,8 +1224,8 @@
         "premium": true
       },
       "10ml": {
-        "price": 880,
-        "available": false,
+        "price": 900,
+        "available": true,
         "premium": false
       }
     },
@@ -1118,9 +1238,9 @@
     "recommendation": "Best for date night, evening hangouts, parties, dinner, winter/fall, cold weather, and AC environments.",
     "prices": {
       "3 ML": 310,
-      "5 ML": 460,
+      "5 ML": 470,
       "6 ML": 570,
-      "10 ML": 880
+      "10 ML": 900
     }
   },
   {
@@ -1209,22 +1329,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 420,
+        "price": 440,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 520,
+        "price": 530,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 810,
+        "price": 840,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 1180,
+        "price": 1200,
         "available": true,
         "premium": false
       }
@@ -1237,10 +1357,10 @@
     ],
     "recommendation": "Best for office or daily casual use, especially spring and summer days.",
     "prices": {
-      "5 ML": 420,
-      "6 ML": 520,
-      "10 ML": 810,
-      "15 ML": 1180
+      "5 ML": 440,
+      "6 ML": 530,
+      "10 ML": 840,
+      "15 ML": 1200
     }
   },
   {
@@ -1250,22 +1370,22 @@
     "sizes": {
       "5ml": {
         "price": 399,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "6ml": {
-        "price": 480,
-        "available": true,
+        "price": 490,
+        "available": false,
         "premium": true
       },
       "10ml": {
-        "price": 750,
-        "available": true,
+        "price": 760,
+        "available": false,
         "premium": false
       },
       "15ml": {
-        "price": 1080,
-        "available": true,
+        "price": 1090,
+        "available": false,
         "premium": false
       }
     },
@@ -1278,9 +1398,9 @@
     "recommendation": "Best for nightclubs, parties, evening social events, and office wear.",
     "prices": {
       "5 ML": 399,
-      "6 ML": 480,
-      "10 ML": 750,
-      "15 ML": 1080
+      "6 ML": 490,
+      "10 ML": 760,
+      "15 ML": 1090
     }
   },
   {
@@ -1294,17 +1414,17 @@
         "premium": false
       },
       "6ml": {
-        "price": 500,
+        "price": 510,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 770,
-        "available": true,
+        "price": 810,
+        "available": false,
         "premium": false
       },
       "15ml": {
-        "price": 1099,
+        "price": 1150,
         "available": false,
         "premium": false
       }
@@ -1318,9 +1438,9 @@
     "recommendation": "Best for beach, summer outings, outdoor hangouts, casual day wear, travel, and seaside evening vibes.",
     "prices": {
       "5 ML": 420,
-      "6 ML": 500,
-      "10 ML": 770,
-      "15 ML": 1099
+      "6 ML": 510,
+      "10 ML": 810,
+      "15 ML": 1150
     }
   },
   {
@@ -1410,22 +1530,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 370,
+        "price": 330,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 450,
+        "price": 399,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 690,
+        "price": 599,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 990,
+        "price": 830,
         "available": true,
         "premium": false
       }
@@ -1438,10 +1558,10 @@
     ],
     "recommendation": "Best for spring/summer parties, clubbing, outdoor events, and times you want to be noticed.",
     "prices": {
-      "5 ML": 370,
-      "6 ML": 450,
-      "10 ML": 690,
-      "15 ML": 990
+      "5 ML": 330,
+      "6 ML": 399,
+      "10 ML": 599,
+      "15 ML": 830
     }
   },
   {
@@ -1450,22 +1570,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 399,
+        "price": 330,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 480,
+        "price": 399,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 760,
+        "price": 599,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 1099,
+        "price": 830,
         "available": true,
         "premium": false
       }
@@ -1478,10 +1598,10 @@
     ],
     "recommendation": "Best for office, high-heat summer days, casual daytime outings, and daily wear.",
     "prices": {
-      "5 ML": 399,
-      "6 ML": 480,
-      "10 ML": 760,
-      "15 ML": 1099
+      "5 ML": 330,
+      "6 ML": 399,
+      "10 ML": 599,
+      "15 ML": 830
     }
   },
   {
@@ -1495,17 +1615,17 @@
         "premium": false
       },
       "6ml": {
-        "price": 320,
+        "price": 340,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 490,
+        "price": 510,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 690,
+        "price": 710,
         "available": true,
         "premium": false
       }
@@ -1519,9 +1639,9 @@
     "recommendation": "Best for daytime, gym, office, casual outdoor events, summer, spring, and high heat.",
     "prices": {
       "5 ML": 280,
-      "6 ML": 320,
-      "10 ML": 490,
-      "15 ML": 690
+      "6 ML": 340,
+      "10 ML": 510,
+      "15 ML": 710
     }
   },
   {
@@ -1530,12 +1650,12 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 210,
+        "price": 220,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
@@ -1558,8 +1678,8 @@
     ],
     "recommendation": "Best for daily, office, daytime, spring, and summer wear.",
     "prices": {
-      "5 ML": 210,
-      "6 ML": 260,
+      "5 ML": 220,
+      "6 ML": 270,
       "10 ML": 399,
       "15 ML": 540
     }
@@ -1567,26 +1687,26 @@
   {
     "id": "zeleny-by-ahmed-edp",
     "name": "Zeleny By Ahmed EDP",
-    "status": "out",
+    "status": "available",
     "sizes": {
       "5ml": {
-        "price": 199,
+        "price": 220,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 250,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 370,
+        "price": 400,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 499,
-        "available": false,
+        "price": 540,
+        "available": true,
         "premium": false
       }
     },
@@ -1598,10 +1718,10 @@
     ],
     "recommendation": "Best for daytime, summer, and office wear.",
     "prices": {
-      "5 ML": 199,
-      "6 ML": 250,
-      "10 ML": 370,
-      "15 ML": 499
+      "5 ML": 220,
+      "6 ML": 270,
+      "10 ML": 400,
+      "15 ML": 540
     }
   },
   {
@@ -1615,7 +1735,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 240,
+        "price": 250,
         "available": true,
         "premium": true
       },
@@ -1625,7 +1745,7 @@
         "premium": false
       },
       "15ml": {
-        "price": 460,
+        "price": 470,
         "available": true,
         "premium": false
       }
@@ -1639,9 +1759,9 @@
     "recommendation": "A fresh blue-style pick for daily wear, warm weather, office, university, and casual outings.",
     "prices": {
       "5 ML": 209,
-      "6 ML": 240,
+      "6 ML": 250,
       "10 ML": 350,
-      "15 ML": 460
+      "15 ML": 470
     },
     "posterImage": "miami-blue-by-ard.webp"
   },
@@ -1656,7 +1776,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 210,
+        "price": 230,
         "available": true,
         "premium": true
       },
@@ -1680,7 +1800,7 @@
     "recommendation": "Best for office, gym, casual daily wear, and fresh all-season use.",
     "prices": {
       "5 ML": 180,
-      "6 ML": 210,
+      "6 ML": 230,
       "10 ML": 320,
       "15 ML": 430
     }
@@ -1696,7 +1816,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 220,
+        "price": 230,
         "available": true,
         "premium": true
       },
@@ -1720,7 +1840,7 @@
     "recommendation": "Best for summer, office, gym, and casual daytime.",
     "prices": {
       "5 ML": 180,
-      "6 ML": 220,
+      "6 ML": 230,
       "10 ML": 320,
       "15 ML": 430
     }
@@ -1736,7 +1856,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 220,
+        "price": 230,
         "available": true,
         "premium": true
       },
@@ -1760,7 +1880,7 @@
     "recommendation": "Best as a signature daily perfume for office, professional meetings, and high-end casual events.",
     "prices": {
       "5 ML": 180,
-      "6 ML": 220,
+      "6 ML": 230,
       "10 ML": 320,
       "15 ML": 430
     }
@@ -1771,23 +1891,23 @@
     "status": "out",
     "sizes": {
       "5ml": {
-        "price": 180,
-        "available": true,
+        "price": 200,
+        "available": false,
         "premium": false
       },
       "6ml": {
-        "price": 220,
-        "available": true,
+        "price": 250,
+        "available": false,
         "premium": true
       },
       "10ml": {
-        "price": 320,
-        "available": true,
+        "price": 360,
+        "available": false,
         "premium": false
       },
       "15ml": {
-        "price": 430,
-        "available": true,
+        "price": 490,
+        "available": false,
         "premium": false
       }
     },
@@ -1799,10 +1919,10 @@
     ],
     "recommendation": "Best for evening wear, date nights, and formal events.",
     "prices": {
-      "5 ML": 180,
-      "6 ML": 220,
-      "10 ML": 320,
-      "15 ML": 430
+      "5 ML": 200,
+      "6 ML": 250,
+      "10 ML": 360,
+      "15 ML": 490
     }
   },
   {
@@ -1821,13 +1941,13 @@
         "premium": true
       },
       "10ml": {
-        "price": 499,
+        "price": 520,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 699,
-        "available": true,
+        "price": 720,
+        "available": false,
         "premium": false
       }
     },
@@ -1841,8 +1961,8 @@
     "prices": {
       "5 ML": 290,
       "6 ML": 340,
-      "10 ML": 499,
-      "15 ML": 699
+      "10 ML": 520,
+      "15 ML": 720
     }
   },
   {
@@ -1901,7 +2021,7 @@
         "premium": true
       },
       "10ml": {
-        "price": 390,
+        "price": 400,
         "available": true,
         "premium": false
       },
@@ -1921,7 +2041,7 @@
     "prices": {
       "5 ML": 220,
       "6 ML": 270,
-      "10 ML": 390,
+      "10 ML": 400,
       "15 ML": 550
     }
   },
@@ -2016,12 +2136,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2040,8 +2160,8 @@
     "recommendation": "Best for summer, daytime, office, university, gym, casual outings, beach, and travel.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2056,18 +2176,18 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
       "15ml": {
         "price": 530,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -2082,8 +2202,8 @@
     "recommendation": "Best for office, university, daytime outings, smart-casual and formal settings, especially in spring, summer, and warm weather.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2098,12 +2218,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2122,8 +2242,8 @@
     "recommendation": "Best for summer, beach, vacation, daytime outings, casual hangouts, university, and gym.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2138,12 +2258,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2162,8 +2282,8 @@
     "recommendation": "Best for evening outings, date nights, formal events, and office.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2178,12 +2298,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2202,8 +2322,8 @@
     "recommendation": "Best for evening, winter/cool weather, date night, party, formal events, and AC room.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2218,12 +2338,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2242,8 +2362,8 @@
     "recommendation": "Best for daily wear, office, nights out, and special occasions.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2258,12 +2378,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2282,8 +2402,8 @@
     "recommendation": "Best for office-safe wear, gym, casual daytime outings, daily wear, spring, and summer.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2298,12 +2418,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2322,8 +2442,8 @@
     "recommendation": "Best for cool/cold weather, evenings, dates, parties, and formal occasions.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2338,12 +2458,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2362,8 +2482,8 @@
     "recommendation": "Best for date nights, weddings, evening outings, and winter/cooler weather.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2378,12 +2498,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2402,8 +2522,8 @@
     "recommendation": "Best for evening, date, winter, and night events.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2418,12 +2538,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2442,8 +2562,8 @@
     "recommendation": "Best for summer days, clubbing, casual outings, office, and gym.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2458,12 +2578,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2482,8 +2602,8 @@
     "recommendation": "Best for summer, daytime, office, university, casual outings, travel, and clean fresh daily use.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2498,12 +2618,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2522,8 +2642,8 @@
     "recommendation": "Best for beach, tropical vacations, casual outdoor summer hangouts, and gym.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2538,12 +2658,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2562,8 +2682,8 @@
     "recommendation": "Best for evening wear, cooler weather, special occasions, and bold signature moments.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2578,12 +2698,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2602,8 +2722,8 @@
     "recommendation": "Best for evening outings, night dates, and formal occasions.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2618,12 +2738,12 @@
         "premium": false
       },
       "6ml": {
-        "price": 260,
+        "price": 270,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 380,
+        "price": 390,
         "available": true,
         "premium": false
       },
@@ -2642,8 +2762,8 @@
     "recommendation": "Best for night outs, dates, and formal evening events in autumn and winter.",
     "prices": {
       "5 ML": 220,
-      "6 ML": 260,
-      "10 ML": 380,
+      "6 ML": 270,
+      "10 ML": 390,
       "15 ML": 530
     }
   },
@@ -2653,23 +2773,23 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 230,
+        "price": 240,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 280,
+        "price": 300,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 430,
+        "price": 440,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 590,
-        "available": true,
+        "price": 600,
+        "available": false,
         "premium": false
       }
     },
@@ -2681,10 +2801,10 @@
     ],
     "recommendation": "Best for formal events, weddings, and evening dinners.",
     "prices": {
-      "5 ML": 230,
-      "6 ML": 280,
-      "10 ML": 430,
-      "15 ML": 590
+      "5 ML": 240,
+      "6 ML": 300,
+      "10 ML": 440,
+      "15 ML": 600
     }
   },
   {
@@ -2693,22 +2813,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 230,
+        "price": 240,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 280,
+        "price": 300,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 430,
+        "price": 440,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 590,
+        "price": 600,
         "available": true,
         "premium": false
       }
@@ -2721,10 +2841,10 @@
     ],
     "recommendation": "Best for highly versatile casual outings, dates, and evening events.",
     "prices": {
-      "5 ML": 230,
-      "6 ML": 280,
-      "10 ML": 430,
-      "15 ML": 590
+      "5 ML": 240,
+      "6 ML": 300,
+      "10 ML": 440,
+      "15 ML": 600
     }
   },
   {
@@ -2738,47 +2858,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 350,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 530,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 750,
-        "available": true,
-        "premium": false
-      }
-    },
-    "image": "armaf-dunescape-edp.webp",
-    "tags": [
-      "Office",
-      "Formal",
-      "Gym"
-    ],
-    "recommendation": "Best for office, spring time, formal events, and gym.",
-    "prices": {
-      "5 ML": 299,
-      "6 ML": 350,
-      "10 ML": 530,
-      "15 ML": 750
-    }
-  },
-  {
-    "id": "club-de-nuit-intense-man-pure-parfum",
-    "name": "Club De Nuit Intense Man PURE Parfum",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 299,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 350,
+        "price": 360,
         "available": true,
         "premium": true
       },
@@ -2793,6 +2873,46 @@
         "premium": false
       }
     },
+    "image": "armaf-dunescape-edp.webp",
+    "tags": [
+      "Office",
+      "Formal",
+      "Gym"
+    ],
+    "recommendation": "Best for office, spring time, formal events, and gym.",
+    "prices": {
+      "5 ML": 299,
+      "6 ML": 360,
+      "10 ML": 540,
+      "15 ML": 760
+    }
+  },
+  {
+    "id": "club-de-nuit-intense-man-pure-parfum",
+    "name": "Club De Nuit Intense Man PURE Parfum",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 300,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 370,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 570,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 790,
+        "available": true,
+        "premium": false
+      }
+    },
     "image": "club-de-nuit-intense-man-pure-parfum.webp",
     "tags": [
       "Date Night",
@@ -2801,10 +2921,10 @@
     ],
     "recommendation": "Best for evening, date nights, parties, and longer-lasting presence.",
     "prices": {
-      "5 ML": 299,
-      "6 ML": 350,
-      "10 ML": 540,
-      "15 ML": 760
+      "5 ML": 300,
+      "6 ML": 370,
+      "10 ML": 570,
+      "15 ML": 790
     }
   },
   {
@@ -2818,17 +2938,17 @@
         "premium": false
       },
       "6ml": {
-        "price": 510,
+        "price": 520,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 780,
+        "price": 810,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 1120,
+        "price": 1160,
         "available": false,
         "premium": false
       }
@@ -2844,9 +2964,9 @@
     "recommendation": "Best for parties, weddings, date nights, formal events, and special occasions, especially evenings and cooler weather.",
     "prices": {
       "5 ML": 420,
-      "6 ML": 510,
-      "10 ML": 780,
-      "15 ML": 1120
+      "6 ML": 520,
+      "10 ML": 810,
+      "15 ML": 1160
     }
   },
   {
@@ -2894,22 +3014,22 @@
     "status": "out",
     "sizes": {
       "5ml": {
-        "price": 630,
-        "available": true,
+        "price": 690,
+        "available": false,
         "premium": false
       },
       "6ml": {
-        "price": 760,
-        "available": true,
+        "price": 840,
+        "available": false,
         "premium": true
       },
       "10ml": {
-        "price": 1230,
-        "available": true,
+        "price": 1360,
+        "available": false,
         "premium": false
       },
       "15ml": {
-        "price": null,
+        "price": 1990,
         "available": false,
         "premium": false
       }
@@ -2922,10 +3042,10 @@
     ],
     "recommendation": "Best for year-round wear, semi-formal events, date nights, and stronger evening use.",
     "prices": {
-      "5 ML": 630,
-      "6 ML": 760,
-      "10 ML": 1230,
-      "15 ML": null
+      "5 ML": 690,
+      "6 ML": 840,
+      "10 ML": 1360,
+      "15 ML": 1990
     }
   },
   {
@@ -2939,17 +3059,17 @@
         "premium": false
       },
       "6ml": {
-        "price": 320,
+        "price": 340,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 499,
+        "price": 510,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 690,
+        "price": 700,
         "available": true,
         "premium": false
       }
@@ -2962,9 +3082,9 @@
     "recommendation": "A versatile pick from Scentory.",
     "prices": {
       "5 ML": 290,
-      "6 ML": 320,
-      "10 ML": 499,
-      "15 ML": 690
+      "6 ML": 340,
+      "10 ML": 510,
+      "15 ML": 700
     }
   },
   {
@@ -2978,18 +3098,18 @@
         "premium": false
       },
       "6ml": {
-        "price": 320,
+        "price": 340,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 499,
+        "price": 510,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 690,
-        "available": true,
+        "price": 710,
+        "available": false,
         "premium": false
       }
     },
@@ -3002,9 +3122,9 @@
     "recommendation": "Best for spring days, office, nights out, clubbing, and casual dates.",
     "prices": {
       "5 ML": 290,
-      "6 ML": 320,
-      "10 ML": 499,
-      "15 ML": 690
+      "6 ML": 340,
+      "10 ML": 510,
+      "15 ML": 710
     }
   },
   {
@@ -3018,17 +3138,17 @@
         "premium": false
       },
       "6ml": {
-        "price": 370,
+        "price": 390,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 580,
+        "price": 590,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 820,
+        "price": 830,
         "available": true,
         "premium": false
       }
@@ -3042,9 +3162,9 @@
     "recommendation": "Best for office, gym, casual day outings, and date nights.",
     "prices": {
       "5 ML": 320,
-      "6 ML": 370,
-      "10 ML": 580,
-      "15 ML": 820
+      "6 ML": 390,
+      "10 ML": 590,
+      "15 ML": 830
     }
   },
   {
@@ -3063,12 +3183,12 @@
         "premium": true
       },
       "10ml": {
-        "price": 599,
+        "price": 610,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 850,
+        "price": 860,
         "available": false,
         "premium": false
       }
@@ -3083,8 +3203,8 @@
     "prices": {
       "5 ML": 330,
       "6 ML": 399,
-      "10 ML": 599,
-      "15 ML": 850
+      "10 ML": 610,
+      "15 ML": 860
     }
   },
   {
@@ -3098,18 +3218,18 @@
         "premium": false
       },
       "6ml": {
-        "price": 350,
+        "price": 370,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 550,
+        "price": 560,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 760,
-        "available": true,
+        "price": 780,
+        "available": false,
         "premium": false
       }
     },
@@ -3122,9 +3242,9 @@
     "recommendation": "Best for fresh aquatic daytime wear, warm weather, and easy casual/office use.",
     "prices": {
       "5 ML": 299,
-      "6 ML": 350,
-      "10 ML": 550,
-      "15 ML": 760
+      "6 ML": 370,
+      "10 ML": 560,
+      "15 ML": 780
     }
   },
   {
@@ -3138,7 +3258,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 340,
+        "price": 350,
         "available": true,
         "premium": true
       },
@@ -3148,7 +3268,7 @@
         "premium": false
       },
       "15ml": {
-        "price": 720,
+        "price": 730,
         "available": false,
         "premium": false
       }
@@ -3162,9 +3282,9 @@
     "recommendation": "Best for office, gym, casual dates, and daytime wear in spring, summer, and autumn.",
     "prices": {
       "5 ML": 290,
-      "6 ML": 340,
+      "6 ML": 350,
       "10 ML": 520,
-      "15 ML": 720
+      "15 ML": 730
     }
   },
   {
@@ -3178,7 +3298,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 350,
+        "price": 370,
         "available": true,
         "premium": true
       },
@@ -3188,8 +3308,8 @@
         "premium": false
       },
       "15ml": {
-        "price": 770,
-        "available": false,
+        "price": 780,
+        "available": true,
         "premium": false
       }
     },
@@ -3202,9 +3322,9 @@
     "recommendation": "Best for evening wear, dates, cooler weather, and warm gourmand moods.",
     "prices": {
       "5 ML": 299,
-      "6 ML": 350,
+      "6 ML": 370,
       "10 ML": 560,
-      "15 ML": 770
+      "15 ML": 780
     }
   },
   {
@@ -3218,7 +3338,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 350,
+        "price": 370,
         "available": true,
         "premium": true
       },
@@ -3228,7 +3348,7 @@
         "premium": false
       },
       "15ml": {
-        "price": 770,
+        "price": 780,
         "available": true,
         "premium": false
       }
@@ -3242,9 +3362,9 @@
     "recommendation": "Best for spring/summer day and evening, casual wear, and nights out.",
     "prices": {
       "5 ML": 299,
-      "6 ML": 350,
+      "6 ML": 370,
       "10 ML": 560,
-      "15 ML": 770
+      "15 ML": 780
     }
   },
   {
@@ -3253,22 +3373,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 199,
+        "price": 210,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 240,
+        "price": 250,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 350,
+        "price": 360,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 480,
+        "price": 490,
         "available": true,
         "premium": false
       }
@@ -3281,10 +3401,10 @@
     ],
     "recommendation": "Best for spring/summer, daytime, casual, office, and outdoor wear.",
     "prices": {
-      "5 ML": 199,
-      "6 ML": 240,
-      "10 ML": 350,
-      "15 ML": 480
+      "5 ML": 210,
+      "6 ML": 250,
+      "10 ML": 360,
+      "15 ML": 490
     }
   },
   {
@@ -3298,18 +3418,18 @@
         "premium": false
       },
       "6ml": {
-        "price": 310,
+        "price": 330,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 480,
+        "price": 490,
         "available": true,
         "premium": false
       },
       "15ml": {
         "price": 670,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -3322,8 +3442,8 @@
     "recommendation": "Best for summer and spring, daytime casual outings, beach trips, gym sessions, and office.",
     "prices": {
       "5 ML": 270,
-      "6 ML": 310,
-      "10 ML": 480,
+      "6 ML": 330,
+      "10 ML": 490,
       "15 ML": 670
     }
   },
@@ -3349,7 +3469,7 @@
       },
       "15ml": {
         "price": 440,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -3388,8 +3508,8 @@
         "premium": false
       },
       "15ml": {
-        "price": 930,
-        "available": false,
+        "price": 940,
+        "available": true,
         "premium": false
       }
     },
@@ -3404,7 +3524,7 @@
       "5 ML": 360,
       "6 ML": 430,
       "10 ML": 660,
-      "15 ML": 930
+      "15 ML": 940
     }
   },
   {
@@ -3418,7 +3538,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 299,
+        "price": 310,
         "available": true,
         "premium": true
       },
@@ -3442,7 +3562,7 @@
     "recommendation": "Best for office, gym, casual summer outings, and regular use.",
     "prices": {
       "5 ML": 260,
-      "6 ML": 299,
+      "6 ML": 310,
       "10 ML": 470,
       "15 ML": 640
     }
@@ -3488,6 +3608,46 @@
     }
   },
   {
+    "id": "rave-plato-lattafa",
+    "name": "Rave Plato by Lattafa (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 210,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 250,
+        "available": true,
+        "premium": false
+      },
+      "10ml": {
+        "price": 360,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 490,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "rave-plato-by-lattafa.jpg",
+    "tags": [
+      "Woody",
+      "Fresh",
+      "Elegant"
+    ],
+    "recommendation": "Best for office, formal events, meetings, smart-casual outings, dinner dates and elegant occasions, especially evenings.",
+    "prices": {
+      "5 ML": 210,
+      "6 ML": 250,
+      "10 ML": 360,
+      "15 ML": 490
+    }
+  },
+  {
     "id": "rave-now-by-lattafa-edp",
     "name": "Rave Now by Lattafa (EDP)",
     "status": "available",
@@ -3508,7 +3668,7 @@
         "premium": false
       },
       "15ml": {
-        "price": 480,
+        "price": 490,
         "available": true,
         "premium": false
       }
@@ -3524,7 +3684,7 @@
       "5 ML": 210,
       "6 ML": 250,
       "10 ML": 360,
-      "15 ML": 480
+      "15 ML": 490
     }
   },
   {
@@ -3538,7 +3698,7 @@
         "premium": false
       },
       "6ml": {
-        "price": 310,
+        "price": 320,
         "available": true,
         "premium": true
       },
@@ -3562,7 +3722,7 @@
     "recommendation": "Best for office, library, formal meetings, and casual daytime use.",
     "prices": {
       "5 ML": 260,
-      "6 ML": 310,
+      "6 ML": 320,
       "10 ML": 470,
       "15 ML": 660
     }
@@ -3578,18 +3738,18 @@
         "premium": false
       },
       "6ml": {
-        "price": 370,
+        "price": 380,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 560,
+        "price": 570,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 780,
-        "available": false,
+        "price": 800,
+        "available": true,
         "premium": false
       }
     },
@@ -3602,9 +3762,9 @@
     "recommendation": "Best for special evening events, date nights, parties, and cold-weather outings.",
     "prices": {
       "5 ML": 310,
-      "6 ML": 370,
-      "10 ML": 560,
-      "15 ML": 780
+      "6 ML": 380,
+      "10 ML": 570,
+      "15 ML": 800
     }
   },
   {
@@ -3613,22 +3773,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 260,
+        "price": 280,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 310,
+        "price": 340,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 470,
+        "price": 510,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 660,
+        "price": 700,
         "available": true,
         "premium": false
       }
@@ -3641,10 +3801,10 @@
     ],
     "recommendation": "Best for cold weather, evening wear, dates, and warm sweet gourmand moods.",
     "prices": {
-      "5 ML": 260,
-      "6 ML": 310,
-      "10 ML": 470,
-      "15 ML": 660
+      "5 ML": 280,
+      "6 ML": 340,
+      "10 ML": 510,
+      "15 ML": 700
     }
   },
   {
@@ -3738,17 +3898,17 @@
         "premium": false
       },
       "6ml": {
-        "price": 270,
+        "price": 280,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 399,
+        "price": 410,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 550,
+        "price": 560,
         "available": true,
         "premium": false
       }
@@ -3762,9 +3922,9 @@
     "recommendation": "Best for office, daytime, clean casual wear, and easy daily freshness.",
     "prices": {
       "5 ML": 230,
-      "6 ML": 270,
-      "10 ML": 399,
-      "15 ML": 550
+      "6 ML": 280,
+      "10 ML": 410,
+      "15 ML": 560
     }
   },
   {
@@ -3773,23 +3933,23 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 180,
+        "price": 190,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 220,
+        "price": 230,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 320,
+        "price": 330,
         "available": true,
         "premium": false
       },
       "15ml": {
         "price": 440,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -3801,9 +3961,9 @@
     ],
     "recommendation": "Best for gym, casual daytime, and hot outdoor settings.",
     "prices": {
-      "5 ML": 180,
-      "6 ML": 220,
-      "10 ML": 320,
+      "5 ML": 190,
+      "6 ML": 230,
+      "10 ML": 330,
       "15 ML": 440
     }
   },
@@ -3813,12 +3973,12 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 180,
+        "price": 190,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 220,
+        "price": 230,
         "available": true,
         "premium": true
       },
@@ -3841,8 +4001,8 @@
     ],
     "recommendation": "Best for gym, casual daytime outings, office, and summer outdoor events.",
     "prices": {
-      "5 ML": 180,
-      "6 ML": 220,
+      "5 ML": 190,
+      "6 ML": 230,
       "10 ML": 320,
       "15 ML": 440
     }
@@ -3894,23 +4054,23 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 240,
+        "price": 250,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 290,
+        "price": 300,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 440,
+        "price": 450,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 599,
-        "available": true,
+        "price": 620,
+        "available": false,
         "premium": false
       }
     },
@@ -3922,10 +4082,10 @@
     ],
     "recommendation": "Best for summer, late spring, beach parties, vacations, pool days, and casual daytime hangouts.",
     "prices": {
-      "5 ML": 240,
-      "6 ML": 290,
-      "10 ML": 440,
-      "15 ML": 599
+      "5 ML": 250,
+      "6 ML": 300,
+      "10 ML": 450,
+      "15 ML": 620
     }
   },
   {
@@ -3934,22 +4094,22 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 240,
+        "price": 250,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 290,
+        "price": 300,
         "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 440,
+        "price": 450,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 599,
+        "price": 620,
         "available": true,
         "premium": false
       }
@@ -3962,35 +4122,35 @@
     ],
     "recommendation": "Best for summer days, office, gym, and casual outings.",
     "prices": {
-      "5 ML": 240,
-      "6 ML": 290,
-      "10 ML": 440,
-      "15 ML": 599
+      "5 ML": 250,
+      "6 ML": 300,
+      "10 ML": 450,
+      "15 ML": 620
     }
   },
   {
     "id": "titan-by-khadlaj-edp",
     "name": "Titan by Khadlaj (EDP)",
-    "status": "available",
+    "status": "out",
     "sizes": {
       "5ml": {
-        "price": 260,
-        "available": true,
+        "price": 270,
+        "available": false,
         "premium": false
       },
       "6ml": {
-        "price": 320,
-        "available": true,
+        "price": 330,
+        "available": false,
         "premium": true
       },
       "10ml": {
-        "price": 480,
-        "available": true,
+        "price": 490,
+        "available": false,
         "premium": false
       },
       "15ml": {
         "price": 670,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -4002,9 +4162,9 @@
     ],
     "recommendation": "Best for evenings, cooler weather, dates, and events.",
     "prices": {
-      "5 ML": 260,
-      "6 ML": 320,
-      "10 ML": 480,
+      "5 ML": 270,
+      "6 ML": 330,
+      "10 ML": 490,
       "15 ML": 670
     }
   },
@@ -4014,12 +4174,12 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 180,
+        "price": 190,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 220,
+        "price": 230,
         "available": true,
         "premium": true
       },
@@ -4042,8 +4202,8 @@
     ],
     "recommendation": "Best for casual sweet fruity wear, parties, and warm weather.",
     "prices": {
-      "5 ML": 180,
-      "6 ML": 220,
+      "5 ML": 190,
+      "6 ML": 230,
       "10 ML": 330,
       "15 ML": 430
     }
@@ -4054,12 +4214,12 @@
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 180,
+        "price": 190,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 220,
+        "price": 230,
         "available": true,
         "premium": true
       },
@@ -4082,50 +4242,50 @@
     ],
     "recommendation": "Best for fresh blue daily wear, office, and casual daytime use.",
     "prices": {
-      "5 ML": 180,
-      "6 ML": 220,
+      "5 ML": 190,
+      "6 ML": 230,
       "10 ML": 320,
       "15 ML": 430
     }
   },
   {
-    "id": "rave-plato-lattafa",
-    "name": "Rave Plato by Lattafa (EDP)",
+    "id": "oud-al-layl-midnight-edp",
+    "name": "Oud Al Layl Midnight EDP",
     "status": "available",
     "sizes": {
       "5ml": {
-        "price": 210,
+        "price": 160,
         "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 250,
+        "price": 190,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
-        "price": 360,
+        "price": 260,
         "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 480,
+        "price": 350,
         "available": true,
         "premium": false
       }
     },
-    "image": "rave-plato-by-lattafa.jpg",
+    "image": "oud-al-layl-midnight-edp.webp",
     "tags": [
-      "Woody",
-      "Fresh",
-      "Elegant"
+      "Aquatic",
+      "Summer",
+      "Gym"
     ],
-    "recommendation": "Best for office, formal events, meetings, smart-casual outings, dinner dates and elegant occasions, especially evenings.",
+    "recommendation": "Best for summer days, office, gym, and clubbing.",
     "prices": {
-      "5 ML": 210,
-      "6 ML": 250,
-      "10 ML": 360,
-      "15 ML": 480
+      "5 ML": 160,
+      "6 ML": 190,
+      "10 ML": 260,
+      "15 ML": 350
     }
   }
 ]
