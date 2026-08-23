@@ -1,0 +1,16 @@
+name = "scentory-weather-v3048"
+main = "weather-worker-openweather-v3048.js"
+compatibility_date = "2026-08-23"
+
+[vars]
+ALLOWED_ORIGIN = "https://scentoryfragrance.com"
+COUNTRY_CODE = "BD"
+
+[[unsafe.bindings]]
+name = "RATE_LIMITER"
+type = "ratelimit"
+namespace_id = "1001"
+simple = { limit = 60, period = 60 }
+
+# Add the API key separately as an encrypted secret:
+# npx wrangler secret put OPENWEATHER_API_KEY

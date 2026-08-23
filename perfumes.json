@@ -37,6 +37,35 @@
       "6 ML": 290,
       "10 ML": 420,
       "15 ML": 580
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "fruity",
+        "sweet",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 5,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -77,6 +106,37 @@
       "6 ML": 320,
       "10 ML": 480,
       "15 ML": 660
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "fruity",
+        "citrus",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 3,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -117,6 +177,32 @@
       "6 ML": 299,
       "10 ML": 450,
       "15 ML": 620
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -157,6 +243,34 @@
       "6 ML": 350,
       "10 ML": 540,
       "15 ML": 750
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active",
+        "date"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 5,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -199,11 +313,45 @@
       "6 ML": 360,
       "10 ML": 540,
       "15 ML": 750
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
     "id": "hawas-rouge-edp",
     "name": "Hawas Rouge EDP",
+    "image": "product-image-coming-soon.svg",
+    "tags": [
+      "Signature",
+      "Versatile"
+    ],
+    "recommendation": "Currently out of stock. Profile details will be expanded when verified product information is available.",
     "status": "out",
     "sizes": {
       "5ml": {
@@ -227,18 +375,35 @@
         "premium": false
       }
     },
-    "image": "hawas-rouge-edp.svg",
-    "tags": [
-      "Fresh",
-      "Sweet",
-      "Date Night"
-    ],
-    "recommendation": "A fresh-sweet option for evening plans, dates, parties and cooler weather. Currently out of stock.",
     "prices": {
       "5 ML": 290,
       "6 ML": 350,
       "10 ML": 540,
       "15 ML": 750
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "aromatic"
+      ],
+      "occasions": [
+        "daily"
+      ],
+      "climates": [
+        "monsoon",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 3,
+      "freshness": 3,
+      "warmth": 3,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -279,6 +444,31 @@
       "6 ML": 370,
       "10 ML": 560,
       "15 ML": 790
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 2,
+      "officeSafety": 2,
+      "heatSafety": 3,
+      "versatility": 2,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -319,6 +509,39 @@
       "6 ML": 300,
       "10 ML": 440,
       "15 ML": 600
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "citrus",
+        "spicy",
+        "green",
+        "woody",
+        "amber",
+        "fresh"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date"
+      ],
+      "climates": [
+        "hot",
+        "monsoon",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 3,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -359,6 +582,30 @@
       "6 ML": 320,
       "10 ML": 470,
       "15 ML": 650
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "spicy"
+      ],
+      "occasions": [
+        "date",
+        "party"
+      ],
+      "climates": [
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 2,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -399,6 +646,31 @@
       "6 ML": 350,
       "10 ML": 540,
       "15 ML": 750
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh"
+      ],
+      "occasions": [
+        "daily",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -439,6 +711,33 @@
       "6 ML": 320,
       "10 ML": 470,
       "15 ML": 650
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "woody",
+        "oud",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 5,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 2,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -479,6 +778,36 @@
       "6 ML": 310,
       "10 ML": 460,
       "15 ML": 630
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "spicy",
+        "oud",
+        "elegant"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 5,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -519,6 +848,37 @@
       "6 ML": 340,
       "10 ML": 500,
       "15 ML": 690
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "green",
+        "citrus",
+        "woody",
+        "aromatic",
+        "fresh"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "formal"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -561,11 +921,48 @@
       "6 ML": 470,
       "10 ML": 740,
       "15 ML": 1050
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "green",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "hot",
+        "monsoon",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
     "id": "yusuf-bhai-bois-imperial",
     "name": "Yusuf Bhai - Bois Imperial",
+    "image": "yusuf-bhai-bois-imperial.webp",
+    "tags": [
+      "Woody",
+      "Fresh",
+      "Office",
+      "Formal"
+    ],
+    "recommendation": "Best for office, smart-casual wear, meetings, and a polished woody everyday signature.",
     "status": "available",
     "sizes": {
       "5ml": {
@@ -589,63 +986,55 @@
         "premium": false
       }
     },
-    "image": "yusuf-bhai-bois-imperial.jpg",
-    "tags": [
-      "Woody",
-      "Fresh",
-      "Office"
-    ],
-    "recommendation": "Best for office, formal settings, smart-casual wear and refined everyday use.",
     "prices": {
       "5 ML": 309,
       "6 ML": 380,
       "10 ML": 560,
       "15 ML": 780
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "woody",
+        "green",
+        "aromatic",
+        "fresh",
+        "spicy"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "formal"
+      ],
+      "climates": [
+        "hot",
+        "monsoon",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
+      "sweetness": 1,
+      "freshness": 4,
+      "warmth": 3,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 5,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
     "id": "yusuf-bhai-men-212",
     "name": "Yusuf Bhai - Men 212",
-    "status": "available",
-    "sizes": {
-      "5ml": {
-        "price": 260,
-        "available": true,
-        "premium": false
-      },
-      "6ml": {
-        "price": 320,
-        "available": true,
-        "premium": true
-      },
-      "10ml": {
-        "price": 470,
-        "available": true,
-        "premium": false
-      },
-      "15ml": {
-        "price": 640,
-        "available": false,
-        "premium": false
-      }
-    },
-    "image": "yusuf-bhai-men-212.jpg",
+    "image": "yusuf-bhai-men-212.webp",
     "tags": [
       "Fresh",
       "Office",
       "Daily Wear"
     ],
-    "recommendation": "Best for office, university, daytime plans and clean versatile daily wear.",
-    "prices": {
-      "5 ML": 260,
-      "6 ML": 320,
-      "10 ML": 470,
-      "15 ML": 640
-    }
-  },
-  {
-    "id": "yusuf-bhai-allure-homme-sport",
-    "name": "Yusuf Bhai - Allure Homme Sport",
+    "recommendation": "Best for office, university, clean daytime wear, and an easy everyday rotation.",
     "status": "available",
     "sizes": {
       "5ml": {
@@ -669,18 +1058,115 @@
         "premium": false
       }
     },
-    "image": "yusuf-bhai-allure-homme-sport.jpg",
-    "tags": [
-      "Fresh",
-      "Aquatic",
-      "Gym"
-    ],
-    "recommendation": "Best for Bangladesh heat, gym, travel, daytime use and sporty casual occasions.",
     "prices": {
       "5 ML": 260,
       "6 ML": 320,
       "10 ML": 470,
       "15 ML": 640
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "green",
+        "aromatic",
+        "citrus",
+        "woody"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "hot",
+        "monsoon",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 1,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 5,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
+    }
+  },
+  {
+    "id": "yusuf-bhai-allure-homme-sport",
+    "name": "Yusuf Bhai - Allure Homme Sport",
+    "image": "yusuf-bhai-allure-homme-sport.webp",
+    "tags": [
+      "Fresh",
+      "Gym",
+      "Office",
+      "Summer"
+    ],
+    "recommendation": "Best for fresh daytime wear, gym, office, university, travel, and warm-weather use.",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 260,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 470,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 640,
+        "available": false,
+        "premium": false
+      }
+    },
+    "prices": {
+      "5 ML": 260,
+      "6 ML": 320,
+      "10 ML": 470,
+      "15 ML": 640
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "citrus",
+        "aromatic",
+        "woody",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "monsoon",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 5,
+      "heatSafety": 5,
+      "versatility": 5,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -721,6 +1207,32 @@
       "6 ML": 290,
       "10 ML": 430,
       "15 ML": 590
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "office",
+        "date"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -761,6 +1273,33 @@
       "6 ML": 370,
       "10 ML": 560,
       "15 ML": 790
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -801,6 +1340,30 @@
       "6 ML": 380,
       "10 ML": 560,
       "15 ML": 790
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh"
+      ],
+      "occasions": [
+        "daily"
+      ],
+      "climates": [
+        "hot",
+        "monsoon"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -841,6 +1404,31 @@
       "6 ML": 390,
       "10 ML": 600,
       "15 ML": 840
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "party"
+      ],
+      "climates": [
+        "monsoon",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -881,6 +1469,34 @@
       "6 ML": 410,
       "10 ML": 620,
       "15 ML": 880
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "elegant"
+      ],
+      "occasions": [
+        "office",
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -921,6 +1537,35 @@
       "6 ML": 550,
       "10 ML": 860,
       "15 ML": 1240
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "elegant"
+      ],
+      "occasions": [
+        "office",
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "monsoon",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -961,6 +1606,33 @@
       "6 ML": 420,
       "10 ML": 640,
       "15 ML": 900
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "elegant"
+      ],
+      "occasions": [
+        "office",
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1001,6 +1673,37 @@
       "6 ML": 390,
       "10 ML": 600,
       "15 ML": 840
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "citrus",
+        "fresh",
+        "woody",
+        "aromatic",
+        "musky"
+      ],
+      "occasions": [
+        "office",
+        "active",
+        "formal"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1041,6 +1744,32 @@
       "6 ML": 510,
       "10 ML": 799,
       "15 ML": 1170
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "sweet"
+      ],
+      "occasions": [
+        "active",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "winter",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 4,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1081,6 +1810,33 @@
       "6 ML": 350,
       "10 ML": 540,
       "15 ML": 750
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "sweet",
+        "fruity",
+        "amber",
+        "spicy",
+        "gourmand"
+      ],
+      "occasions": [
+        "date"
+      ],
+      "climates": [
+        "winter"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 5,
+      "freshness": 2,
+      "warmth": 5,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 1,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1121,6 +1877,35 @@
       "6 ML": 410,
       "10 ML": 640,
       "15 ML": 900
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "sweet"
+      ],
+      "occasions": [
+        "office",
+        "active",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 4,
+      "heatSafety": 2,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1161,6 +1946,32 @@
       "6 ML": 330,
       "10 ML": 499,
       "15 ML": 690
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1201,6 +2012,30 @@
       "6 ML": 810,
       "10 ML": 1310,
       "15 ML": 1910
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "sweet"
+      ],
+      "occasions": [
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "winter"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 4,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 2,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1241,6 +2076,32 @@
       "5 ML": 470,
       "6 ML": 570,
       "10 ML": 900
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "spicy"
+      ],
+      "occasions": [
+        "daily",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "winter",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1281,6 +2142,32 @@
       "5 ML": 670,
       "6 ML": 799,
       "10 ML": 1299
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1321,6 +2208,37 @@
       "6 ML": 260,
       "10 ML": 360,
       "15 ML": 480
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "green",
+        "fruity",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 2,
+      "projection": 2,
+      "longevity": 2,
+      "sweetness": 3,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1361,6 +2279,33 @@
       "6 ML": 530,
       "10 ML": 840,
       "15 ML": 1200
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1401,6 +2346,33 @@
       "6 ML": 490,
       "10 ML": 760,
       "15 ML": 1090
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "office",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 2,
+      "projection": 2,
+      "longevity": 2,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1441,6 +2413,33 @@
       "6 ML": 510,
       "10 ML": 810,
       "15 ML": 1150
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic"
+      ],
+      "occasions": [
+        "daily",
+        "active",
+        "date"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1481,6 +2480,36 @@
       "6 ML": 270,
       "10 ML": 399,
       "15 ML": 540
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "green",
+        "aromatic",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 2,
+      "projection": 2,
+      "longevity": 2,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1522,6 +2551,35 @@
       "6 ML": 360,
       "10 ML": 540,
       "15 ML": 750
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "powdery",
+        "musky",
+        "woody",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "monsoon",
+        "ac"
+      ],
+      "strength": 2,
+      "projection": 2,
+      "longevity": 2,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1562,6 +2620,36 @@
       "6 ML": 399,
       "10 ML": 599,
       "15 ML": 830
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "sweet",
+        "amber",
+        "woody",
+        "oud",
+        "elegant"
+      ],
+      "occasions": [
+        "active",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 4,
+      "freshness": 4,
+      "warmth": 5,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1602,6 +2690,38 @@
       "6 ML": 399,
       "10 ML": 599,
       "15 ML": 830
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic",
+        "amber",
+        "woody",
+        "oud"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 5,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1642,6 +2762,36 @@
       "6 ML": 340,
       "10 ML": 510,
       "15 ML": 710
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 5,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1682,6 +2832,33 @@
       "6 ML": 270,
       "10 ML": 399,
       "15 ML": 540
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1722,6 +2899,33 @@
       "6 ML": 270,
       "10 ML": 400,
       "15 ML": 540
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "green",
+        "aromatic"
+      ],
+      "occasions": [
+        "office"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1763,7 +2967,33 @@
       "10 ML": 350,
       "15 ML": 470
     },
-    "posterImage": "miami-blue-by-ard.webp"
+    "posterImage": "miami-blue-by-ard.webp",
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "hot",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
+    }
   },
   {
     "id": "brandy-salvage-edp",
@@ -1803,6 +3033,35 @@
       "6 ML": 230,
       "10 ML": 320,
       "15 ML": 430
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "monsoon",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1843,6 +3102,35 @@
       "6 ML": 230,
       "10 ML": 320,
       "15 ML": 430
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 2,
+      "projection": 2,
+      "longevity": 2,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1883,6 +3171,33 @@
       "6 ML": 230,
       "10 ML": 320,
       "15 ML": 430
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1923,6 +3238,35 @@
       "6 ML": 250,
       "10 ML": 360,
       "15 ML": 490
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "amber",
+        "woody",
+        "leather",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -1963,21 +3307,51 @@
       "6 ML": 340,
       "10 ML": 520,
       "15 ML": 720
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "elegant"
+      ],
+      "occasions": [
+        "office",
+        "active",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 5,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
     "id": "bois-blanc-by-arabiyat-prestige",
     "name": "Bois Blanc by Arabiyat Prestige",
-    "status": "available",
+    "status": "out",
     "sizes": {
       "5ml": {
         "price": 270,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "6ml": {
         "price": 330,
-        "available": true,
+        "available": false,
         "premium": true
       },
       "10ml": {
@@ -2003,6 +3377,34 @@
       "6 ML": 330,
       "10 ML": 480,
       "15 ML": 660
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "woody",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2043,6 +3445,35 @@
       "6 ML": 270,
       "10 ML": 400,
       "15 ML": 550
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 5,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2083,6 +3514,30 @@
       "6 ML": 280,
       "10 ML": 409,
       "15 ML": 550
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic"
+      ],
+      "occasions": [
+        "daily"
+      ],
+      "climates": [
+        "hot"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 2,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2123,6 +3578,33 @@
       "6 ML": 290,
       "10 ML": 420,
       "15 ML": 580
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2163,6 +3645,35 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2205,6 +3716,36 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "woody",
+        "elegant"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "formal"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2245,6 +3786,34 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2285,6 +3854,35 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "spicy",
+        "elegant"
+      ],
+      "occasions": [
+        "office",
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2325,6 +3923,35 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "oud",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 5,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2365,6 +3992,33 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2405,6 +4059,35 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "green",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2445,6 +4128,32 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2485,6 +4194,33 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2525,6 +4261,30 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "aromatic"
+      ],
+      "occasions": [
+        "date",
+        "party"
+      ],
+      "climates": [
+        "winter"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2565,6 +4325,36 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 5,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2605,6 +4395,35 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2645,6 +4464,33 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "fruity",
+        "sweet"
+      ],
+      "occasions": [
+        "daily",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2685,6 +4531,32 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2725,6 +4597,33 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "green",
+        "woody",
+        "oud",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 5,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2765,6 +4664,33 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 530
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "spicy",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2805,6 +4731,35 @@
       "6 ML": 300,
       "10 ML": 440,
       "15 ML": 600
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "oud",
+        "woody",
+        "spicy",
+        "amber",
+        "smoky"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 5,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 2,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2845,6 +4800,36 @@
       "6 ML": 300,
       "10 ML": 440,
       "15 ML": 600
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "sweet",
+        "fruity",
+        "gourmand",
+        "spicy",
+        "woody"
+      ],
+      "occasions": [
+        "daily",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "monsoon",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 5,
+      "freshness": 2,
+      "warmth": 5,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2885,6 +4870,36 @@
       "6 ML": 360,
       "10 ML": 540,
       "15 ML": 760
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "woody",
+        "elegant"
+      ],
+      "occasions": [
+        "office",
+        "active",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2925,6 +4940,34 @@
       "6 ML": 370,
       "10 ML": 570,
       "15 ML": 790
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "citrus",
+        "fruity",
+        "smoky",
+        "woody",
+        "leather"
+      ],
+      "occasions": [
+        "date",
+        "party"
+      ],
+      "climates": [
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 3,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -2967,6 +5010,35 @@
       "6 ML": 520,
       "10 ML": 810,
       "15 ML": 1160
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "smoky",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3006,6 +5078,33 @@
       "6 ML": 320,
       "10 ML": 480,
       "15 ML": 650
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "citrus",
+        "fruity",
+        "smoky",
+        "woody",
+        "leather"
+      ],
+      "occasions": [
+        "party"
+      ],
+      "climates": [
+        "monsoon"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 3,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 2,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3046,6 +5145,33 @@
       "6 ML": 840,
       "10 ML": 1360,
       "15 ML": 1990
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "smoky",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "monsoon",
+        "ac"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3085,6 +5211,33 @@
       "6 ML": 340,
       "10 ML": 510,
       "15 ML": 700
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "citrus",
+        "fruity",
+        "smoky",
+        "woody",
+        "leather"
+      ],
+      "occasions": [
+        "party"
+      ],
+      "climates": [
+        "monsoon"
+      ],
+      "strength": 2,
+      "projection": 2,
+      "longevity": 2,
+      "sweetness": 3,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 2,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3125,6 +5278,36 @@
       "6 ML": 340,
       "10 ML": 510,
       "15 ML": 710
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "spicy",
+        "smoky"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3165,6 +5348,36 @@
       "6 ML": 390,
       "10 ML": 590,
       "15 ML": 830
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "smoky"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 4,
+      "heatSafety": 2,
+      "versatility": 5,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3205,6 +5418,31 @@
       "6 ML": 399,
       "10 ML": 610,
       "15 ML": 860
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "elegant"
+      ],
+      "occasions": [
+        "daily",
+        "formal"
+      ],
+      "climates": [
+        "monsoon",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 2,
+      "warmth": 2,
+      "officeSafety": 2,
+      "heatSafety": 3,
+      "versatility": 2,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3245,6 +5483,34 @@
       "6 ML": 370,
       "10 ML": 560,
       "15 ML": 780
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3285,6 +5551,36 @@
       "6 ML": 350,
       "10 ML": 520,
       "15 ML": 730
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active",
+        "date"
+      ],
+      "climates": [
+        "hot",
+        "winter",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 5,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3325,6 +5621,33 @@
       "6 ML": 370,
       "10 ML": 560,
       "15 ML": 780
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "sweet",
+        "gourmand",
+        "spicy",
+        "amber",
+        "woody"
+      ],
+      "occasions": [
+        "date"
+      ],
+      "climates": [
+        "winter"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 5,
+      "freshness": 2,
+      "warmth": 5,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 1,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3365,6 +5688,32 @@
       "6 ML": 370,
       "10 ML": 560,
       "15 ML": 780
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "sweet"
+      ],
+      "occasions": [
+        "daily",
+        "active",
+        "date"
+      ],
+      "climates": [
+        "hot"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3405,6 +5754,34 @@
       "6 ML": 250,
       "10 ML": 360,
       "15 ML": 490
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3445,6 +5822,36 @@
       "6 ML": 330,
       "10 ML": 490,
       "15 ML": 670
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "fruity",
+        "sweet"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3485,6 +5892,35 @@
       "6 ML": 240,
       "10 ML": 350,
       "15 ML": 440
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "fruity",
+        "sweet"
+      ],
+      "occasions": [
+        "daily",
+        "active",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3525,6 +5961,30 @@
       "6 ML": 430,
       "10 ML": 660,
       "15 ML": 940
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh"
+      ],
+      "occasions": [
+        "daily",
+        "active"
+      ],
+      "climates": [
+        "hot"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3565,6 +6025,35 @@
       "6 ML": 310,
       "10 ML": 470,
       "15 ML": 640
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "citrus",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3605,6 +6094,36 @@
       "6 ML": 270,
       "10 ML": 390,
       "15 ML": 520
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "sweet",
+        "fruity",
+        "powdery",
+        "gourmand",
+        "musky"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date"
+      ],
+      "climates": [
+        "hot",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 5,
+      "freshness": 2,
+      "warmth": 5,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3645,6 +6164,38 @@
       "6 ML": 250,
       "10 ML": 360,
       "15 ML": 490
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "fruity",
+        "sweet",
+        "woody",
+        "powdery"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 4,
+      "heatSafety": 2,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3685,6 +6236,33 @@
       "6 ML": 250,
       "10 ML": 360,
       "15 ML": 490
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "fruity"
+      ],
+      "occasions": [
+        "daily",
+        "active",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 3,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3725,6 +6303,34 @@
       "6 ML": 320,
       "10 ML": 470,
       "15 ML": 660
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "elegant"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "formal"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3765,6 +6371,31 @@
       "6 ML": 380,
       "10 ML": 570,
       "15 ML": 800
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "sweet",
+        "spicy"
+      ],
+      "occasions": [
+        "date",
+        "party"
+      ],
+      "climates": [
+        "winter"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
+      "sweetness": 4,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 2,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3805,6 +6436,33 @@
       "6 ML": 340,
       "10 ML": 510,
       "15 ML": 700
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "sweet",
+        "gourmand",
+        "spicy",
+        "amber",
+        "woody"
+      ],
+      "occasions": [
+        "date"
+      ],
+      "climates": [
+        "winter"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 5,
+      "freshness": 2,
+      "warmth": 5,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 1,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3845,6 +6503,33 @@
       "6 ML": 270,
       "10 ML": 399,
       "15 ML": 550
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "sweet",
+        "gourmand",
+        "spicy",
+        "amber"
+      ],
+      "occasions": [
+        "date"
+      ],
+      "climates": [
+        "winter"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 5,
+      "freshness": 4,
+      "warmth": 5,
+      "officeSafety": 3,
+      "heatSafety": 2,
+      "versatility": 2,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3885,6 +6570,33 @@
       "6 ML": 270,
       "10 ML": 399,
       "15 ML": 550
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "spicy",
+        "amber",
+        "woody",
+        "sweet",
+        "smoky"
+      ],
+      "occasions": [
+        "date"
+      ],
+      "climates": [
+        "winter"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 2,
+      "versatility": 1,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3925,6 +6637,35 @@
       "6 ML": 280,
       "10 ML": 410,
       "15 ML": 560
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "citrus",
+        "woody",
+        "amber"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 4,
+      "heatSafety": 2,
+      "versatility": 3,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -3965,6 +6706,31 @@
       "6 ML": 230,
       "10 ML": 330,
       "15 ML": 440
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh"
+      ],
+      "occasions": [
+        "daily",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -4005,6 +6771,35 @@
       "6 ML": 230,
       "10 ML": 320,
       "15 ML": 440
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 5,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -4046,6 +6841,36 @@
       "6 ML": 320,
       "10 ML": 470,
       "15 ML": 650
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic",
+        "amber",
+        "elegant"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 4,
+      "officeSafety": 4,
+      "heatSafety": 2,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -4086,6 +6911,33 @@
       "6 ML": 300,
       "10 ML": 450,
       "15 ML": 620
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic"
+      ],
+      "occasions": [
+        "daily",
+        "active",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -4126,6 +6978,35 @@
       "6 ML": 300,
       "10 ML": 450,
       "15 ML": 620
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aquatic",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "active"
+      ],
+      "climates": [
+        "hot",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -4166,6 +7047,33 @@
       "6 ML": 330,
       "10 ML": 490,
       "15 ML": 670
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 4,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -4206,6 +7114,35 @@
       "6 ML": 230,
       "10 ML": 330,
       "15 ML": 430
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fruity",
+        "sweet",
+        "woody",
+        "amber",
+        "smoky"
+      ],
+      "occasions": [
+        "daily",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 4,
+      "freshness": 2,
+      "warmth": 4,
+      "officeSafety": 2,
+      "heatSafety": 4,
+      "versatility": 2,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -4246,6 +7183,32 @@
       "6 ML": 230,
       "10 ML": 320,
       "15 ML": 430
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "fresh",
+        "aromatic"
+      ],
+      "occasions": [
+        "daily",
+        "office"
+      ],
+      "climates": [
+        "ac",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 2,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "catalogue-derived",
+      "reviewedAt": "2026-08-23"
     }
   },
   {
@@ -4286,6 +7249,36 @@
       "6 ML": 190,
       "10 ML": 260,
       "15 ML": 350
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "oud",
+        "woody",
+        "amber",
+        "spicy",
+        "smoky"
+      ],
+      "occasions": [
+        "date",
+        "party",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
+      "sweetness": 3,
+      "freshness": 1,
+      "warmth": 5,
+      "officeSafety": 1,
+      "heatSafety": 1,
+      "versatility": 2,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-23"
     }
   }
 ]

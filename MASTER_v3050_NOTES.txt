@@ -1,0 +1,28 @@
+SCENTORY MASTER v3050 — APPROVED YUSUF BHAI PRODUCT PHOTOS
+===========================================================
+
+PHOTO UPDATE
+- Added the supplied Scentory artwork for Yusuf Bhai - Allure Homme Sport.
+- Added the supplied Scentory artwork for Yusuf Bhai - Bois Imperial.
+- Added the supplied Scentory artwork for Yusuf Bhai - Men 212.
+- Optimized storefront copies are stored as WebP without altering the artwork.
+- Updated catalogue cards, SEO product pages, Open Graph images and Product
+  structured data to use the approved photos.
+- Hawas Rouge EDP continues to use the neutral coming-soon placeholder.
+
+CATALOGUE PRESERVED
+- 107 perfumes: 97 available and 10 fully out of stock.
+- 74 unavailable size options remain applied.
+- 30 ML remains excluded.
+- All August 2026 prices and stock states are unchanged.
+
+FEATURES PRESERVED
+- Structured perfume profiles and explainable recommendations.
+- Saved-cart price and stock revalidation.
+- Secure weather gateway and manual fallback.
+- Popup keyboard focus control and accessible form errors.
+- Lightweight SEO product pages, sitemap and performance optimizations.
+
+PACKAGES
+- Complete master ZIP: standalone deployable website.
+- Update-only ZIP: files needed to upgrade the previous master.

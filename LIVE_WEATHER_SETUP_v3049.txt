@@ -1,0 +1,37 @@
+SCENTORY SECURE LIVE WEATHER — ONE-TIME SETUP
+================================================
+
+The storefront is static. Live weather is requested through the included
+Cloudflare Worker so the OpenWeather API key is never exposed in browser code.
+
+FILES
+- weather-worker-openweather-v3048.js — secured server-side weather gateway
+- weather-config-v3048.js — public storefront endpoint configuration
+- wrangler-weather-v3048.toml.example — Worker deployment and rate-limit example
+
+SETUP
+1. Create an OpenWeather API account and API key.
+2. Install Wrangler and authenticate with Cloudflare.
+3. Copy wrangler-weather-v3048.toml.example to wrangler.toml.
+4. Review ALLOWED_ORIGIN and COUNTRY_CODE in wrangler.toml.
+5. Add the API key as an encrypted secret:
+   npx wrangler secret put OPENWEATHER_API_KEY
+6. Deploy the Worker:
+   npx wrangler deploy
+7. Put the deployed Worker URL in weather-config-v3048.js as endpoint.
+8. Upload the website and test “Check This Area” and “Use My Location” over HTTPS.
+
+SECURITY INCLUDED
+- The OpenWeather key remains in an encrypted Worker secret.
+- Only the configured storefront origin is accepted.
+- Requests are limited per visitor when the RATE_LIMITER binding is enabled.
+- Methods, coordinate ranges and area-name input are validated.
+- Upstream requests time out and errors return sanitized messages.
+- Responses use short cache windows to reduce API usage.
+
+IMPORTANT
+- Never put the OpenWeather API key in index.html, weather-config-v3048.js or
+  another browser-loaded file.
+- Browser geolocation requires HTTPS and customer permission.
+- Keep endpoint blank until the Worker is deployed. The storefront will retain
+  its clearly labelled manual temperature fallback.
