@@ -65,7 +65,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -136,7 +141,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -202,7 +212,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -270,7 +285,12 @@
       "heatSafety": 4,
       "versatility": 5,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -340,7 +360,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -403,7 +428,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -468,7 +498,12 @@
       "heatSafety": 3,
       "versatility": 2,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -541,7 +576,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -605,7 +645,12 @@
       "heatSafety": 2,
       "versatility": 2,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -670,7 +715,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -737,7 +787,12 @@
       "heatSafety": 2,
       "versatility": 2,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -757,7 +812,7 @@
       },
       "10ml": {
         "price": 460,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
@@ -807,7 +862,12 @@
       "heatSafety": 2,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -878,7 +938,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -949,7 +1014,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1022,7 +1092,12 @@
       "heatSafety": 4,
       "versatility": 5,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1093,7 +1168,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1166,7 +1246,12 @@
       "heatSafety": 5,
       "versatility": 5,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1175,22 +1260,22 @@
     "status": "out",
     "sizes": {
       "5ml": {
-        "price": 240,
+        "price": 270,
         "available": false,
         "premium": false
       },
       "6ml": {
-        "price": 290,
+        "price": 330,
         "available": false,
         "premium": true
       },
       "10ml": {
-        "price": 430,
+        "price": 490,
         "available": false,
         "premium": false
       },
       "15ml": {
-        "price": 590,
+        "price": 680,
         "available": false,
         "premium": false
       }
@@ -1203,10 +1288,10 @@
     ],
     "recommendation": "Best for date nights, evening gatherings, and office wear.",
     "prices": {
-      "5 ML": 240,
-      "6 ML": 290,
-      "10 ML": 430,
-      "15 ML": 590
+      "5 ML": 270,
+      "6 ML": 330,
+      "10 ML": 490,
+      "15 ML": 680
     },
     "profile": {
       "schemaVersion": 1,
@@ -1232,7 +1317,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1299,7 +1389,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1363,7 +1458,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1428,7 +1528,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1496,7 +1601,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1565,7 +1675,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1596,11 +1711,12 @@
     },
     "image": "supremacy-not-only-intense-edp.webp",
     "tags": [
-      "Office",
-      "Date Night",
-      "Formal"
+      "Fruity",
+      "Woody",
+      "Aromatic",
+      "Strong"
     ],
-    "recommendation": "Best for office, evening outings, dates, and special occasions.",
+    "recommendation": "A powerful fruity, mossy and woody signature for smart casual wear, events and outdoor occasions.",
     "prices": {
       "5 ML": 350,
       "6 ML": 420,
@@ -1608,31 +1724,67 @@
       "15 ML": 900
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "fresh",
+        "fruity",
         "aromatic",
-        "elegant"
+        "woody",
+        "amber",
+        "musky"
       ],
       "occasions": [
+        "daily",
         "office",
-        "date",
+        "party",
         "formal"
       ],
       "climates": [
-        "ac"
+        "monsoon",
+        "ac",
+        "outdoor"
       ],
-      "strength": 4,
-      "projection": 4,
+      "strength": 5,
+      "projection": 5,
       "longevity": 5,
-      "sweetness": 2,
+      "sweetness": 3,
       "freshness": 4,
-      "warmth": 2,
-      "officeSafety": 3,
+      "warmth": 3,
+      "officeSafety": 2,
       "heatSafety": 3,
-      "versatility": 3,
-      "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "versatility": 4,
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Apple",
+          "Blackcurrant"
+        ],
+        "heart": [
+          "Lavender",
+          "Patchouli",
+          "Oakmoss"
+        ],
+        "base": [
+          "Saffron",
+          "Musk",
+          "Ambergris"
+        ]
+      },
+      "performance": "Powerful profile; use fewer sprays for offices and enclosed rooms.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Afnan Supremacy Not Only Intense official product page",
+          "url": "https://afnan.com/products/supremacy-not-only-intense",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -1703,7 +1855,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -1734,11 +1891,12 @@
     },
     "image": "afnan-9pm-night-out-edp.webp",
     "tags": [
-      "Date Night",
+      "Fruity",
+      "Woody",
       "Party",
-      "Beast Mode"
+      "Strong"
     ],
-    "recommendation": "Best for clubs, outdoors, winter/fall dates, and strong night-out wear.",
+    "recommendation": "A bold fruity, spicy and woody night scent for parties, dates and confident evening wear.",
     "prices": {
       "5 ML": 430,
       "6 ML": 510,
@@ -1746,30 +1904,71 @@
       "15 ML": 1170
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
-        "sweet"
+        "fruity",
+        "sweet",
+        "spicy",
+        "woody",
+        "amber",
+        "leather"
       ],
       "occasions": [
-        "active",
         "date",
-        "party"
+        "party",
+        "formal"
       ],
       "climates": [
         "winter",
+        "ac",
         "outdoor"
       ],
-      "strength": 4,
-      "projection": 4,
+      "strength": 5,
+      "projection": 5,
       "longevity": 5,
       "sweetness": 4,
-      "freshness": 2,
+      "freshness": 3,
       "warmth": 4,
-      "officeSafety": 2,
-      "heatSafety": 2,
-      "versatility": 3,
-      "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "officeSafety": 1,
+      "heatSafety": 1,
+      "versatility": 2,
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Dragon Fruit",
+          "Bergamot",
+          "Cognac",
+          "Lavender",
+          "Apple"
+        ],
+        "heart": [
+          "Cardamom",
+          "Mahonial",
+          "Suede",
+          "Toffee",
+          "Cedar"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Akigalawood",
+          "Ambrofix",
+          "Patchouli"
+        ]
+      },
+      "performance": "High-impact night profile; begin with fewer sprays indoors.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Afnan 9 PM Night Out official product page",
+          "url": "https://afnan.com/products/9pm-night-out",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -1801,10 +2000,11 @@
     "image": "afnan-9-pm-edp.webp",
     "tags": [
       "Sweet",
+      "Warm Spicy",
       "Date Night",
       "Winter"
     ],
-    "recommendation": "Best for evening wear, dates, parties, and cooler weather.",
+    "recommendation": "A sweet, warm-spicy evening scent best suited to dates, parties and cooler or air-conditioned settings.",
     "prices": {
       "5 ML": 290,
       "6 ML": 350,
@@ -1812,31 +2012,64 @@
       "15 ML": 750
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "sweet",
         "fruity",
-        "amber",
         "spicy",
-        "gourmand"
+        "amber",
+        "aromatic"
       ],
       "occasions": [
-        "date"
+        "date",
+        "party"
       ],
       "climates": [
-        "winter"
+        "winter",
+        "ac"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
       "sweetness": 5,
       "freshness": 2,
       "warmth": 5,
       "officeSafety": 2,
-      "heatSafety": 2,
-      "versatility": 1,
-      "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "heatSafety": 1,
+      "versatility": 3,
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lavandin",
+          "Cinnamon",
+          "Apple"
+        ],
+        "heart": [
+          "Muguet",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Patchouli",
+          "Amber",
+          "Vanilla",
+          "Tonka Bean"
+        ]
+      },
+      "performance": "Strong presence; longevity varies by skin, weather and batch.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Afnan 9 PM official product page",
+          "url": "https://afnan.com/products/9-pm",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -1867,11 +2100,12 @@
     },
     "image": "afnan-9pm-rebel-edp.webp",
     "tags": [
-      "Date Night",
-      "Party",
-      "Office"
+      "Fruity",
+      "Woody",
+      "Sweet",
+      "Versatile"
     ],
-    "recommendation": "Best for date nights, clubbing, outdoor events, and office wear.",
+    "recommendation": "A fruity, woody and ambery scent that can move from daytime casual wear to dates and nights out.",
     "prices": {
       "5 ML": 340,
       "6 ML": 410,
@@ -1879,33 +2113,67 @@
       "15 ML": 900
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
+        "fruity",
         "fresh",
-        "aromatic",
-        "sweet"
+        "sweet",
+        "woody",
+        "amber",
+        "musky"
       ],
       "occasions": [
-        "office",
-        "active",
+        "daily",
         "date",
         "party"
       ],
       "climates": [
-        "ac",
-        "outdoor"
+        "monsoon",
+        "winter",
+        "ac"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
       "sweetness": 4,
-      "freshness": 4,
+      "freshness": 3,
       "warmth": 4,
-      "officeSafety": 4,
+      "officeSafety": 3,
       "heatSafety": 2,
       "versatility": 4,
-      "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Pineapple",
+          "Granny Smith Apple"
+        ],
+        "heart": [
+          "Cedarwood",
+          "Oakmoss",
+          "Vanilla"
+        ],
+        "base": [
+          "Caramel",
+          "Dry Woods",
+          "Ambergris",
+          "Musk"
+        ]
+      },
+      "performance": "Noticeable presence with a sweet woody dry-down; moderate application is safest indoors.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Afnan 9 PM Rebel official product page",
+          "url": "https://afnan.com/products/9-pm-rebel",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -1971,7 +2239,87 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
+    }
+  },
+  {
+    "id": "dolce-gabbana-the-one-edp",
+    "name": "Dolce & Gabbana - The One (EDP)",
+    "image": "dolce-gabbana-the-one-edp-poster.jpg",
+    "tags": [
+      "Warm Spicy",
+      "Amber",
+      "Date Night",
+      "Formal"
+    ],
+    "recommendation": "Coming soon. A refined warm evening profile suited to dates, dinners, formal occasions, and cooler or air-conditioned settings.",
+    "status": "upcoming",
+    "sizes": {
+      "5ml": {
+        "price": 440,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 530,
+        "available": false,
+        "premium": false
+      },
+      "10ml": {
+        "price": 830,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 1180,
+        "available": false,
+        "premium": false
+      }
+    },
+    "prices": {
+      "5 ML": 440,
+      "6 ML": 530,
+      "10 ML": 830,
+      "15 ML": 1180
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "spicy",
+        "amber",
+        "woody",
+        "sweet",
+        "elegant"
+      ],
+      "occasions": [
+        "date",
+        "formal"
+      ],
+      "climates": [
+        "winter",
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 3,
+      "freshness": 1,
+      "warmth": 5,
+      "officeSafety": 2,
+      "heatSafety": 1,
+      "versatility": 3,
+      "evidence": "curated",
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2035,7 +2383,12 @@
       "heatSafety": 2,
       "versatility": 2,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2101,7 +2454,12 @@
       "heatSafety": 2,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2167,7 +2525,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2238,7 +2601,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2305,7 +2673,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2372,7 +2745,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2439,7 +2817,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2509,7 +2892,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2579,7 +2967,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2649,7 +3042,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2721,7 +3119,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2753,10 +3156,11 @@
     "image": "kaaf-by-ahmed-edp.webp",
     "tags": [
       "Fresh",
-      "Gym",
+      "Aquatic",
+      "Musky",
       "Summer"
     ],
-    "recommendation": "Best for daytime, gym, office, casual outdoor events, summer, spring, and high heat.",
+    "recommendation": "A clean fruity-aquatic and musky scent for hot days, office, university and active casual wear.",
     "prices": {
       "5 ML": 280,
       "6 ML": 340,
@@ -2764,34 +3168,68 @@
       "15 ML": 710
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "fresh",
+        "aquatic",
+        "fruity",
         "aromatic",
         "musky"
       ],
       "occasions": [
         "daily",
         "office",
-        "active",
-        "party"
+        "active"
       ],
       "climates": [
         "hot",
+        "monsoon",
         "ac",
         "outdoor"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
-      "sweetness": 2,
-      "freshness": 4,
-      "warmth": 2,
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
+      "sweetness": 3,
+      "freshness": 5,
+      "warmth": 1,
       "officeSafety": 4,
-      "heatSafety": 4,
-      "versatility": 5,
-      "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "heatSafety": 5,
+      "versatility": 4,
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Red Fruits",
+          "Watermelon",
+          "Lavender",
+          "Sicilian Orange"
+        ],
+        "heart": [
+          "Sandalwood",
+          "Ambroxan",
+          "White Musk"
+        ],
+        "base": [
+          "Lotus",
+          "Jasmine",
+          "Lily of the Valley",
+          "Sea Accord"
+        ]
+      },
+      "performance": "Noticeable fresh-musky trail; begin moderately in close office settings.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Ahmed Al Maghribi Kaaf official product page",
+          "url": "https://admin.ahmedalmaghribi.com/shop/kaaf",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -2822,11 +3260,12 @@
     },
     "image": "blue-by-ahmed-edp.webp",
     "tags": [
-      "Blue",
-      "Office",
-      "Summer"
+      "Citrus",
+      "Aromatic",
+      "Woody",
+      "Fresh Spicy"
     ],
-    "recommendation": "Best for daily, office, daytime, spring, and summer wear.",
+    "recommendation": "A citrus, aromatic and woody-spicy scent for daily wear, office and polished casual settings.",
     "prices": {
       "5 ML": 220,
       "6 ML": 270,
@@ -2834,31 +3273,73 @@
       "15 ML": 540
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "fresh",
-        "aromatic"
+        "citrus",
+        "aromatic",
+        "spicy",
+        "woody",
+        "smoky",
+        "musky"
       ],
       "occasions": [
         "daily",
-        "office"
+        "office",
+        "formal"
       ],
       "climates": [
-        "hot",
+        "monsoon",
         "ac",
         "outdoor"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
-      "sweetness": 2,
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
+      "sweetness": 1,
       "freshness": 4,
-      "warmth": 2,
-      "officeSafety": 4,
-      "heatSafety": 4,
+      "warmth": 3,
+      "officeSafety": 3,
+      "heatSafety": 3,
       "versatility": 4,
-      "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Pink Pepper",
+          "Mint",
+          "Lemon"
+        ],
+        "heart": [
+          "Ginger",
+          "Nutmeg",
+          "Jasmine",
+          "Iso E Super"
+        ],
+        "base": [
+          "Incense",
+          "Vetiver",
+          "Cedar",
+          "Sandalwood",
+          "Patchouli",
+          "Labdanum",
+          "White Musk"
+        ]
+      },
+      "performance": "Long-lasting style with smoky woods; apply moderately for office use.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Ahmed Al Maghribi Blue official product page",
+          "url": "https://ksa.ahmedalmaghribi.com/en/shop/online-exclusive/extrait-de-parfum/blue-by-ahmed",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -2925,7 +3406,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -2950,7 +3436,7 @@
       },
       "15ml": {
         "price": 470,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -2992,7 +3478,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3061,7 +3552,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3130,7 +3626,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3197,7 +3698,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3266,7 +3772,12 @@
       "heatSafety": 2,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3297,11 +3808,12 @@
     },
     "image": "marwa-arabian-prestige-edp.webp",
     "tags": [
-      "Office",
-      "Formal",
-      "Summer"
+      "Citrus",
+      "Aromatic",
+      "Woody",
+      "Smoky"
     ],
-    "recommendation": "Best for office, garden parties, weddings, summer galas, and gym.",
+    "recommendation": "A refined citrus, tea, incense and woody scent for signature wear, office and smart-casual occasions.",
     "prices": {
       "5 ML": 290,
       "6 ML": 340,
@@ -3309,34 +3821,67 @@
       "15 ML": 720
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "fresh",
+        "citrus",
         "aromatic",
-        "elegant"
+        "spicy",
+        "woody",
+        "smoky",
+        "musky"
       ],
       "occasions": [
+        "daily",
         "office",
-        "active",
-        "party",
         "formal"
       ],
       "climates": [
-        "hot",
+        "monsoon",
         "ac",
         "outdoor"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
-      "sweetness": 2,
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
+      "sweetness": 1,
       "freshness": 4,
-      "warmth": 2,
+      "warmth": 3,
       "officeSafety": 4,
-      "heatSafety": 4,
+      "heatSafety": 3,
       "versatility": 5,
-      "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Petitgrain",
+          "Ginger"
+        ],
+        "heart": [
+          "Geranium",
+          "Tea",
+          "Incense"
+        ],
+        "base": [
+          "Guaiac Wood",
+          "Ambroxan",
+          "Musk"
+        ]
+      },
+      "performance": "Moderate-to-strong presence; generally versatile with controlled spraying.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Arabiyat Prestige Marwa official product page",
+          "url": "https://arabiyatprestige.com/products/arabiyat-prestige-marwa-edp-100ml-unisex",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -3404,7 +3949,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3473,7 +4023,12 @@
       "heatSafety": 4,
       "versatility": 5,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3537,7 +4092,12 @@
       "heatSafety": 4,
       "versatility": 2,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3604,7 +4164,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3673,7 +4238,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3745,7 +4315,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3813,7 +4388,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3882,7 +4462,12 @@
       "heatSafety": 2,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -3951,7 +4536,12 @@
       "heatSafety": 2,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4018,7 +4608,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4087,7 +4682,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4153,7 +4753,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4220,7 +4825,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4284,7 +4894,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4354,7 +4969,12 @@
       "heatSafety": 4,
       "versatility": 5,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4423,7 +5043,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4490,7 +5115,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4556,7 +5186,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4623,7 +5258,12 @@
       "heatSafety": 2,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4690,7 +5330,12 @@
       "heatSafety": 2,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4722,10 +5367,11 @@
     "image": "badee-al-oud-oud-for-glory.webp",
     "tags": [
       "Oud",
-      "Formal",
-      "Date Night"
+      "Woody",
+      "Warm Spicy",
+      "Formal"
     ],
-    "recommendation": "Best for formal events, weddings, and evening dinners.",
+    "recommendation": "A dense oud, patchouli and spice profile for cool evenings, formal events and experienced oud wearers.",
     "prices": {
       "5 ML": 240,
       "6 ML": 300,
@@ -4733,13 +5379,13 @@
       "15 ML": 600
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "oud",
         "woody",
         "spicy",
-        "amber",
-        "smoky"
+        "smoky",
+        "musky"
       ],
       "occasions": [
         "date",
@@ -4747,19 +5393,49 @@
         "formal"
       ],
       "climates": [
+        "winter",
         "ac"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
+      "strength": 5,
+      "projection": 5,
+      "longevity": 5,
       "sweetness": 2,
-      "freshness": 2,
+      "freshness": 1,
       "warmth": 5,
-      "officeSafety": 2,
-      "heatSafety": 2,
+      "officeSafety": 1,
+      "heatSafety": 1,
       "versatility": 2,
-      "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Nutmeg",
+          "Lavender"
+        ],
+        "heart": [
+          "Oud",
+          "Patchouli"
+        ],
+        "base": [
+          "Oud",
+          "Patchouli",
+          "Musk"
+        ]
+      },
+      "performance": "Dense and powerful; sample first and apply lightly indoors.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Lattafa Oud for Glory official product page",
+          "url": "https://lattafa.com/product/badee-al-oud-oud-for-glory/",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -4829,7 +5505,12 @@
       "heatSafety": 2,
       "versatility": 3,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4899,7 +5580,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -4967,7 +5653,12 @@
       "heatSafety": 2,
       "versatility": 3,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5038,7 +5729,12 @@
       "heatSafety": 2,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5104,7 +5800,12 @@
       "heatSafety": 2,
       "versatility": 2,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5171,7 +5872,12 @@
       "heatSafety": 2,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5237,7 +5943,12 @@
       "heatSafety": 2,
       "versatility": 2,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5307,7 +6018,12 @@
       "heatSafety": 2,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5377,7 +6093,12 @@
       "heatSafety": 2,
       "versatility": 5,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5442,7 +6163,12 @@
       "heatSafety": 3,
       "versatility": 2,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5510,7 +6236,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5580,7 +6311,12 @@
       "heatSafety": 4,
       "versatility": 5,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5611,11 +6347,12 @@
     },
     "image": "liquid-brun-by-french-avenue-edp.webp",
     "tags": [
-      "Sweet",
-      "Date Night",
-      "Winter"
+      "Amber",
+      "Vanilla",
+      "Gourmand",
+      "Strong"
     ],
-    "recommendation": "Best for evening wear, dates, cooler weather, and warm gourmand moods.",
+    "recommendation": "A strong amber-vanilla gourmand for dates, dinners and cool-weather evening wear.",
     "prices": {
       "5 ML": 299,
       "6 ML": 370,
@@ -5623,31 +6360,65 @@
       "15 ML": 780
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "sweet",
         "gourmand",
-        "spicy",
         "amber",
+        "spicy",
         "woody"
       ],
       "occasions": [
-        "date"
+        "date",
+        "party",
+        "formal"
       ],
       "climates": [
-        "winter"
+        "winter",
+        "ac"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
+      "strength": 5,
+      "projection": 4,
+      "longevity": 5,
       "sweetness": 5,
-      "freshness": 2,
+      "freshness": 1,
       "warmth": 5,
-      "officeSafety": 2,
-      "heatSafety": 2,
-      "versatility": 1,
-      "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "officeSafety": 1,
+      "heatSafety": 1,
+      "versatility": 2,
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Cinnamon",
+          "Bergamot",
+          "Cardamom",
+          "Orange Blossom"
+        ],
+        "heart": [
+          "Bourbon Vanilla",
+          "Elemi"
+        ],
+        "base": [
+          "Musk",
+          "Praline",
+          "Ambroxan",
+          "Guaiac Wood"
+        ]
+      },
+      "performance": "Officially described as strong; reduce sprays in warm weather or enclosed rooms.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "French Avenue Liquid Brun official product page",
+          "url": "https://frenchavenue.com/products/liquid-brun",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -5713,7 +6484,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5781,7 +6557,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5851,7 +6632,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5920,7 +6706,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -5984,7 +6775,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6053,7 +6849,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6085,10 +6886,11 @@
     "image": "lattafa-yara-edp.webp",
     "tags": [
       "Sweet",
-      "Office",
-      "Date Night"
+      "Fruity",
+      "Powdery",
+      "Daily Wear"
     ],
-    "recommendation": "Best for daily use, office, university, casual outings, dates, indoor AC, spring/summer, and evening.",
+    "recommendation": "A soft sweet, tropical and powdery fragrance for casual wear, relaxed dates and air-conditioned settings.",
     "prices": {
       "5 ML": 220,
       "6 ML": 270,
@@ -6096,21 +6898,20 @@
       "15 ML": 520
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "sweet",
         "fruity",
-        "powdery",
         "gourmand",
+        "powdery",
         "musky"
       ],
       "occasions": [
         "daily",
-        "office",
         "date"
       ],
       "climates": [
-        "hot",
+        "monsoon",
         "ac"
       ],
       "strength": 3,
@@ -6118,12 +6919,41 @@
       "longevity": 3,
       "sweetness": 5,
       "freshness": 2,
-      "warmth": 5,
-      "officeSafety": 4,
-      "heatSafety": 4,
+      "warmth": 3,
+      "officeSafety": 3,
+      "heatSafety": 2,
       "versatility": 3,
-      "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Tangerine",
+          "Heliotrope",
+          "Orchid"
+        ],
+        "heart": [
+          "Tropical Notes",
+          "Gourmand Accord"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood",
+          "Musk"
+        ]
+      },
+      "performance": "Soft-to-moderate presence; performance varies considerably by wearer.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Lattafa Yara official product page",
+          "url": "https://lattafa.com/product/yara/",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -6139,7 +6969,7 @@
       "6ml": {
         "price": 250,
         "available": true,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 360,
@@ -6195,7 +7025,12 @@
       "heatSafety": 2,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6262,7 +7097,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6330,7 +7170,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6395,7 +7240,12 @@
       "heatSafety": 2,
       "versatility": 2,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6426,11 +7276,12 @@
     },
     "image": "lattafa-khamrah-qahwa-edp.webp",
     "tags": [
-      "Sweet",
-      "Date Night",
+      "Gourmand",
+      "Coffee",
+      "Warm Spicy",
       "Winter"
     ],
-    "recommendation": "Best for cold weather, evening wear, dates, and warm sweet gourmand moods.",
+    "recommendation": "A rich coffee, spice and vanilla gourmand for cool evenings, dates and festive occasions.",
     "prices": {
       "5 ML": 280,
       "6 ML": 340,
@@ -6438,31 +7289,66 @@
       "15 ML": 700
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "sweet",
         "gourmand",
         "spicy",
         "amber",
-        "woody"
+        "musky"
       ],
       "occasions": [
-        "date"
+        "date",
+        "party",
+        "formal"
       ],
       "climates": [
-        "winter"
+        "winter",
+        "ac"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
+      "strength": 4,
+      "projection": 4,
+      "longevity": 5,
       "sweetness": 5,
-      "freshness": 2,
+      "freshness": 1,
       "warmth": 5,
-      "officeSafety": 2,
-      "heatSafety": 2,
-      "versatility": 1,
-      "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "officeSafety": 1,
+      "heatSafety": 1,
+      "versatility": 2,
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Ginger",
+          "Cinnamon",
+          "Cardamom"
+        ],
+        "heart": [
+          "Praline",
+          "Candied Fruits",
+          "White Flowers"
+        ],
+        "base": [
+          "Coffee Arabica",
+          "Tonka Bean",
+          "Musk",
+          "Benzoin",
+          "Vanilla"
+        ]
+      },
+      "performance": "Rich and persistent; best tested lightly before wearing in enclosed spaces.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Lattafa Khamrah Qahwa official product page",
+          "url": "https://lattafa.com/product/khamrah-qahwa/",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -6529,7 +7415,12 @@
       "heatSafety": 2,
       "versatility": 2,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6560,11 +7451,12 @@
     },
     "image": "lattafa-asad-edp.webp",
     "tags": [
-      "Sweet",
-      "Winter",
-      "Date Night"
+      "Warm Spicy",
+      "Amber",
+      "Woody",
+      "Evening"
     ],
-    "recommendation": "Best for cooler weather and evening wear.",
+    "recommendation": "A warm spicy, amber and woody fragrance for cooler evenings, formal occasions and confident night wear.",
     "prices": {
       "5 ML": 220,
       "6 ML": 270,
@@ -6572,7 +7464,7 @@
       "15 ML": 550
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
         "spicy",
         "amber",
@@ -6581,22 +7473,57 @@
         "smoky"
       ],
       "occasions": [
-        "date"
+        "date",
+        "party",
+        "formal"
       ],
       "climates": [
-        "winter"
+        "winter",
+        "ac"
       ],
-      "strength": 3,
-      "projection": 3,
-      "longevity": 3,
-      "sweetness": 4,
-      "freshness": 2,
-      "warmth": 4,
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
+      "sweetness": 3,
+      "freshness": 1,
+      "warmth": 5,
       "officeSafety": 2,
-      "heatSafety": 2,
-      "versatility": 1,
-      "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "heatSafety": 1,
+      "versatility": 3,
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": true
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Black Pepper",
+          "Pineapple",
+          "Tobacco"
+        ],
+        "heart": [
+          "Coffee",
+          "Iris",
+          "Patchouli"
+        ],
+        "base": [
+          "Amber",
+          "Vanilla",
+          "Dry Woods",
+          "Benzoin",
+          "Labdanum"
+        ]
+      },
+      "performance": "Strong warm profile; conservative spraying is recommended indoors.",
+      "sourceNote": "",
+      "sources": [
+        {
+          "title": "Lattafa Asad official product page",
+          "url": "https://lattafa.com/product/asad/",
+          "type": "brand"
+        }
+      ]
     }
   },
   {
@@ -6665,7 +7592,12 @@
       "heatSafety": 2,
       "versatility": 3,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6730,7 +7662,12 @@
       "heatSafety": 4,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6799,7 +7736,12 @@
       "heatSafety": 4,
       "versatility": 5,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6870,7 +7812,12 @@
       "heatSafety": 2,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -6937,7 +7884,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -7006,7 +7958,12 @@
       "heatSafety": 4,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -7073,7 +8030,12 @@
       "heatSafety": 3,
       "versatility": 4,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -7142,7 +8104,12 @@
       "heatSafety": 4,
       "versatility": 2,
       "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -7208,7 +8175,12 @@
       "heatSafety": 3,
       "versatility": 3,
       "evidence": "catalogue-derived",
-      "reviewedAt": "2026-08-23"
+      "reviewedAt": "2026-08-26"
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
     }
   },
   {
@@ -7240,10 +8212,11 @@
     "image": "oud-al-layl-midnight-edp.webp",
     "tags": [
       "Aquatic",
-      "Summer",
-      "Gym"
+      "Fresh",
+      "Citrus",
+      "Strong"
     ],
-    "recommendation": "Best for summer days, office, gym, and clubbing.",
+    "recommendation": "A fresh marine-citrus, sweet-woody scent for hot-weather casual wear, active use and energetic evenings—not a dense traditional oud profile.",
     "prices": {
       "5 ML": 160,
       "6 ML": 190,
@@ -7251,34 +8224,77 @@
       "15 ML": 350
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
-        "oud",
+        "fresh",
+        "aquatic",
+        "citrus",
+        "aromatic",
+        "sweet",
         "woody",
-        "amber",
-        "spicy",
-        "smoky"
+        "musky"
       ],
       "occasions": [
-        "date",
-        "party",
-        "formal"
+        "daily",
+        "active",
+        "party"
       ],
       "climates": [
-        "winter",
-        "ac"
+        "hot",
+        "monsoon",
+        "outdoor"
       ],
       "strength": 4,
       "projection": 4,
       "longevity": 4,
       "sweetness": 3,
-      "freshness": 1,
-      "warmth": 5,
-      "officeSafety": 1,
-      "heatSafety": 1,
-      "versatility": 2,
-      "evidence": "curated",
-      "reviewedAt": "2026-08-23"
+      "freshness": 5,
+      "warmth": 2,
+      "officeSafety": 2,
+      "heatSafety": 4,
+      "versatility": 4,
+      "evidence": "web-verified",
+      "reviewedAt": "2026-08-26",
+      "topPickEligible": false
+    },
+    "details": {
+      "verification": "source-checked",
+      "notes": {
+        "top": [
+          "Marine Accord",
+          "Grapefruit",
+          "Mandarin"
+        ],
+        "heart": [
+          "Violet",
+          "Cedarwood",
+          "Sugar"
+        ],
+        "base": [
+          "Patchouli",
+          "Musk",
+          "Moss"
+        ]
+      },
+      "performance": "Reported as strong for a fresh profile; start moderately, especially at the gym or indoors.",
+      "sourceNote": "Retailer note pyramids differ at the heart; this uses the overlapping and most consistently repeated listing.",
+      "sources": [
+        {
+          "title": "Belvish Oud Al Layl Midnight product page",
+          "url": "https://belvish.com/products/arabiyat-oud-al-layl-midnight-edition-edp-for-men",
+          "type": "specialist-retailer"
+        },
+        {
+          "title": "FragsTalk Oud Al Layl Midnight product page",
+          "url": "https://fragstalk.in/products/arabiyat-oud-al-layl-midnight-100ml-edp",
+          "type": "specialist-retailer"
+        },
+        {
+          "title": "MOKS Oud Al Layl Midnight product page",
+          "url": "https://moksperfumes.co.za/product/arabiyat-oud-al-layl-midnight-edition-intense-edp-100ml/",
+          "type": "specialist-retailer"
+        }
+      ]
     }
   }
 ]

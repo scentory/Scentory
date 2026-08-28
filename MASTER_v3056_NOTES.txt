@@ -1,0 +1,13 @@
+SCENTORY MASTER v3056 — D&G POSTER + SIMPLIFIED WEATHER
+======================================================
+
+- Removed the humidity input from Scentory Manual Weather Match.
+- Removed humidity-based scoring and saved humidity preferences.
+- Manual weather matching now uses district, temperature, current conditions,
+  indoor/outdoor setting and preferred fragrance presence.
+- Renamed “Cloudy / humid” to “Cloudy”.
+- Added the supplied Scentory poster to Dolce & Gabbana The One EDP.
+- Dolce & Gabbana The One EDP remains marked Upcoming and cannot be added to cart.
+- All confirmed August 2026 prices and stock settings remain unchanged.
+- Catalogue remains 108 products: 97 available, 10 out of stock and 1 upcoming.
+- 30 ML remains excluded from the storefront.

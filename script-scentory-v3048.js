@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3050';
+const DATA_VERSION = '3056';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
   'hawas-black-edp',
@@ -225,7 +225,12 @@ const imagePath = p => p.image || `images/${p.id}.jpg`;
 const hideBrokenImage = img => { img.closest('.product-image-wrap')?.classList.add('image-missing'); };
 
 
-const SCENT_TAGS = ['Fresh','Sweet','Oud','Blue','Aquatic','Office','Daily Wear','Gym','Date Night','Party','Formal','Summer','Winter','Beast Mode'];
+const SCENT_TAGS = [
+  'Fresh','Aquatic','Citrus','Green','Aromatic','Fruity','Sweet','Gourmand',
+  'Warm Spicy','Spicy','Amber','Woody','Oud','Leather','Smoky','Powdery','Musky',
+  'Elegant','Blue','Office','Daily Wear','Gym','Date Night','Party','Formal',
+  'Summer','Winter','Strong','Beast Mode','Versatile','Evening','Coffee'
+];
 function getScentProfile(p) {
   const safeTags = Array.isArray(p?.tags)
     ? p.tags.filter(tag => SCENT_TAGS.includes(tag)).slice(0, 3)
@@ -267,6 +272,53 @@ function buildRecommendationFromTags(tagList = []) {
 function renderTagPills(p, limit = 4) {
   const profile = getScentProfile(p);
   return profile.tags.slice(0, limit).map(tag => `<span class="tag scent-tag">${escapeHtml(tag)}</span>`).join('');
+}
+
+const DETAIL_OCCASION_LABELS = {
+  daily: 'Daily wear', office: 'Office / university', active: 'Gym / active use',
+  date: 'Date night', party: 'Party / social event', formal: 'Formal occasion'
+};
+const DETAIL_CLIMATE_LABELS = {
+  hot: 'Hot weather', monsoon: 'Monsoon / humid weather', winter: 'Cool weather',
+  ac: 'Air-conditioned indoor setting', outdoor: 'Outdoor wear'
+};
+const DETAIL_LONGEVITY_LABELS = ['','Light','Moderate','Moderate to long','Long-lasting','Very long-lasting'];
+
+function renderIntelligenceDetails(p) {
+  const details = p?.details || {};
+  const profile = p?.profile || {};
+  const sourceChecked = details.verification === 'source-checked';
+  const notes = details.notes || {};
+  const noteRows = sourceChecked ? [
+    ['Opening notes', notes.top], ['Heart notes', notes.heart], ['Base notes', notes.base]
+  ].filter(([, values]) => Array.isArray(values) && values.length) : [];
+  const bestPlaces = (profile.occasions || []).map(value => DETAIL_OCCASION_LABELS[value] || value);
+  const bestWeather = (profile.climates || []).map(value => DETAIL_CLIMATE_LABELS[value] || value);
+  const longevity = DETAIL_LONGEVITY_LABELS[Number(profile.longevity || 0)] || 'Varies by wearer';
+  const character = (profile.character || []).map(value => value.replace(/\b\w/g, letter => letter.toUpperCase()));
+
+  if (!sourceChecked) {
+    return `
+      <section class="verified-perfume-details pending-review" aria-label="Perfume profile review status">
+        <span class="profile-review-badge">Profile review in progress</span>
+        <p>Scentory is rechecking the exact note pyramid and performance sources for this perfume. Until that review is complete, we do not show detailed note claims here. Please sample 5 ML first.</p>
+        ${bestPlaces.length ? `<div class="profile-fact"><b>Catalogue use profile</b><span>${bestPlaces.map(escapeHtml).join(' · ')}</span></div>` : ''}
+      </section>
+    `;
+  }
+
+  return `
+    <section class="verified-perfume-details" aria-label="Source-checked perfume profile">
+      <span class="profile-review-badge checked">Source-checked profile</span>
+      ${character.length ? `<div class="profile-fact"><b>Scent character</b><span>${character.map(escapeHtml).join(' · ')}</span></div>` : ''}
+      ${noteRows.map(([label, values]) => `<div class="profile-fact"><b>${escapeHtml(label)}</b><span>${values.map(escapeHtml).join(' · ')}</span></div>`).join('')}
+      <div class="profile-fact"><b>Expected longevity</b><span>${escapeHtml(longevity)}. ${escapeHtml(details.performance || 'Skin, weather, batch and atomizer can change real-world performance.')}</span></div>
+      ${bestPlaces.length ? `<div class="profile-fact"><b>Best places to wear</b><span>${bestPlaces.map(escapeHtml).join(' · ')}</span></div>` : ''}
+      ${bestWeather.length ? `<div class="profile-fact"><b>Best conditions</b><span>${bestWeather.map(escapeHtml).join(' · ')}</span></div>` : ''}
+      ${details.sourceNote ? `<p class="profile-source-note">${escapeHtml(details.sourceNote)}</p>` : ''}
+      <p class="profile-source-note">Performance is guidance, not a guarantee. Skin chemistry, heat, humidity and spray count can change the result.</p>
+    </section>
+  `;
 }
 
 function renderPriceTiles(p, extraClass = '') {
@@ -339,6 +391,7 @@ function openProductDetails(id) {
         <h2>${escapeHtml(p.name)}</h2>
         <div class="tags modal-tags">${profile.tags.map(tag => `<span class="tag scent-tag">${escapeHtml(tag)}</span>`).join('')}</div>
         <p>${escapeHtml(profile.recommendation)}</p>
+        ${renderIntelligenceDetails(p)}
         <p class="small-note modal-note">Tap a size below to add or remove it from your order.</p>
         <div class="price-buttons four-row modal-price-grid">${renderPriceTiles(p, 'modal-price-tile')}</div>
         <a class="details-link" href="perfume/${encodeURIComponent(p.id)}.html">Open shareable product page</a>

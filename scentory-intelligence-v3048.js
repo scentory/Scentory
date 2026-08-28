@@ -3,7 +3,7 @@
 
   const toolNames = {
     find: 'Find My Perfume',
-    weather: 'Scentory Live Perfume Match',
+    weather: 'Scentory Manual Weather Match',
     box: 'Build My Decant Box',
     similar: 'Similar Perfumes',
     cost: 'Cost Per Spray',
@@ -19,6 +19,76 @@
     ac: 'AC Office',
     outdoor: 'Outdoor Day'
   };
+
+  const BANGLADESH_DISTRICTS = Object.freeze([
+    { name: 'Dhaka', bangla: 'ঢাকা', division: 'Dhaka', aliases: [] },
+    { name: 'Faridpur', bangla: 'ফরিদপুর', division: 'Dhaka', aliases: [] },
+    { name: 'Gazipur', bangla: 'গাজীপুর', division: 'Dhaka', aliases: [] },
+    { name: 'Gopalganj', bangla: 'গোপালগঞ্জ', division: 'Dhaka', aliases: [] },
+    { name: 'Kishoreganj', bangla: 'কিশোরগঞ্জ', division: 'Dhaka', aliases: [] },
+    { name: 'Madaripur', bangla: 'মাদারীপুর', division: 'Dhaka', aliases: [] },
+    { name: 'Manikganj', bangla: 'মানিকগঞ্জ', division: 'Dhaka', aliases: [] },
+    { name: 'Munshiganj', bangla: 'মুন্সীগঞ্জ', division: 'Dhaka', aliases: [] },
+    { name: 'Narayanganj', bangla: 'নারায়ণগঞ্জ', division: 'Dhaka', aliases: [] },
+    { name: 'Narsingdi', bangla: 'নরসিংদী', division: 'Dhaka', aliases: [] },
+    { name: 'Rajbari', bangla: 'রাজবাড়ী', division: 'Dhaka', aliases: [] },
+    { name: 'Shariatpur', bangla: 'শরীয়তপুর', division: 'Dhaka', aliases: [] },
+    { name: 'Tangail', bangla: 'টাঙ্গাইল', division: 'Dhaka', aliases: [] },
+    { name: 'Bagerhat', bangla: 'বাগেরহাট', division: 'Khulna', aliases: [] },
+    { name: 'Chuadanga', bangla: 'চুয়াডাঙ্গা', division: 'Khulna', aliases: [] },
+    { name: 'Jashore', bangla: 'যশোর', division: 'Khulna', aliases: ['Jessore'] },
+    { name: 'Jhenaidah', bangla: 'ঝিনাইদহ', division: 'Khulna', aliases: [] },
+    { name: 'Khulna', bangla: 'খুলনা', division: 'Khulna', aliases: [] },
+    { name: 'Kushtia', bangla: 'কুষ্টিয়া', division: 'Khulna', aliases: [] },
+    { name: 'Magura', bangla: 'মাগুরা', division: 'Khulna', aliases: [] },
+    { name: 'Meherpur', bangla: 'মেহেরপুর', division: 'Khulna', aliases: [] },
+    { name: 'Narail', bangla: 'নড়াইল', division: 'Khulna', aliases: [] },
+    { name: 'Satkhira', bangla: 'সাতক্ষীরা', division: 'Khulna', aliases: [] },
+    { name: 'Bandarban', bangla: 'বান্দরবান', division: 'Chattogram', aliases: [] },
+    { name: 'Brahmanbaria', bangla: 'ব্রাহ্মণবাড়িয়া', division: 'Chattogram', aliases: [] },
+    { name: 'Chandpur', bangla: 'চাঁদপুর', division: 'Chattogram', aliases: [] },
+    { name: 'Chattogram', bangla: 'চট্টগ্রাম', division: 'Chattogram', aliases: ['Chittagong'] },
+    { name: 'Cumilla', bangla: 'কুমিল্লা', division: 'Chattogram', aliases: ['Comilla'] },
+    { name: "Cox's Bazar", bangla: 'কক্সবাজার', division: 'Chattogram', aliases: ['Coxs Bazar'] },
+    { name: 'Feni', bangla: 'ফেনী', division: 'Chattogram', aliases: [] },
+    { name: 'Khagrachhari', bangla: 'খাগড়াছড়ি', division: 'Chattogram', aliases: ['Khagrachari'] },
+    { name: 'Lakshmipur', bangla: 'লক্ষ্মীপুর', division: 'Chattogram', aliases: ['Laxmipur'] },
+    { name: 'Noakhali', bangla: 'নোয়াখালী', division: 'Chattogram', aliases: [] },
+    { name: 'Rangamati', bangla: 'রাঙ্গামাটি', division: 'Chattogram', aliases: [] },
+    { name: 'Bogura', bangla: 'বগুড়া', division: 'Rajshahi', aliases: ['Bogra'] },
+    { name: 'Joypurhat', bangla: 'জয়পুরহাট', division: 'Rajshahi', aliases: ['Jaipurhat'] },
+    { name: 'Naogaon', bangla: 'নওগাঁ', division: 'Rajshahi', aliases: [] },
+    { name: 'Natore', bangla: 'নাটোর', division: 'Rajshahi', aliases: [] },
+    { name: 'Chapainawabganj', bangla: 'চাঁপাইনবাবগঞ্জ', division: 'Rajshahi', aliases: ['Chapai Nawabganj'] },
+    { name: 'Pabna', bangla: 'পাবনা', division: 'Rajshahi', aliases: [] },
+    { name: 'Rajshahi', bangla: 'রাজশাহী', division: 'Rajshahi', aliases: [] },
+    { name: 'Sirajganj', bangla: 'সিরাজগঞ্জ', division: 'Rajshahi', aliases: [] },
+    { name: 'Habiganj', bangla: 'হবিগঞ্জ', division: 'Sylhet', aliases: [] },
+    { name: 'Moulvibazar', bangla: 'মৌলভীবাজার', division: 'Sylhet', aliases: ['Moulvi Bazar', 'Maulvibazar'] },
+    { name: 'Sunamganj', bangla: 'সুনামগঞ্জ', division: 'Sylhet', aliases: [] },
+    { name: 'Sylhet', bangla: 'সিলেট', division: 'Sylhet', aliases: [] },
+    { name: 'Dinajpur', bangla: 'দিনাজপুর', division: 'Rangpur', aliases: [] },
+    { name: 'Gaibandha', bangla: 'গাইবান্ধা', division: 'Rangpur', aliases: [] },
+    { name: 'Kurigram', bangla: 'কুড়িগ্রাম', division: 'Rangpur', aliases: [] },
+    { name: 'Lalmonirhat', bangla: 'লালমনিরহাট', division: 'Rangpur', aliases: [] },
+    { name: 'Nilphamari', bangla: 'নীলফামারী', division: 'Rangpur', aliases: [] },
+    { name: 'Panchagarh', bangla: 'পঞ্চগড়', division: 'Rangpur', aliases: [] },
+    { name: 'Rangpur', bangla: 'রংপুর', division: 'Rangpur', aliases: [] },
+    { name: 'Thakurgaon', bangla: 'ঠাকুরগাঁও', division: 'Rangpur', aliases: [] },
+    { name: 'Jamalpur', bangla: 'জামালপুর', division: 'Mymensingh', aliases: [] },
+    { name: 'Mymensingh', bangla: 'ময়মনসিংহ', division: 'Mymensingh', aliases: [] },
+    { name: 'Netrokona', bangla: 'নেত্রকোণা', division: 'Mymensingh', aliases: ['Netrakona'] },
+    { name: 'Sherpur', bangla: 'শেরপুর', division: 'Mymensingh', aliases: [] },
+    { name: 'Barguna', bangla: 'বরগুনা', division: 'Barishal', aliases: [] },
+    { name: 'Barishal', bangla: 'বরিশাল', division: 'Barishal', aliases: ['Barisal'] },
+    { name: 'Bhola', bangla: 'ভোলা', division: 'Barishal', aliases: [] },
+    { name: 'Jhalokati', bangla: 'ঝালকাঠি', division: 'Barishal', aliases: ['Jhalakathi'] },
+    { name: 'Patuakhali', bangla: 'পটুয়াখালী', division: 'Barishal', aliases: [] },
+    { name: 'Pirojpur', bangla: 'পিরোজপুর', division: 'Barishal', aliases: [] }
+  ].map(Object.freeze));
+
+  let currentWeatherDistrictMatches = [];
+  let activeWeatherDistrictIndex = -1;
 
   const occasionNames = {
     daily: 'Daily Wear',
@@ -36,6 +106,14 @@
     party: ['party', 'beast mode', 'bold', 'sweet'],
     gym: ['gym', 'fresh', 'aquatic', 'summer'],
     formal: ['formal', 'office', 'elegant', 'woody']
+  };
+
+  const styleProfiles = {
+    polished: { preferred: ['woody', 'aromatic', 'green', 'spicy', 'leather', 'amber', 'elegant'], avoid: ['gourmand'] },
+    clean: { preferred: ['fresh', 'aquatic', 'citrus', 'green', 'aromatic', 'clean'], avoid: ['oud', 'smoky', 'leather'] },
+    playful: { preferred: ['fruity', 'sweet', 'gourmand', 'fresh'], avoid: ['smoky', 'leather'] },
+    luxury: { preferred: ['oud', 'amber', 'leather', 'woody', 'spicy', 'elegant'], avoid: ['gym'] },
+    rugged: { preferred: ['woody', 'smoky', 'leather', 'green', 'spicy', 'aromatic'], avoid: ['powdery', 'gourmand'] }
   };
 
   const weatherProfiles = {
@@ -94,12 +172,14 @@
   };
 
   const findWeights = {
-    occasion: 28,
-    character: 24,
-    weather: 20,
-    presence: 14,
+    occasion: 22,
+    character: 20,
+    weather: 16,
+    presence: 12,
+    style: 14,
     budget: 8,
-    availability: 6
+    availability: 4,
+    confidence: 4
   };
 
   const layeringRecipes = [
@@ -232,7 +312,7 @@
 
   function buildPerfumeProfile(product) {
     const structured = product?.profile;
-    if (structured?.schemaVersion === 1) {
+    if (Number(structured?.schemaVersion) >= 1) {
       return {
         character: new Set(structured.character || ['aromatic']),
         uses: new Set(structured.occasions || ['daily']),
@@ -246,7 +326,9 @@
         officeSafety: Number(structured.officeSafety || 3),
         heatSafety: Number(structured.heatSafety || 3),
         versatility: Number(structured.versatility || 3),
-        evidence: structured.evidence || 'catalogue-derived'
+        evidence: structured.evidence || 'catalogue-derived',
+        verification: product?.details?.verification || 'catalogue-derived',
+        topPickEligible: structured.topPickEligible !== false
       };
     }
 
@@ -287,8 +369,65 @@
       warmth: 3, officeSafety: uses.has('office') ? 4 : 2,
       heatSafety: weather.has('hot') ? 4 : 2,
       versatility: uses.size >= 3 ? 4 : 2,
-      evidence: 'legacy-fallback'
+      evidence: 'legacy-fallback',
+      verification: 'legacy-fallback',
+      topPickEligible: true
     };
+  }
+
+  function styleFit(profile, style) {
+    const rules = styleProfiles[style] || styleProfiles.polished;
+    const character = profile.character;
+    const preferredHits = rules.preferred.filter(trait => character.has(trait)).length;
+    const avoidHits = rules.avoid.filter(trait => character.has(trait)).length;
+    return clamp(.42 + preferredHits * .16 - avoidHits * .18, .18, 1);
+  }
+
+  function budgetPositionFit(price, budget, preference) {
+    const ratio = clamp(Number(price) / Math.max(1, Number(budget)), 0, 1);
+    const target = preference === 'value' ? .38 : preference === 'premium' ? .88 : .64;
+    return clamp(1 - Math.abs(ratio - target) / .75, .4, 1);
+  }
+
+  function evidenceFit(product, profile) {
+    if (product?.details?.verification === 'source-checked' || profile.evidence === 'web-verified') return 1;
+    if (profile.evidence === 'curated') return .82;
+    if (profile.evidence === 'catalogue-derived') return .68;
+    return .55;
+  }
+
+  function productBrandKey(product) {
+    const id = String(product?.id || '');
+    const families = ['club-de-nuit', 'afnan', 'hawas', 'lattafa', 'rayhaan', 'brandy', 'khadlaj', 'yusuf-bhai', 'al-haramain', 'riiffs'];
+    return families.find(prefix => id.startsWith(prefix)) || id.split('-').slice(0, 2).join('-');
+  }
+
+  function primaryFamily(product) {
+    const profile = buildPerfumeProfile(product);
+    const ordered = ['fresh', 'aquatic', 'citrus', 'green', 'aromatic', 'fruity', 'sweet', 'gourmand', 'spicy', 'amber', 'woody', 'oud', 'leather', 'smoky', 'powdery', 'musky'];
+    return ordered.find(trait => profile.character.has(trait)) || 'aromatic';
+  }
+
+  function selectDiverseMatches(candidates, limit) {
+    const remaining = [...candidates];
+    const selected = [];
+    while (selected.length < limit && remaining.length) {
+      remaining.sort((left, right) => {
+        const leftProfile = buildPerfumeProfile(left.product);
+        const rightProfile = buildPerfumeProfile(right.product);
+        const leftFirstPenalty = selected.length === 0 && !leftProfile.topPickEligible ? 100 : 0;
+        const rightFirstPenalty = selected.length === 0 && !rightProfile.topPickEligible ? 100 : 0;
+        const leftBrandPenalty = selected.some(item => productBrandKey(item.product) === productBrandKey(left.product)) ? 7 : 0;
+        const rightBrandPenalty = selected.some(item => productBrandKey(item.product) === productBrandKey(right.product)) ? 7 : 0;
+        const leftFamilyPenalty = selected.some(item => primaryFamily(item.product) === primaryFamily(left.product)) ? 5 : 0;
+        const rightFamilyPenalty = selected.some(item => primaryFamily(item.product) === primaryFamily(right.product)) ? 5 : 0;
+        const leftAdjusted = left.score - leftFirstPenalty - leftBrandPenalty - leftFamilyPenalty;
+        const rightAdjusted = right.score - rightFirstPenalty - rightBrandPenalty - rightFamilyPenalty;
+        return rightAdjusted - leftAdjusted || right.confidence - left.confidence || left.product.name.localeCompare(right.product.name);
+      });
+      selected.push(remaining.shift());
+    }
+    return selected;
   }
 
   function availableSize(product, preferredSize = '') {
@@ -383,9 +522,9 @@
   }
 
   function weatherSummaryLabel(reading) {
-    const humidity = Number.isFinite(Number(reading.humidity)) ? ` · ${Math.round(Number(reading.humidity))}% humidity` : '';
-    const feelsLike = Number.isFinite(Number(reading.feelsLike)) ? ` · feels like ${Math.round(Number(reading.feelsLike))}°C` : '';
-    return `${Math.round(Number(reading.temperature))}°C${feelsLike}${humidity} · ${reading.condition || 'Current conditions'}`;
+    const hasFeelsLike = reading.feelsLike !== null && reading.feelsLike !== undefined && reading.feelsLike !== '' && Number.isFinite(Number(reading.feelsLike));
+    const feelsLike = hasFeelsLike ? ` · feels like ${Math.round(Number(reading.feelsLike))}°C` : '';
+    return `${Math.round(Number(reading.temperature))}°C${feelsLike} · ${reading.condition || 'Current conditions'}`;
   }
 
   function renderToolShell(key, lead, body) {
@@ -424,14 +563,17 @@
   function renderFindTool() {
     const weather = defaultWeather();
     return renderToolShell('find',
-      'Answer six quick questions. Every result shows what matched, what may not, and how confident the recommendation is.',
+      'Answer a few quick questions. Results balance scent family, maturity, occasion, weather, presence, budget position and profile confidence.',
       `
         <form class="discovery-form" onsubmit="runFindMyPerfume(event)">
           <div class="discovery-field"><label for="findOccasion">Where will you wear it?</label>
             <select id="findOccasion"><option value="daily">Daily wear</option><option value="office">Office / university</option><option value="date">Date night</option><option value="party">Party</option><option value="gym">Gym / active</option><option value="formal">Formal event</option></select>
           </div>
           <div class="discovery-field"><label for="findMood">Which character attracts you?</label>
-            <select id="findMood"><option value="fresh">Fresh & clean</option><option value="sweet">Sweet & inviting</option><option value="aquatic">Aquatic & airy</option><option value="bold">Bold & powerful</option><option value="woody">Woody & refined</option><option value="versatile">Versatile & easy</option></select>
+            <select id="findMood"><option value="fresh">Fresh & clean</option><option value="aquatic">Aquatic & airy</option><option value="citrus">Citrus & bright</option><option value="aromatic">Aromatic / barbershop</option><option value="green">Green & natural</option><option value="fruity">Fruity</option><option value="sweet">Sweet & inviting</option><option value="gourmand">Gourmand / dessert-like</option><option value="woody">Woody & refined</option><option value="spicy">Warm spicy</option><option value="amber">Amber & warm</option><option value="oud">Oud</option><option value="leather">Leather</option><option value="powdery">Powdery & soft</option><option value="bold">Bold & powerful</option><option value="versatile">Versatile & easy</option></select>
+          </div>
+          <div class="discovery-field"><label for="findStyle">Desired style impression</label>
+            <select id="findStyle"><option value="polished">Polished & mature</option><option value="clean">Clean & understated</option><option value="playful">Youthful & playful</option><option value="luxury">Rich & luxurious</option><option value="rugged">Rugged & masculine</option></select>
           </div>
           <div class="discovery-field"><label for="findWeather">Weather or environment</label>
             <select id="findWeather">${Object.entries(weatherNames).map(([key, label]) => `<option value="${key}" ${key === weather ? 'selected' : ''}>${label}</option>`).join('')}</select>
@@ -448,6 +590,9 @@
           <div class="discovery-field"><label for="findBudget">Maximum perfume budget</label>
             <select id="findBudget"><option value="300">Up to ৳300</option><option value="500" selected>Up to ৳500</option><option value="800">Up to ৳800</option><option value="1200">Up to ৳1,200</option><option value="2000">Up to ৳2,000</option></select>
           </div>
+          <div class="discovery-field"><label for="findPricePreference">Within that budget, prefer</label>
+            <select id="findPricePreference"><option value="balanced">Best overall balance</option><option value="premium">More premium choices</option><option value="value">Best value</option></select>
+          </div>
           <div class="discovery-form-actions"><button class="discovery-action" type="submit">Show My Matches</button></div>
         </form>
         <div id="findResults" class="discovery-results"></div>
@@ -459,11 +604,13 @@
     event?.preventDefault();
     const occasion = document.getElementById('findOccasion')?.value || 'daily';
     const mood = document.getElementById('findMood')?.value || 'fresh';
+    const style = document.getElementById('findStyle')?.value || 'polished';
     const weather = document.getElementById('findWeather')?.value || 'hot';
     const presence = document.getElementById('findPresence')?.value || 'balanced';
     const avoid = document.getElementById('findAvoid')?.value || 'none';
     const size = document.getElementById('findSize')?.value || '5ml';
     const budget = Number(document.getElementById('findBudget')?.value || 500);
+    const pricePreference = document.getElementById('findPricePreference')?.value || 'balanced';
     const resultsBox = document.getElementById('findResults');
     if (!resultsBox) return;
 
@@ -482,20 +629,27 @@
       const presenceFit = clamp(1 - Math.abs(profile.strength - targetStrength) / 4, .2, 1);
       const presenceHit = presenceFit >= .75;
       const avoidHit = avoid !== 'none' && (profile.character.has(avoid) || traits.has(avoid) || (avoid === 'bold' && profile.strength >= 4));
-      const budgetFit = clamp(1 - selected.item.price / Math.max(1, budget) * .35, .45, 1);
+      const maturityFit = styleFit(profile, style);
+      const budgetFit = budgetPositionFit(selected.item.price, budget, pricePreference);
+      const confidence = evidenceFit(product, profile);
       let score = occasionFit * findWeights.occasion
         + characterFit * findWeights.character
         + weatherFit * findWeights.weather
         + presenceFit * findWeights.presence
+        + maturityFit * findWeights.style
         + budgetFit * findWeights.budget
-        + findWeights.availability;
+        + findWeights.availability
+        + confidence * findWeights.confidence;
       if (avoidHit) score -= 22;
+      if (!profile.topPickEligible) score -= 10;
       score = Math.round(Math.max(28, Math.min(98, score)));
       const why = [
         directOccasionHit ? `Directly profiled for ${occasionNames[occasion]}` : relatedOccasionHits ? `Related traits support ${occasionNames[occasion]}` : '',
         characterHit ? `${traitLabel(mood)} character matched` : '',
         weatherFit >= .7 ? `Strong ${weatherNames[weather].toLowerCase()} fit` : '',
         presenceHit ? `${strengthLabel(profile.strength)} presence matched` : '',
+        maturityFit >= .74 ? `${traitLabel(style)} style matched` : '',
+        confidence >= .95 ? 'Source-checked profile' : 'Catalogue profile; sample before committing',
         `${displayMl(size)} stays within budget`
       ].filter(Boolean);
       const cautions = [];
@@ -503,101 +657,198 @@
       if (!directOccasionHit) cautions.push(`Occasion fit is based on related profile traits, not a direct ${occasionNames[occasion].toLowerCase()} classification`);
       if (!presenceHit) cautions.push(`Presence is ${strengthLabel(profile.strength).toLowerCase()}, not your selected ${presence}`);
       if (avoidHit) cautions.push(`It may include the ${traitLabel(avoid).toLowerCase()} character you prefer to avoid`);
+      if (confidence < .95) cautions.push('Its detailed note pyramid is still being source-reviewed');
+      if (!profile.topPickEligible) cautions.push('This is kept as an alternative rather than a first recommendation');
       const risk = score >= 84 && !avoidHit ? 'Lower sampling risk' : score >= 70 ? 'Moderate sampling risk' : 'Higher sampling risk';
-      return { product, score, selected, why, cautions, risk };
-    }).filter(Boolean).sort((a, b) => b.score - a.score || a.selected.item.price - b.selected.item.price).slice(0, 3);
+      return { product, score, selected, why, cautions, risk, confidence };
+    }).filter(Boolean);
+    const diverseMatches = selectDiverseMatches(matches, 3);
 
-    if (!matches.length) {
+    if (!diverseMatches.length) {
       resultsBox.innerHTML = '<div class="discovery-empty">No available perfume matches that exact size and budget. Try a smaller size or increase the budget.</div>';
       return;
     }
     resultsBox.innerHTML = `
       <div class="discovery-results-head"><h3>Your strongest matches</h3><span>Live stock and prices</span></div>
-      <div class="discovery-result-grid similarity-grid">${matches.map(({ product, score, selected, why, cautions, risk }) => renderResultCard(product, {
+      <div class="discovery-result-grid similarity-grid">${diverseMatches.map(({ product, score, selected, why, cautions, risk }) => renderResultCard(product, {
         wide: true,
         size: selected.size,
         badge: `${score}% explained match`,
         reason: why.slice(0, 3).join(' · '),
         breakdown: `<div class="explainable-match"><strong>Why it fits</strong><ul>${why.map(item => `<li>${esc(item)}</li>`).join('')}</ul><strong>Consider before choosing</strong><p>${cautions.length ? esc(cautions.join('. ')) : 'No major conflict was detected from your answers.'}</p><span>${esc(risk)} — try 5 ML first if unsure.</span></div>`
       })).join('')}</div>
-      <p class="discovery-disclaimer"><strong>Transparent scoring:</strong> occasion 28%, perfume character 24%, weather 20%, presence 14%, budget 8% and availability 6%, with a penalty for your disliked character. This is shopping guidance, not a guarantee of personal preference.</p>
+      <p class="discovery-disclaimer"><strong>Transparent scoring:</strong> occasion 22%, scent family 20%, weather 16%, presence 12%, style/maturity 14%, budget position 8%, availability 4% and profile confidence 4%. Results are diversified by scent family and brand, with penalties for dislikes and first-pick restrictions. This is shopping guidance, not a guarantee of personal preference.</p>
     `;
-    saveToolPreference('find', { occasion, mood, weather, presence, avoid, size, budget });
+    saveToolPreference('find', { occasion, mood, style, weather, presence, avoid, size, budget, pricePreference });
   }
 
   function renderWeatherTool() {
     return renderToolShell('weather',
-      'Enter an area or use your location. Scentory reads the current temperature, humidity and conditions, then recommends today’s perfumes and spray range.',
+      'Enter the weather you see in your phone or weather app. Scentory matches perfumes and spray ranges without location permission, an API or an internet weather service.',
       `
-        <form class="discovery-form" onsubmit="runLiveWeatherByArea(event)">
-          <div class="discovery-field full"><label for="weatherArea">Bangladesh area</label><input id="weatherArea" type="text" inputmode="search" autocomplete="address-level2" placeholder="Example: Dhanmondi, Dhaka" required></div>
+        <form class="discovery-form" onsubmit="runManualWeatherMatch(event)">
+          <div class="discovery-field full weather-area-field">
+            <label for="weatherArea">Bangladesh district</label>
+            <div class="weather-area-combobox">
+              <input id="weatherArea" type="text" inputmode="search" autocomplete="off" placeholder="Start typing a district" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="weatherDistrictSuggestions" aria-describedby="weatherDistrictHelp" required>
+              <div id="weatherDistrictSuggestions" class="weather-district-suggestions" role="listbox" aria-label="Bangladesh districts" hidden></div>
+            </div>
+            <small id="weatherDistrictHelp" class="weather-district-help">Search all 64 districts in English or Bangla. The district labels your result; your entered weather controls the match.</small>
+          </div>
+          <div class="discovery-field"><label for="manualTemperature">Temperature</label><div class="manual-weather-value"><input id="manualTemperature" type="number" inputmode="decimal" min="10" max="50" step="1" value="30" required><span>°C</span></div></div>
+          <div class="discovery-field"><label for="manualCondition">Current conditions</label><select id="manualCondition"><option value="Clear / sunny">Clear / sunny</option><option value="Cloudy">Cloudy</option><option value="Rain / monsoon">Rain / monsoon</option><option value="Cool / dry">Cool / dry</option></select></div>
           <div class="discovery-field"><label for="weatherEnvironment">Where will you wear it?</label><select id="weatherEnvironment"><option value="outdoor">Outdoor / open area</option><option value="indoor">Office / enclosed room</option></select></div>
           <div class="discovery-field"><label for="weatherStrength">Preferred presence</label><select id="weatherStrength"><option value="balanced">Balanced</option><option value="light">Light & fresh</option><option value="strong">Strong projection</option></select></div>
-          <div class="discovery-form-actions"><button class="discovery-action" type="submit">Check This Area</button><button class="discovery-action secondary" type="button" onclick="useCurrentWeather()">Use My Location</button></div>
+          <div class="discovery-form-actions"><button class="discovery-action" type="submit">Show Weather Matches</button></div>
         </form>
-        <details class="weather-fallback"><summary>Live weather unavailable? Use a quick manual check</summary><div><label for="manualTemperature">Temperature</label><input id="manualTemperature" type="number" min="10" max="50" value="30"><span>°C</span><button class="discovery-mini-action" type="button" onclick="runManualWeatherMatch()">Use temperature</button></div></details>
         <div id="weatherResults" class="discovery-results"></div>
       `
     );
   }
 
-  async function fetchLiveWeather(parameters) {
-    const endpoint = window.SCENTORY_WEATHER_CONFIG?.endpoint || '';
-    if (!endpoint) throw new Error('Live weather endpoint is not configured. Use the manual temperature option for now.');
-    const url = new URL(endpoint, window.location.href);
-    if (url.protocol !== 'https:') throw new Error('Live weather requires a secure HTTPS endpoint.');
-    Object.entries(parameters).forEach(([key, value]) => url.searchParams.set(key, value));
-    const response = await fetch(url.toString(), { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(8000) });
-    if (!response.ok) throw new Error(response.status === 404 ? 'Area not found. Try a nearby city or district.' : 'Weather service is temporarily unavailable.');
-    const data = await response.json();
-    if (!Number.isFinite(Number(data.temperature))) throw new Error('The weather service returned an incomplete reading.');
-    return data;
+  function normalizeDistrictQuery(value) {
+    return String(value || '').trim().toLocaleLowerCase();
   }
 
-  function showWeatherLoading(message) {
-    const resultsBox = document.getElementById('weatherResults');
-    if (resultsBox) resultsBox.innerHTML = `<div class="discovery-empty weather-loading">${esc(message)}</div>`;
+  function districtSearchText(district) {
+    return normalizeDistrictQuery([
+      district.name,
+      district.bangla,
+      district.division,
+      ...(district.aliases || [])
+    ].join(' '));
+  }
+
+  function closeWeatherDistrictSuggestions() {
+    const input = document.getElementById('weatherArea');
+    const list = document.getElementById('weatherDistrictSuggestions');
+    if (!input || !list) return;
+    list.hidden = true;
+    list.innerHTML = '';
+    input.setAttribute('aria-expanded', 'false');
+    input.removeAttribute('aria-activedescendant');
+    currentWeatherDistrictMatches = [];
+    activeWeatherDistrictIndex = -1;
+  }
+
+  function setActiveWeatherDistrict(index) {
+    const input = document.getElementById('weatherArea');
+    const list = document.getElementById('weatherDistrictSuggestions');
+    if (!input || !list || !currentWeatherDistrictMatches.length) return;
+    activeWeatherDistrictIndex = (index + currentWeatherDistrictMatches.length) % currentWeatherDistrictMatches.length;
+    const options = [...list.querySelectorAll('[role="option"]')];
+    options.forEach((option, optionIndex) => {
+      const active = optionIndex === activeWeatherDistrictIndex;
+      option.classList.toggle('active', active);
+      option.setAttribute('aria-selected', String(active));
+      if (active) {
+        input.setAttribute('aria-activedescendant', option.id);
+        option.scrollIntoView({ block: 'nearest' });
+      }
+    });
+  }
+
+  function selectWeatherDistrict(district) {
+    const input = document.getElementById('weatherArea');
+    if (!input || !district) return;
+    input.value = district.name;
+    closeWeatherDistrictSuggestions();
+    input.focus();
+  }
+
+  function updateWeatherDistrictSuggestions() {
+    const input = document.getElementById('weatherArea');
+    const list = document.getElementById('weatherDistrictSuggestions');
+    if (!input || !list) return;
+    const query = normalizeDistrictQuery(input.value);
+    if (!query) {
+      closeWeatherDistrictSuggestions();
+      return;
+    }
+
+    currentWeatherDistrictMatches = BANGLADESH_DISTRICTS
+      .map((district) => {
+        const searchable = districtSearchText(district);
+        const starts = [district.name, district.bangla, ...(district.aliases || [])]
+          .some((value) => normalizeDistrictQuery(value).startsWith(query));
+        return { district, searchable, rank: starts ? 0 : searchable.includes(query) ? 1 : 2 };
+      })
+      .filter((result) => result.rank < 2)
+      .sort((a, b) => a.rank - b.rank || a.district.name.localeCompare(b.district.name))
+      .slice(0, 8)
+      .map((result) => result.district);
+
+    activeWeatherDistrictIndex = -1;
+    input.removeAttribute('aria-activedescendant');
+    list.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+
+    if (!currentWeatherDistrictMatches.length) {
+      list.innerHTML = '<div class="weather-district-empty">No district found. Check the spelling.</div>';
+      return;
+    }
+
+    list.innerHTML = currentWeatherDistrictMatches.map((district, index) => `
+      <button id="weather-district-option-${index}" class="weather-district-option" type="button" role="option" aria-selected="false" data-district-index="${index}">
+        <strong>${esc(district.name)}</strong>
+        <span>${esc(district.bangla)} · ${esc(district.division)} Division</span>
+      </button>
+    `).join('');
+
+    list.querySelectorAll('[data-district-index]').forEach((option) => {
+      option.addEventListener('pointerdown', (event) => event.preventDefault());
+      option.addEventListener('click', () => selectWeatherDistrict(
+        currentWeatherDistrictMatches[Number(option.dataset.districtIndex)]
+      ));
+    });
+  }
+
+  function handleWeatherDistrictKeydown(event) {
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      if (!currentWeatherDistrictMatches.length) updateWeatherDistrictSuggestions();
+      if (currentWeatherDistrictMatches.length) setActiveWeatherDistrict(activeWeatherDistrictIndex + 1);
+    } else if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      if (!currentWeatherDistrictMatches.length) updateWeatherDistrictSuggestions();
+      if (currentWeatherDistrictMatches.length) setActiveWeatherDistrict(activeWeatherDistrictIndex - 1);
+    } else if (event.key === 'Enter' && activeWeatherDistrictIndex >= 0) {
+      event.preventDefault();
+      selectWeatherDistrict(currentWeatherDistrictMatches[activeWeatherDistrictIndex]);
+    } else if (event.key === 'Escape') {
+      closeWeatherDistrictSuggestions();
+    }
+  }
+
+  function initWeatherDistrictAutocomplete() {
+    const input = document.getElementById('weatherArea');
+    if (!input || input.dataset.districtAutocompleteReady === 'true') return;
+    input.dataset.districtAutocompleteReady = 'true';
+    input.addEventListener('input', updateWeatherDistrictSuggestions);
+    input.addEventListener('focus', () => {
+      if (input.value.trim()) updateWeatherDistrictSuggestions();
+    });
+    input.addEventListener('keydown', handleWeatherDistrictKeydown);
+    input.addEventListener('blur', () => setTimeout(closeWeatherDistrictSuggestions, 150));
   }
 
   function showWeatherError(error) {
     const resultsBox = document.getElementById('weatherResults');
-    if (resultsBox) resultsBox.innerHTML = `<div class="discovery-empty"><strong>Live weather could not load.</strong><br>${esc(error?.message || 'Please try again.')}<br><small>Your manual temperature check remains available above.</small></div>`;
+    if (resultsBox) resultsBox.innerHTML = `<div class="discovery-empty"><strong>Check your entries.</strong><br>${esc(error?.message || 'Please try again.')}</div>`;
   }
 
-  async function runLiveWeatherByArea(event) {
+  function runManualWeatherMatch(event) {
     event?.preventDefault();
-    const area = document.getElementById('weatherArea')?.value.trim();
-    if (!area) return;
-    showWeatherLoading(`Checking current weather for ${area}…`);
-    try {
-      const reading = await fetchLiveWeather({ city: area });
-      applyWeatherReading(reading);
-      saveToolPreference('weatherArea', area);
-    } catch (error) { showWeatherError(error); }
-  }
-
-  function useCurrentWeather() {
-    if (!navigator.geolocation) return showWeatherError(new Error('Location is not supported by this browser. Enter your area instead.'));
-    showWeatherLoading('Waiting for location permission…');
-    navigator.geolocation.getCurrentPosition(async position => {
-      showWeatherLoading('Checking weather at your current location…');
-      try {
-        const reading = await fetchLiveWeather({ lat: position.coords.latitude.toFixed(5), lon: position.coords.longitude.toFixed(5) });
-        applyWeatherReading(reading);
-      } catch (error) { showWeatherError(error); }
-    }, () => showWeatherError(new Error('Location permission was not granted. Enter your area instead.')), { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 });
-  }
-
-  function runManualWeatherMatch() {
-    const temperature = Number(document.getElementById('manualTemperature')?.value || 30);
+    const location = document.getElementById('weatherArea')?.value.trim() || 'Selected district';
+    const temperature = Number(document.getElementById('manualTemperature')?.value);
+    const condition = document.getElementById('manualCondition')?.value || 'Clear / sunny';
     if (!Number.isFinite(temperature) || temperature < 10 || temperature > 50) return showWeatherError(new Error('Enter a temperature from 10°C to 50°C.'));
-    applyWeatherReading({ temperature, humidity: null, condition: 'Manual temperature', location: 'Manual check', observedAt: new Date().toISOString(), manual: true });
+    applyWeatherReading({ temperature, condition, location, manual: true });
   }
 
   function applyWeatherReading(reading) {
     const temperature = Number(reading.temperature);
     const feelsLike = Number(reading.feelsLike);
-    const humidity = Number(reading.humidity);
     const effectiveTemperature = Number.isFinite(feelsLike) ? feelsLike : temperature;
     const weather = weatherModeFromReading(effectiveTemperature, reading.condition);
     const strength = document.getElementById('weatherStrength')?.value || 'balanced';
@@ -612,27 +863,24 @@
       if (effectiveTemperature >= 30 && advice.fresh) score += 8;
       if (effectiveTemperature < 25 && advice.winterBased) score += 8;
       if (effectiveTemperature >= 30 && advice.winterBased) score -= 12;
-      if (Number.isFinite(humidity) && humidity >= 75) {
-        score += (profile.heatSafety - 3) * 3;
-        if (profile.sweetness >= 4 || profile.warmth >= 4) score -= 5;
-      }
       if (environment === 'indoor') score += (profile.officeSafety - 3) * 5;
       if (strength === 'light' && (traits.has('fresh') || traits.has('aquatic'))) score += 8;
       if (strength === 'strong' && traits.has('bold')) score += 8;
       if (strength === 'balanced' && traits.has('versatile')) score += 6;
-      return { product, advice, score: Math.max(30, Math.min(99, score)) };
-    }).sort((a, b) => b.score - a.score).slice(0, 4);
+      return { product, advice, score: Math.max(30, Math.min(99, score)), confidence: evidenceFit(product, profile) };
+    });
+    const diverseWeatherMatches = selectDiverseMatches(matches, 4);
 
     resultsBox.innerHTML = `
-      <article class="live-weather-reading"><span>${reading.manual ? 'Manual weather check' : 'Live weather'}</span><strong>${esc(reading.location || 'Selected location')}</strong><b>${esc(weatherSummaryLabel(reading))}</b><small>${reading.manual ? 'No live humidity or weather condition was used.' : `Updated ${new Date(reading.observedAt || Date.now()).toLocaleTimeString('en-BD', { hour: 'numeric', minute: '2-digit' })}`}</small></article>
+      <article class="live-weather-reading"><span>Manual weather check</span><strong>${esc(reading.location || 'Selected district')}</strong><b>${esc(weatherSummaryLabel(reading))}</b><small>Based only on the weather details entered by the customer.</small></article>
       <div class="discovery-results-head"><h3>Best perfumes for right now</h3><span>Scentory weather fit</span></div>
-      <div class="discovery-result-grid">${matches.map(({ product, score, advice }) => {
+      <div class="discovery-result-grid">${diverseWeatherMatches.map(({ product, score, advice }) => {
         const traits = [...getTraits(product)].filter(trait => weatherProfiles[weather].preferred.includes(trait)).slice(0, 3);
         return renderResultCard(product, { badge: `${score}/100 weather fit`, reason: traits.length ? `Why it fits: ${traits.map(traitLabel).join(', ')}. Suggested ${advice.min}–${advice.max} total sprays (${advice.basis}).` : `A versatile available option. Suggested ${advice.min}–${advice.max} total sprays.` });
       }).join('')}</div>
       <p class="discovery-disclaimer"><strong>Spray rules used:</strong> fresh perfumes at 30°C+ use 10–12 sprays; at 25–29°C use 8–10; below 25°C use 6–8. Winter-based perfumes use 8–10 in suitable cool weather. Strong perfumes or enclosed rooms reduce the range by two. These are starting points—skin, atomizer and sensitivity differ.</p>
     `;
-    saveToolPreference('weather', { location: reading.location || '', temperature, weather, strength, environment });
+    saveToolPreference('weather', { location: reading.location || '', temperature, condition: reading.condition || '', weather, strength, environment });
   }
 
   function renderBoxTool() {
@@ -1185,6 +1433,7 @@
     requestAnimationFrame(() => {
       modalClose?.focus();
       if (!getCatalogue().length) return;
+      if (key === 'weather') initWeatherDistrictAutocomplete();
       if (key === 'similar') runSimilarPerfumes();
       if (key === 'cost') { syncCostSpraySizes(); calculateCostPerSpray(); }
       if (key === 'collection') renderCollectionChips();
@@ -1249,8 +1498,6 @@
   window.openDiscoveryTool = openDiscoveryTool;
   window.closeDiscoveryTool = closeDiscoveryTool;
   window.runFindMyPerfume = runFindMyPerfume;
-  window.runLiveWeatherByArea = runLiveWeatherByArea;
-  window.useCurrentWeather = useCurrentWeather;
   window.runManualWeatherMatch = runManualWeatherMatch;
   window.runDecantBox = runDecantBox;
   window.showNextBoxOption = showNextBoxOption;
