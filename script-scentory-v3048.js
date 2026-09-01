@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3056';
+const DATA_VERSION = '3057';
 const BEST_SELLING_IDS = [
   'afnan-supremacy-collector-s-edition-edp',
   'hawas-black-edp',
@@ -288,16 +288,19 @@ function renderIntelligenceDetails(p) {
   const details = p?.details || {};
   const profile = p?.profile || {};
   const sourceChecked = details.verification === 'source-checked';
+  const scentorySupplied = details.verification === 'scentory-supplied';
+  const hasDetailedProfile = sourceChecked || scentorySupplied;
   const notes = details.notes || {};
-  const noteRows = sourceChecked ? [
+  const noteRows = hasDetailedProfile ? [
     ['Opening notes', notes.top], ['Heart notes', notes.heart], ['Base notes', notes.base]
   ].filter(([, values]) => Array.isArray(values) && values.length) : [];
   const bestPlaces = (profile.occasions || []).map(value => DETAIL_OCCASION_LABELS[value] || value);
   const bestWeather = (profile.climates || []).map(value => DETAIL_CLIMATE_LABELS[value] || value);
   const longevity = DETAIL_LONGEVITY_LABELS[Number(profile.longevity || 0)] || 'Varies by wearer';
   const character = (profile.character || []).map(value => value.replace(/\b\w/g, letter => letter.toUpperCase()));
+  const comparison = String(details.comparison || '').trim();
 
-  if (!sourceChecked) {
+  if (!hasDetailedProfile) {
     return `
       <section class="verified-perfume-details pending-review" aria-label="Perfume profile review status">
         <span class="profile-review-badge">Profile review in progress</span>
@@ -309,12 +312,13 @@ function renderIntelligenceDetails(p) {
 
   return `
     <section class="verified-perfume-details" aria-label="Source-checked perfume profile">
-      <span class="profile-review-badge checked">Source-checked profile</span>
+      <span class="profile-review-badge checked">${sourceChecked ? 'Source-checked profile' : 'Scentory supplied profile'}</span>
       ${character.length ? `<div class="profile-fact"><b>Scent character</b><span>${character.map(escapeHtml).join(' · ')}</span></div>` : ''}
       ${noteRows.map(([label, values]) => `<div class="profile-fact"><b>${escapeHtml(label)}</b><span>${values.map(escapeHtml).join(' · ')}</span></div>`).join('')}
       <div class="profile-fact"><b>Expected longevity</b><span>${escapeHtml(longevity)}. ${escapeHtml(details.performance || 'Skin, weather, batch and atomizer can change real-world performance.')}</span></div>
       ${bestPlaces.length ? `<div class="profile-fact"><b>Best places to wear</b><span>${bestPlaces.map(escapeHtml).join(' · ')}</span></div>` : ''}
       ${bestWeather.length ? `<div class="profile-fact"><b>Best conditions</b><span>${bestWeather.map(escapeHtml).join(' · ')}</span></div>` : ''}
+      ${comparison ? `<div class="profile-fact"><b>Compared with</b><span>${escapeHtml(comparison)}</span></div>` : ''}
       ${details.sourceNote ? `<p class="profile-source-note">${escapeHtml(details.sourceNote)}</p>` : ''}
       <p class="profile-source-note">Performance is guidance, not a guarantee. Skin chemistry, heat, humidity and spray count can change the result.</p>
     </section>

@@ -1,0 +1,20 @@
+SCENTORY MASTER v3057 — FINAL PRICE/STOCK + AJMAL KURO
+=====================================================
+
+- Applied the final August 2026 price and stock list supplied by Scentory.
+- Added Ajmal Kuro EDP as Upcoming with the supplied signature poster.
+- Ajmal Kuro cannot be ordered until its status is changed from Upcoming.
+- Restocked and repriced Riiffs Fareed EDP: 5 ML ৳240, 6 ML Premium ৳299,
+  10 ML ৳430 and 15 ML ৳580.
+- Marked Hawas Chrome 15 ML, Yusuf Bhai Wulong Cha 10 ML,
+  Azzaro The Most Wanted EDP Intense 10 ML and Rayhaan Cedrus Blanc 15 ML
+  out of stock.
+- Updated the product name to Afnan Supremacy Not Only Intense.
+- Confirmed the D&G The One 6 ML option as a Premium Atomizer; the product
+  remains Upcoming and non-orderable.
+- Catalogue now contains 109 products: 98 available, 9 out of stock and
+  2 upcoming.
+- 30 ML remains excluded from storefront data.
+- Manual weather matching, 64-district autocomplete, no-humidity interface,
+  recommendation intelligence, cart, accessibility and SEO features remain.
+- Generated 109 product pages and the 110-URL sitemap.

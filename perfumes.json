@@ -242,7 +242,7 @@
       },
       "15ml": {
         "price": 750,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -963,7 +963,7 @@
       },
       "10ml": {
         "price": 740,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
@@ -1257,26 +1257,26 @@
   {
     "id": "riiffs-fareed-edp",
     "name": "Riiffs Fareed EDP",
-    "status": "out",
+    "status": "available",
     "sizes": {
       "5ml": {
-        "price": 270,
-        "available": false,
+        "price": 240,
+        "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 330,
-        "available": false,
+        "price": 299,
+        "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 490,
-        "available": false,
+        "price": 430,
+        "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 680,
-        "available": false,
+        "price": 580,
+        "available": true,
         "premium": false
       }
     },
@@ -1288,10 +1288,10 @@
     ],
     "recommendation": "Best for date nights, evening gatherings, and office wear.",
     "prices": {
-      "5 ML": 270,
-      "6 ML": 330,
-      "10 ML": 490,
-      "15 ML": 680
+      "5 ML": 240,
+      "6 ML": 299,
+      "10 ML": 430,
+      "15 ML": 580
     },
     "profile": {
       "schemaVersion": 1,
@@ -1685,7 +1685,7 @@
   },
   {
     "id": "supremacy-not-only-intense-edp",
-    "name": "Supremacy Not Only Intense EDP",
+    "name": "Afnan Supremacy Not Only Intense",
     "status": "available",
     "sizes": {
       "5ml": {
@@ -2268,7 +2268,7 @@
       "6ml": {
         "price": 530,
         "available": false,
-        "premium": false
+        "premium": true
       },
       "10ml": {
         "price": 830,
@@ -2413,7 +2413,7 @@
       },
       "10ml": {
         "price": 900,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -4268,7 +4268,7 @@
       },
       "15ml": {
         "price": 530,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -5335,6 +5335,105 @@
     "details": {
       "verification": "needs-source-review",
       "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
+    }
+  },
+  {
+    "id": "ajmal-kuro-edp",
+    "name": "Ajmal Kuro EDP",
+    "status": "upcoming",
+    "sizes": {
+      "5ml": {
+        "price": 280,
+        "available": false,
+        "premium": false
+      },
+      "6ml": {
+        "price": 340,
+        "available": false,
+        "premium": true
+      },
+      "10ml": {
+        "price": 499,
+        "available": false,
+        "premium": false
+      },
+      "15ml": {
+        "price": 690,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "ajmal-kuro-edp-poster.jpg",
+    "tags": [
+      "Fresh",
+      "Warm Spicy",
+      "Aromatic",
+      "Woody",
+      "Office",
+      "Versatile"
+    ],
+    "recommendation": "Coming soon. A fresh spicy aromatic and woody scent for office, university, casual outings, and evening dates.",
+    "prices": {
+      "5 ML": 280,
+      "6 ML": 340,
+      "10 ML": 499,
+      "15 ML": 690
+    },
+    "profile": {
+      "schemaVersion": 2,
+      "character": [
+        "fresh",
+        "spicy",
+        "aromatic",
+        "woody",
+        "amber"
+      ],
+      "occasions": [
+        "daily",
+        "office",
+        "date"
+      ],
+      "climates": [
+        "hot",
+        "monsoon",
+        "ac",
+        "outdoor"
+      ],
+      "strength": 4,
+      "projection": 4,
+      "longevity": 4,
+      "sweetness": 2,
+      "freshness": 4,
+      "warmth": 3,
+      "officeSafety": 4,
+      "heatSafety": 3,
+      "versatility": 5,
+      "evidence": "scentory-supplied",
+      "reviewedAt": "2026-08-31",
+      "topPickEligible": false
+    },
+    "details": {
+      "verification": "scentory-supplied",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Geranium",
+          "Lavender",
+          "Pepper"
+        ],
+        "heart": [
+          "Elemi",
+          "Patchouli",
+          "Vetiver"
+        ],
+        "base": [
+          "Ambergris"
+        ]
+      },
+      "performance": "Around 7–9 hours on clothes, based on Scentory guidance; performance varies by wearer and conditions.",
+      "comparison": "Dior Sauvage EDT",
+      "sourceNote": "Scentory supplied the poster profile and comparison for this upcoming release.",
       "sources": []
     }
   },
