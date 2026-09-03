@@ -1,0 +1,22 @@
+SCENTORY MASTER v3058 — UPDATED APPLIED PRICE LIST
+==================================================
+
+- Applied the latest Scentory price and stock list supplied on 3 September 2026.
+- Added Mykonos Inception (EDP) and Mykonos Dreamscape EDP at the beginning of
+  the catalogue. Both use the existing image placeholder until approved product
+  images and scent profiles are supplied.
+- Launched Dolce & Gabbana The One and Ajmal Kuro as orderable products.
+- Restocked Stronger With You Intensely and Versace Eros EDT; applied their new
+  prices and size availability.
+- Restocked Yusuf Bhai Wulong Cha 10 ML, Burberry Touch 15 ML and Blue by Ahmed
+  15 ML.
+- Marked Shuhrah Elixir fully out of stock.
+- Marked Afnan Turathi Blue 10 ML and Brandy Salvage 15 ML out of stock.
+- Catalogue now contains 111 products: 103 available, 8 out of stock and no
+  upcoming products.
+- There are 444 size records: 371 orderable and 73 unavailable.
+- 30 ML remains excluded from storefront data and every 6 ML option remains a
+  Premium Atomizer.
+- Manual weather matching, 64-district autocomplete, recommendation
+  intelligence, cart, ordering, accessibility and SEO features remain intact.
+- Generated 111 product pages and the 112-URL sitemap.

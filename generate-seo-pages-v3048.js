@@ -75,7 +75,7 @@ for (const product of products) {
 
 const sitemapUrls = [
   '  <url><loc>https://scentoryfragrance.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
-  ...products.map(product => `  <url><loc>${absolute(`perfume/${product.id}.html`)}</loc><lastmod>2026-08-31</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`)
+  ...products.map(product => `  <url><loc>${absolute(`perfume/${product.id}.html`)}</loc><lastmod>2026-09-03</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`)
 ];
 fs.writeFileSync(path.join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.join('\n')}\n</urlset>\n`);
 console.log(`Generated ${products.length} lightweight product pages and sitemap.xml.`);

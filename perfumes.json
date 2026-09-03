@@ -1,5 +1,139 @@
 [
   {
+    "id": "mykonos-inception-edp",
+    "name": "Mykonos Inception (EDP)",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 399,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 590,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 840,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "product-image-coming-soon.svg",
+    "tags": [
+      "Profile Review"
+    ],
+    "recommendation": "Profile review in progress. Please sample 5 ML first while Scentory verifies the detailed scent profile.",
+    "prices": {
+      "5 ML": 320,
+      "6 ML": 399,
+      "10 ML": 590,
+      "15 ML": 840
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "aromatic"
+      ],
+      "occasions": [
+        "daily"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 3,
+      "freshness": 3,
+      "warmth": 3,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "unverified",
+      "reviewedAt": "2026-09-03",
+      "topPickEligible": false
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
+    }
+  },
+  {
+    "id": "mykonos-dreamscape-edp",
+    "name": "Mykonos Dreamscape EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 320,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 399,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 590,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 840,
+        "available": false,
+        "premium": false
+      }
+    },
+    "image": "product-image-coming-soon.svg",
+    "tags": [
+      "Profile Review"
+    ],
+    "recommendation": "Profile review in progress. Please sample 5 ML first while Scentory verifies the detailed scent profile.",
+    "prices": {
+      "5 ML": 320,
+      "6 ML": 399,
+      "10 ML": 590,
+      "15 ML": 840
+    },
+    "profile": {
+      "schemaVersion": 1,
+      "character": [
+        "aromatic"
+      ],
+      "occasions": [
+        "daily"
+      ],
+      "climates": [
+        "ac"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 3,
+      "sweetness": 3,
+      "freshness": 3,
+      "warmth": 3,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "unverified",
+      "reviewedAt": "2026-09-03",
+      "topPickEligible": false
+    },
+    "details": {
+      "verification": "needs-source-review",
+      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
+    }
+  },
+  {
     "id": "hawas-for-him-edp",
     "name": "Hawas For Him EDP",
     "status": "available",
@@ -798,16 +932,16 @@
   {
     "id": "shuhrah-elixir-edp",
     "name": "Shuhrah Elixir EDP",
-    "status": "available",
+    "status": "out",
     "sizes": {
       "5ml": {
         "price": 250,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "6ml": {
         "price": 310,
-        "available": true,
+        "available": false,
         "premium": true
       },
       "10ml": {
@@ -963,7 +1097,7 @@
       },
       "10ml": {
         "price": 740,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
@@ -1804,7 +1938,7 @@
       },
       "10ml": {
         "price": 600,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
@@ -2257,22 +2391,22 @@
       "Date Night",
       "Formal"
     ],
-    "recommendation": "Coming soon. A refined warm evening profile suited to dates, dinners, formal occasions, and cooler or air-conditioned settings.",
-    "status": "upcoming",
+    "recommendation": "A refined warm evening profile suited to dates, dinners, formal occasions, and cooler or air-conditioned settings.",
+    "status": "available",
     "sizes": {
       "5ml": {
         "price": 440,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "6ml": {
         "price": 530,
-        "available": false,
+        "available": true,
         "premium": true
       },
       "10ml": {
         "price": 830,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
@@ -2325,25 +2459,25 @@
   {
     "id": "stronger-with-you-intensely-edp",
     "name": "Stronger With You Intensely EDP",
-    "status": "out",
+    "status": "available",
     "sizes": {
       "5ml": {
         "price": 670,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "6ml": {
-        "price": 810,
-        "available": false,
+        "price": 799,
+        "available": true,
         "premium": true
       },
       "10ml": {
-        "price": 1310,
-        "available": false,
+        "price": 1280,
+        "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 1910,
+        "price": 1850,
         "available": false,
         "premium": false
       }
@@ -2357,9 +2491,9 @@
     "recommendation": "Best for night time, dates, winter/fall, romantic evenings, parties, and special occasions.",
     "prices": {
       "5 ML": 670,
-      "6 ML": 810,
-      "10 ML": 1310,
-      "15 ML": 1910
+      "6 ML": 799,
+      "10 ML": 1280,
+      "15 ML": 1850
     },
     "profile": {
       "schemaVersion": 1,
@@ -2684,26 +2818,26 @@
   {
     "id": "versace-eros-edt",
     "name": "Versace Eros (EDT)",
-    "status": "out",
+    "status": "available",
     "sizes": {
       "5ml": {
         "price": 399,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "6ml": {
         "price": 490,
-        "available": false,
+        "available": true,
         "premium": true
       },
       "10ml": {
         "price": 760,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
-        "price": 1090,
-        "available": false,
+        "price": 1070,
+        "available": true,
         "premium": false
       }
     },
@@ -2718,7 +2852,7 @@
       "5 ML": 399,
       "6 ML": 490,
       "10 ML": 760,
-      "15 ML": 1090
+      "15 ML": 1070
     },
     "profile": {
       "schemaVersion": 1,
@@ -2922,7 +3056,7 @@
       },
       "15ml": {
         "price": 750,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -3254,7 +3388,7 @@
       },
       "15ml": {
         "price": 540,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -3508,7 +3642,7 @@
       },
       "15ml": {
         "price": 430,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -5341,26 +5475,26 @@
   {
     "id": "ajmal-kuro-edp",
     "name": "Ajmal Kuro EDP",
-    "status": "upcoming",
+    "status": "available",
     "sizes": {
       "5ml": {
         "price": 280,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "6ml": {
         "price": 340,
-        "available": false,
+        "available": true,
         "premium": true
       },
       "10ml": {
         "price": 499,
-        "available": false,
+        "available": true,
         "premium": false
       },
       "15ml": {
         "price": 690,
-        "available": false,
+        "available": true,
         "premium": false
       }
     },
@@ -5373,7 +5507,7 @@
       "Office",
       "Versatile"
     ],
-    "recommendation": "Coming soon. A fresh spicy aromatic and woody scent for office, university, casual outings, and evening dates.",
+    "recommendation": "A fresh spicy aromatic and woody scent for office, university, casual outings, and evening dates.",
     "prices": {
       "5 ML": 280,
       "6 ML": 340,
@@ -5433,7 +5567,7 @@
       },
       "performance": "Around 7–9 hours on clothes, based on Scentory guidance; performance varies by wearer and conditions.",
       "comparison": "Dior Sauvage EDT",
-      "sourceNote": "Scentory supplied the poster profile and comparison for this upcoming release.",
+      "sourceNote": "Scentory supplied the poster profile and comparison.",
       "sources": []
     }
   },
