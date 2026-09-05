@@ -1,0 +1,28 @@
+SCENTORY MASTER v3051 — FINAL APPLIED PRICE AND STOCK UPDATE
+============================================================
+
+CATALOGUE UPDATE — AUGUST 2026
+- Added Dolce & Gabbana - The One (EDP) as Coming Soon.
+- Added its displayed prices for 5 ML, 6 ML, 10 ML and 15 ML.
+- Its sizes remain unavailable until the product is launched.
+- Its 6 ML option is not labelled as a premium atomizer in the supplied list.
+- Updated Riiffs Fareed EDP prices to 270 / 330 / 490 / 680 Tk.
+- Marked Shuhrah Elixir EDP 10 ML unavailable.
+- Marked Miami Blue by Ard 15 ML unavailable.
+- Updated Rave Plato by Lattafa 6 ML to Premium Atomizer.
+- Kept every 30 ML option excluded from the website.
+
+PUBLIC COLLECTION LABEL
+120+ Perfumes
+
+FEATURES PRESERVED
+- Structured perfume profiles and shared recommendation scoring.
+- Saved-cart price and stock revalidation.
+- Secure weather gateway and manual fallback.
+- Popup keyboard focus control and accessible form errors.
+- Lightweight SEO product pages, sitemap and performance optimizations.
+- Approved Yusuf Bhai product photos from v3050.
+
+PACKAGES
+- Complete master ZIP: standalone deployable website.
+- Update-only ZIP: files needed to upgrade the v3050 master.

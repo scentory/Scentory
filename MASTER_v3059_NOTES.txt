@@ -1,0 +1,41 @@
+SCENTORY MASTER v3059 — PRICE LIST AND THREE POSTERS
+Release: 5 September 2026. Supplied list heading: August 2026.
+Base: complete delivered v3058 project.
+
+CHANGES FROM v3058
+- No price changes to existing perfumes.
+- Blue by Ahmed EDP is now fully out of stock. All four storefront sizes
+  (5, 6, 10, 15 ML) are disabled; their stored prices are unchanged.
+- Added Khadlaj Island Sun EDP immediately before Khadlaj Island EDP:
+  5 ML 270 Tk; 6 ML Premium Atomizer 320 Tk; 10 ML 480 Tk; 15 ML 660 Tk.
+- Added the three supplied original posters, byte-for-byte unchanged, for
+  Mykonos Inception, Mykonos Dreamscape and Khadlaj Island Sun.
+- Mykonos placeholder images are replaced. Poster notes, comparison and
+  performance guidance appear as Scentory-supplied content, not independently
+  source-checked claims. Notes are listed without inventing a note pyramid.
+- The three posters display uncropped in cards, details and SEO pages.
+- Cache version is 3059; sitemap date is 2026-09-05.
+
+PUBLIC COLLECTION LABEL
+120+ Perfumes
+
+PRESERVED RULES AND FEATURES
+Every 6 ML option is Premium Atomizer, including Island Sun.
+30 ML remains excluded from the storefront, including Island Sun's listed
+30 ML / 1299 Tk. That price is retained in the supplied source transcription.
+The Mykonos posters show a default 15 ML badge, but the supplied price list
+marks 15 ML unavailable. Storefront controls correctly keep it disabled.
+Existing IDs, order, other product profiles, recommendation safeguards,
+curated arrivals/bestsellers, eight discovery tools, manual weather matching
+for 64 districts, search/filters, cart and order flow, local customer storage,
+delivery fees (80/130 Tk), accessibility and SEO structure are retained.
+Existing Ajmal Kuro and D&G The One launches from v3058 remain available.
+
+VALIDATION
+Run: node tools/validate-master-v3059.js
+Run: node tools/test-ui-v3053.js
+Historic validators and migration scripts are retained for their own release;
+use the v3059 validator for the current catalogue.
+Scripted checks cover all source prices/stock, SEO offers, local assets,
+recommendation scenarios, stock gates and saved-cart revalidation.
+No live production deployment or browser smoke test is included.

@@ -5,19 +5,19 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3058';
+const DATA_VERSION = '3060';
 const BEST_SELLING_IDS = [
+  'versace-eros-edt',
   'afnan-supremacy-collector-s-edition-edp',
-  'hawas-black-edp',
   'khadlaj-karus-gold-absolu-edp',
-  'club-de-nuit-urban-man-elixir-edp'
+  'hawas-ice-edp'
 ];
 
 const HOT_ARRIVAL_IDS = [
-  'club-de-nuit-intense-overdose',
-  'khadlaj-karus-gold-absolu-edp',
-  'hawas-la-mer-edp',
-  'rayhaan-cedrus-blanc-edp'
+  'mykonos-inception-edp',
+  'mykonos-dreamscape-edp',
+  'khadlaj-island-sun-edp',
+  'club-de-nuit-intense-overdose'
 ];
 
 
@@ -292,7 +292,7 @@ function renderIntelligenceDetails(p) {
   const hasDetailedProfile = sourceChecked || scentorySupplied;
   const notes = details.notes || {};
   const noteRows = hasDetailedProfile ? [
-    ['Opening notes', notes.top], ['Heart notes', notes.heart], ['Base notes', notes.base]
+    ['Notes', notes.listed], ['Opening notes', notes.top], ['Heart notes', notes.heart], ['Base notes', notes.base]
   ].filter(([, values]) => Array.isArray(values) && values.length) : [];
   const bestPlaces = (profile.occasions || []).map(value => DETAIL_OCCASION_LABELS[value] || value);
   const bestWeather = (profile.climates || []).map(value => DETAIL_CLIMATE_LABELS[value] || value);
@@ -564,8 +564,7 @@ function injectCatalogueStructuredData() {
   node.textContent = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Scentory perfume decants available in Bangladesh',
-    numberOfItems: itemList.length,
+    name: 'Scentory — 120+ perfume choices in Bangladesh',
     itemListElement: itemList
   });
   document.head.appendChild(node);
@@ -848,7 +847,7 @@ function renderProducts() {
     return matchesTerm(p) && matchesStock && matchesTag;
   });
 
-  if (perfumeCount) perfumeCount.textContent = `${perfumes.length} Perfumes`;
+  if (perfumeCount) perfumeCount.textContent = '120+ Perfumes';
 
   if (!filtered.length) {
     productGrid.innerHTML = '<p class="order-items empty">No perfume found. Try a different search or tag.</p>';

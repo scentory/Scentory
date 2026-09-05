@@ -12,11 +12,8 @@ SCENTORY MASTER v3058 — UPDATED APPLIED PRICE LIST
   15 ML.
 - Marked Shuhrah Elixir fully out of stock.
 - Marked Afnan Turathi Blue 10 ML and Brandy Salvage 15 ML out of stock.
-- Catalogue now contains 111 products: 103 available, 8 out of stock and no
-  upcoming products.
-- There are 444 size records: 371 orderable and 73 unavailable.
+- Public collection label: 120+ Perfumes.
 - 30 ML remains excluded from storefront data and every 6 ML option remains a
   Premium Atomizer.
 - Manual weather matching, 64-district autocomplete, recommendation
   intelligence, cart, ordering, accessibility and SEO features remain intact.
-- Generated 111 product pages and the 112-URL sitemap.

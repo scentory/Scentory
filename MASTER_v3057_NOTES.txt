@@ -12,9 +12,7 @@ SCENTORY MASTER v3057 — FINAL PRICE/STOCK + AJMAL KURO
 - Updated the product name to Afnan Supremacy Not Only Intense.
 - Confirmed the D&G The One 6 ML option as a Premium Atomizer; the product
   remains Upcoming and non-orderable.
-- Catalogue now contains 109 products: 98 available, 9 out of stock and
-  2 upcoming.
+- Public collection label: 120+ Perfumes.
 - 30 ML remains excluded from storefront data.
 - Manual weather matching, 64-district autocomplete, no-humidity interface,
   recommendation intelligence, cart, accessibility and SEO features remain.
-- Generated 109 product pages and the 110-URL sitemap.

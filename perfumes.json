@@ -25,11 +25,14 @@
         "premium": false
       }
     },
-    "image": "product-image-coming-soon.svg",
+    "image": "mykonos-inception-edp-poster-v3059.jpg",
     "tags": [
-      "Profile Review"
+      "Fresh",
+      "Citrus",
+      "Aromatic",
+      "Office"
     ],
-    "recommendation": "Profile review in progress. Please sample 5 ML first while Scentory verifies the detailed scent profile.",
+    "recommendation": "A citrus, ginger and tea scent for office, university, daytime dates, casual outings and travel.",
     "prices": {
       "5 ML": 320,
       "6 ML": 399,
@@ -37,32 +40,55 @@
       "15 ML": 840
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
-        "aromatic"
+        "fresh",
+        "citrus",
+        "aromatic",
+        "woody"
       ],
       "occasions": [
-        "daily"
+        "daily",
+        "office",
+        "date"
       ],
       "climates": [
-        "ac"
+        "hot",
+        "ac",
+        "outdoor"
       ],
       "strength": 3,
       "projection": 3,
-      "longevity": 3,
-      "sweetness": 3,
-      "freshness": 3,
+      "longevity": 4,
+      "sweetness": 2,
+      "freshness": 4,
       "warmth": 3,
       "officeSafety": 3,
       "heatSafety": 3,
       "versatility": 3,
-      "evidence": "unverified",
-      "reviewedAt": "2026-09-03",
+      "evidence": "scentory-supplied",
+      "reviewedAt": "2026-09-05",
       "topPickEligible": false
     },
     "details": {
-      "verification": "needs-source-review",
-      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "verification": "scentory-supplied",
+      "notes": {
+        "listed": [
+          "Lemon",
+          "Bergamot",
+          "Ginger",
+          "Orange",
+          "Black tea",
+          "Neroli",
+          "Cinnamon",
+          "Musk",
+          "Cedarwood",
+          "Guaiac wood"
+        ]
+      },
+      "performance": "Around 7–9 hours on clothes, according to Scentory’s supplied poster; results vary with skin chemistry, environment and spray count.",
+      "comparison": "Louis Vuitton Imagination",
+      "sourceNote": "Notes, use guidance, performance and comparison supplied by Scentory in the product poster. Notes are listed without an unconfirmed top/heart/base split. Recommendation scores are approximate catalogue guidance.",
       "sources": []
     }
   },
@@ -92,11 +118,14 @@
         "premium": false
       }
     },
-    "image": "product-image-coming-soon.svg",
+    "image": "mykonos-dreamscape-edp-poster-v3059.jpg",
     "tags": [
-      "Profile Review"
+      "Fruity",
+      "Citrus",
+      "Summer",
+      "Woody"
     ],
-    "recommendation": "Profile review in progress. Please sample 5 ML first while Scentory verifies the detailed scent profile.",
+    "recommendation": "A mango, citrus and warm spice scent for summer outings, beaches, vacations, daytime dates and casual hangouts.",
     "prices": {
       "5 ML": 320,
       "6 ML": 399,
@@ -104,32 +133,56 @@
       "15 ML": 840
     },
     "profile": {
-      "schemaVersion": 1,
+      "schemaVersion": 2,
       "character": [
-        "aromatic"
+        "fruity",
+        "citrus",
+        "spicy",
+        "woody"
       ],
       "occasions": [
-        "daily"
+        "daily",
+        "date",
+        "party"
       ],
       "climates": [
-        "ac"
+        "hot",
+        "outdoor"
       ],
       "strength": 3,
       "projection": 3,
-      "longevity": 3,
-      "sweetness": 3,
-      "freshness": 3,
+      "longevity": 4,
+      "sweetness": 4,
+      "freshness": 4,
       "warmth": 3,
       "officeSafety": 3,
       "heatSafety": 3,
       "versatility": 3,
-      "evidence": "unverified",
-      "reviewedAt": "2026-09-03",
+      "evidence": "scentory-supplied",
+      "reviewedAt": "2026-09-05",
       "topPickEligible": false
     },
     "details": {
-      "verification": "needs-source-review",
-      "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "verification": "scentory-supplied",
+      "notes": {
+        "listed": [
+          "Mango",
+          "Italian lemon",
+          "Rhubarb",
+          "Ginger",
+          "Pink pepper",
+          "Violet",
+          "Jasmine",
+          "Praline",
+          "Cedar",
+          "Amber",
+          "Tonka bean",
+          "Moss"
+        ]
+      },
+      "performance": "Around 8–9+ hours on clothes, according to Scentory’s supplied poster; results vary with skin chemistry, environment and spray count.",
+      "comparison": "Stéphane Humbert Lucas – God of Fire",
+      "sourceNote": "Notes, use guidance, performance and comparison supplied by Scentory in the product poster. Notes are listed without an unconfirmed top/heart/base split. Recommendation scores are approximate catalogue guidance.",
       "sources": []
     }
   },
@@ -3369,26 +3422,26 @@
   {
     "id": "blue-by-ahmed-edp",
     "name": "Blue By Ahmed EDP",
-    "status": "available",
+    "status": "out",
     "sizes": {
       "5ml": {
         "price": 220,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "6ml": {
         "price": 270,
-        "available": true,
+        "available": false,
         "premium": true
       },
       "10ml": {
         "price": 399,
-        "available": true,
+        "available": false,
         "premium": false
       },
       "15ml": {
         "price": 540,
-        "available": true,
+        "available": false,
         "premium": false
       }
     },
@@ -8050,6 +8103,98 @@
     "details": {
       "verification": "needs-source-review",
       "performance": "Performance guidance is under source review; skin, weather and atomizer can change results.",
+      "sources": []
+    }
+  },
+  {
+    "id": "khadlaj-island-sun-edp",
+    "name": "Khadlaj Island Sun EDP",
+    "status": "available",
+    "sizes": {
+      "5ml": {
+        "price": 270,
+        "available": true,
+        "premium": false
+      },
+      "6ml": {
+        "price": 320,
+        "available": true,
+        "premium": true
+      },
+      "10ml": {
+        "price": 480,
+        "available": true,
+        "premium": false
+      },
+      "15ml": {
+        "price": 660,
+        "available": true,
+        "premium": false
+      }
+    },
+    "prices": {
+      "5 ML": 270,
+      "6 ML": 320,
+      "10 ML": 480,
+      "15 ML": 660
+    },
+    "image": "khadlaj-island-sun-edp-poster-v3059.jpg",
+    "tags": [
+      "Fruity",
+      "Citrus",
+      "Summer",
+      "Woody"
+    ],
+    "recommendation": "A mango, coconut and citrus scent with smooth woods and tonka for summer outings, beaches, vacations, brunches and daytime dates.",
+    "profile": {
+      "schemaVersion": 2,
+      "character": [
+        "fruity",
+        "citrus",
+        "sweet",
+        "woody"
+      ],
+      "occasions": [
+        "daily",
+        "date",
+        "party"
+      ],
+      "climates": [
+        "hot",
+        "outdoor"
+      ],
+      "strength": 3,
+      "projection": 3,
+      "longevity": 4,
+      "sweetness": 4,
+      "freshness": 4,
+      "warmth": 3,
+      "officeSafety": 3,
+      "heatSafety": 3,
+      "versatility": 3,
+      "evidence": "scentory-supplied",
+      "reviewedAt": "2026-09-05",
+      "topPickEligible": false
+    },
+    "details": {
+      "verification": "scentory-supplied",
+      "notes": {
+        "listed": [
+          "Mango",
+          "Coconut",
+          "Lime",
+          "Lemon",
+          "Pink pepper",
+          "Jasmine",
+          "Orange blossom",
+          "Musk",
+          "Tonka bean",
+          "Precious woods"
+        ]
+      },
+      "performance": "Around 8–9+ hours on clothes, according to Scentory’s supplied poster; results vary with skin chemistry, environment and spray count.",
+      "comparison": "Creed Virgin Island Water + God of Fire",
+      "sourceNote": "Notes, use guidance, performance and comparison supplied by Scentory in the product poster. Notes are listed without an unconfirmed top/heart/base split. Recommendation scores are approximate catalogue guidance.",
       "sources": []
     }
   },

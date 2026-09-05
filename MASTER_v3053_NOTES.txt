@@ -1,0 +1,35 @@
+SCENTORY MASTER v3053 — VERIFIED INTELLIGENCE & DIVERSE RECOMMENDATIONS
+========================================================================
+
+CATALOGUE AND PRICING
+- Preserves the August 2026 applied price list, stock, product order and size rules.
+- 30 ML remains excluded from the storefront.
+
+PERFUME PROFILE ACCURACY
+- Added one evidence-aware profile schema for tags, recommendations, notes, performance guidance, use cases and recommendation scoring.
+- Source-checked 13 priority/high-risk profiles and attached their references inside perfumes.json.
+- Exact opening, heart and base notes are displayed only for source-checked profiles.
+- Products still awaiting source review now show a clear review notice instead of invented detailed note claims.
+- Performance wording is presented as guidance, not guaranteed hours, because skin, humidity, heat, batch and atomizer can change results.
+- Corrected Oud Al Layl Midnight Edition as a fresh marine-citrus, sweet-woody scent rather than a dense traditional oud profile.
+
+FIND MY PERFUME
+- Expanded scent families: fresh, aquatic, citrus, aromatic/barbershop, green, fruity, sweet, gourmand, woody, spicy, amber, oud, leather, powdery, bold and versatile.
+- Added style/maturity choices: polished and mature, clean, youthful/playful, rich/luxurious and rugged.
+- Added value/balanced/premium budget positioning so price no longer wins ties automatically.
+- Recommendations now diversify by scent family and brand instead of returning near-identical top results.
+- Source confidence is included in scoring and explained in each result.
+- Oud Al Layl Midnight Edition cannot appear as the first recommendation, but can still appear as a clearly labelled alternative when relevant.
+
+WEATHER TOOL
+- Preserves the all-64 Bangladesh district autocomplete in English and Bangla, including common former spellings.
+- Weather results are also diversified by scent family and brand.
+- Live weather still requires a deployed HTTPS Worker endpoint and OpenWeather secret; manual temperature matching remains available.
+
+SEO AND PRODUCT DETAILS
+- Source-checked product pages show scent character, notes, expected longevity guidance, best places and best conditions.
+- Unverified pages intentionally withhold exact note pyramids until source review is complete.
+
+RELEASE
+- Master ZIP: complete standalone website.
+- Update-only ZIP: only the files changed from v3051.

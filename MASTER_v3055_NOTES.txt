@@ -1,0 +1,20 @@
+SCENTORY MASTER v3055 — FINAL MANUAL WEATHER RELEASE
+=====================================================
+
+- Removed the live weather endpoint, OpenWeather dependency and Cloudflare Worker requirement.
+- Removed location permission and “Use My Location”.
+- Removed the weather configuration script from the website.
+- Weather matching now works completely inside the browser with no API key.
+- Customers manually enter temperature and humidity and select current conditions.
+- All 64 Bangladesh districts remain searchable in English and Bangla for result labelling.
+- Manual inputs affect weather fit, perfume ranking and suggested spray range.
+- Existing occasion, indoor/outdoor and preferred-presence controls remain available.
+- All v3054 prices, stock, profile accuracy safeguards and diverse recommendation logic remain unchanged.
+- 30 ML remains excluded.
+
+REMOVED FROM THE FINAL ZIP
+--------------------------
+- weather-config-v3048.js
+- weather-worker-openweather-v3048.js
+- wrangler-weather-v3048.toml.example
+- LIVE_WEATHER_SETUP_v3049.txt
