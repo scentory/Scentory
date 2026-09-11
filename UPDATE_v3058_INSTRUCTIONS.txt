@@ -1,0 +1,10 @@
+SCENTORY v3058 — UPDATE-ONLY INSTALLATION
+==========================================
+
+Upload every file and folder from the v3058 update-only ZIP over the existing
+v3057 website. Replace files when prompted and preserve the included folder
+structure.
+
+This update applies the latest supplied price and stock list, adds two Mykonos
+products, launches D&G The One and Ajmal Kuro, and refreshes the generated SEO
+pages and sitemap. All existing storefront features remain unchanged.

@@ -1,0 +1,9 @@
+SCENTORY v3057 — UPDATE-ONLY INSTALLATION
+==========================================
+
+Upload every file and folder from this ZIP over the existing v3056 website.
+Replace files when prompted and preserve the included folder structure.
+
+This update applies the final August 2026 price/stock changes and adds Ajmal
+Kuro EDP as an Upcoming product with its supplied signature poster. The manual
+weather tool remains fully local and does not require Cloudflare or OpenWeather.

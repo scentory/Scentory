@@ -1,0 +1,15 @@
+SCENTORY v3055 — UPDATE-ONLY INSTALLATION
+==========================================
+
+Upload the contents of this ZIP over the existing v3054 website and replace files when prompted.
+
+The website no longer loads or needs these older live-weather files. They can safely remain on the
+server because they are inactive, or you may remove them after making a backup:
+
+- weather-config-v3048.js
+- weather-worker-openweather-v3048.js
+- wrangler-weather-v3048.toml.example
+- LIVE_WEATHER_SETUP_v3049.txt
+
+No Cloudflare Worker, OpenWeather API key, external weather request, or device-location permission
+is required. The new weather recommendation tool runs locally from customer-entered values.

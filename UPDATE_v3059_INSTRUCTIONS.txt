@@ -1,0 +1,18 @@
+SCENTORY v3059 — TWO PACKAGE OPTIONS
+
+MASTER ZIP
+Complete standalone storefront. Extract its contents into the website root.
+index.html, perfumes.json and the perfume/ folder belong at that root.
+
+UPDATE-ONLY ZIP
+Contains only new or changed files relative to the delivered v3058 master.
+Apply over v3058 by uploading and overwriting files at the same relative paths.
+Keep the existing files and folders; do not replace the whole website with
+only the update ZIP. No files need deletion.
+Use the complete master if the installed version is v3057 or older/unknown.
+
+The two packages produce the same v3059 storefront after applying the update
+to v3058. The updated cache version requests the new catalogue and assets.
+
+See MASTER_v3059_NOTES.txt for catalogue changes and preserved rules.
+See CHANGE_MANIFEST_v3059.json for the exact update file list and hashes.

@@ -1,0 +1,11 @@
+UPDATE v3061 deployment notes
+
+1. Upload the full package contents to the web root, replacing the existing files.
+2. Make sure index.html, perfumes.json, script-scentory-v3048.js and sitemap.xml are overwritten.
+3. Upload the new poster images:
+   - dior-sauvage-edt-poster-v3061.png
+   - bleu-de-chanel-edp-poster-v3061.png
+   - bois-imperial-edp-poster-v3061.png
+4. Upload the regenerated perfume/*.html files.
+5. Because the public asset query version is now 3061, the browser should refresh the latest data automatically.
+6. 30 ML source prices remain intentionally hidden from the storefront to preserve the previous storefront behaviour.

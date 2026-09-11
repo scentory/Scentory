@@ -1,0 +1,8 @@
+SCENTORY v3056 — UPDATE-ONLY INSTALLATION
+==========================================
+
+Upload every file and folder from this ZIP over the existing v3055 website.
+Replace files when prompted and preserve the included folder structure.
+
+This update removes the manual humidity field and adds the supplied D&G The One
+poster. No Cloudflare Worker, weather API key or device-location permission is needed.

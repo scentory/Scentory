@@ -1,0 +1,6 @@
+SCENTORY v3063 UPDATE
+Copy the included files over the existing master package.
+Updated assets:
+- club-de-nuit-intenso-fuego-poster-v3063.png
+- bujairami-sydney-hectic-poster-v3063.jpg
+- perfumes.json

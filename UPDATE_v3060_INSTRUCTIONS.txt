@@ -1,0 +1,34 @@
+SCENTORY — ALL TODAY'S UPDATES, COMBINED v3060 PACKAGE
+
+COMPLETE MASTER
+Standalone website containing the price/stock and poster update plus the
+120+ branding, banner and featured-perfume update. Extract into the website
+root, keeping index.html, perfumes.json and perfume/ at their normal paths.
+
+COMBINED UPDATE ONLY — START FROM v3058
+Upload ALL files and folders from this combined update ZIP over your existing
+v3058 website, keeping their relative paths and allowing overwrites.
+You do NOT need to install the separate v3059 or v3060 update ZIPs first.
+Keep existing files not included here. No deletions are required.
+This cumulative package also works if v3059 has already been installed.
+If your installed version is older than v3058 or unknown, use the full master.
+
+INCLUDES BOTH UPDATES
+- Khadlaj Island Sun with 5/6/10/15 ML prices of 270/320/480/660 Tk.
+- Blue by Ahmed fully out of stock; other existing prices preserved.
+- Supplied Mykonos Inception, Mykonos Dreamscape and Island Sun posters,
+  with their Scentory-supplied profile guidance and uncropped presentation.
+- Public perfume count: 120+ throughout; exact public totals removed.
+- Banner: 380+ Orderable Options; Trusted by 2500+ Customers;
+  9000+ Decants Sold; 120+ Perfumes.
+- Hot Arrivals: Mykonos Inception, Mykonos Dreamscape, Khadlaj Island Sun,
+  Club De Nuit Intense Overdose.
+- Best Selling: Versace Eros, Supremacy Collector's Edition,
+  Karus Gold Absolu, Hawas Ice.
+- Previous features, Premium 6 ML and 30 ML exclusion preserved.
+
+The Google-facing changes are included in these files; search results can
+reflect them after deployment and recrawling.
+Current validation: node tools/validate-master-v3060.js
+Recommendation validation: node tools/test-ui-v3053.js
+CHANGE_MANIFEST_v3060.json describes this combined update relative to v3058.
