@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scentory Perfume</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+.product {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.product img {
+    width: 80%;
+    border-radius: 15px;
+}
+
+.price-box {
+    margin: 20px 0;
+}
+
+.size-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.order-btn {
+    display: inline-block;
+    padding: 14px 25px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="product">
+
+<img id="image">
+
+<h1 id="name"></h1>
+
+<p id="description"></p>
+
+<h3>Notes</h3>
+<p id="notes"></p>
+
+<h3>Longevity</h3>
+<p id="longevity"></p>
+
+<div class="price-box" id="sizes"></div>
+
+<a class="order-btn" id="order">
+Order on WhatsApp
+</a>
+
+</div>
+
+
+<script>
+
+const perfume = {
+name:"Mykonos Inception EDP",
+image:"../images/mykonos-inception.jpg",
+description:"A premium fragrance experience from Scentory.",
+notes:"Fresh citrus, woody aromatic",
+longevity:"Long lasting performance",
+sizes:[
+{
+ml:"5ML",
+price:320
+},
+{
+ml:"6ML",
+price:399
+},
+{
+ml:"10ML",
+price:590
+}
+]
+};
+
+
+document.getElementById("name").innerHTML = perfume.name;
+
+document.getElementById("image").src = perfume.image;
+
+document.getElementById("description").innerHTML = perfume.description;
+
+document.getElementById("notes").innerHTML = perfume.notes;
+
+document.getElementById("longevity").innerHTML = perfume.longevity;
+
+
+let sizeHTML="";
+
+perfume.sizes.forEach(size=>{
+
+sizeHTML += `
+<button class="size-btn"
+onclick="order('${size.ml}','${size.price}')">
+${size.ml} - ৳${size.price}
+</button>
+`;
+
+});
+
+document.getElementById("sizes").innerHTML=sizeHTML;
+
+
+
+function order(size,price){
+
+let msg =
+`Hello Scentory,
+
+I want to order:
+
+${perfume.name}
+
+Size:
+${size}
+
+Price:
+৳${price}`;
+
+window.open(
+"https://wa.me/8801410939978?text="+encodeURIComponent(msg)
+);
+
+}
+
+</script>
+
+</body>
+</html>
