@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mykonos-inception-edp",
+    "name": "Mykonos Inception EDP",
+    "brand": "Mykonos",
+    "category": "Premium Decant",
+    "image": "images/mykonos-inception.jpg",
+    "sizes": [
+      {
+        "ml": "5ML",
+        "price": 320
+      },
+      {
+        "ml": "6ML",
+        "price": 399
+      },
+      {
+        "ml": "10ML",
+        "price": 590
+      }
+    ],
+    "notes": [
+      "Fresh citrus",
+      "Woody aromatic"
+    ],
+    "longevity": "Long lasting performance",
+    "bestFor": [
+      "Office",
+      "University",
+      "Meetings",
+      "Casual outings"
+    ],
+    "description": "A premium fragrance experience from Mykonos available as authentic decants by Scentory."
+  }
+]
