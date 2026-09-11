@@ -1,0 +1,13 @@
+Scentory Master Full Website v3034
+
+- Latest user-supplied price/availability list applied.
+- Price List serial/order exactly follows the supplied master list.
+- 30 ML remains removed.
+- Added Club De Nuit Intense Overdose with supplied product image.
+- Hot Arrivals: Overdose, Karus Gold, Hawas La Mer, Rayhaan Cedrus Blanc.
+- Best Selling: Supremacy Collector, Hawas Black, Karus Gold, Urban Man Elixir.
+- Moving banner: 7000+ Decants Sold; Trusted by 1900+ Customers; 120+ Collections.
+- 120+ branding preserved.
+- New preferred Google/link preview image: supplied Scentory campaign poster.
+- Cache/data version 3034, no-store perfume fetch preserved.
+- Performance layer uses native/GPU-friendly rendering and requestAnimationFrame fast scrolling. Actual display refresh rate (e.g. 120Hz) is controlled by the user device/browser; the site does not cap it.

@@ -1,0 +1,11 @@
+SCENTORY - CURRENT PAGE UPDATE ONLY
+
+Apply to the complete v3062 website. This ZIP contains only files changed or added in v3063.
+
+Extract this ZIP. Upload its CONTENTS to the GitHub Pages publishing folder, alongside the existing index.html. Keep the perfume folder intact. Do not upload the ZIP itself or create an extra enclosing folder. Replace matching files and wait for GitHub Pages deployment to finish.
+
+Included: photo navigation to individual pages, dedicated product pages with size selection and shared cart, product-page CSS and JavaScript, homepage updates and the updated page generator.
+
+Earlier price/catalogue/poster updates are not included. The existing v3062 perfumes.json and images must remain on the site.
+
+This package does not change GitHub Pages settings. The reported 404 cause has not been confirmed. Correct file placement and a successful deployment are required.

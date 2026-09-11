@@ -1,0 +1,24 @@
+Scentory master package v3061
+
+What changed in this update:
+- Updated the full catalogue price list from the user-supplied master list.
+- Preserved the existing storefront behaviour and all previously implemented UI features.
+- Kept 30 ML prices out of the visible storefront, while retaining the supplied 30 ML source data internally per product.
+- Added five catalogue entries that were not present in the previous data snapshot:
+  1) Dior Sauvage EDT
+  2) Stronger With You Intensely
+  3) Stronger With You Absolutely
+  4) Bleu De Chanel EDP
+  5) Bois Impérial EDP
+- Added the three new supplied poster images:
+  - dior-sauvage-edt-poster-v3061.png
+  - bleu-de-chanel-edp-poster-v3061.png
+  - bois-imperial-edp-poster-v3061.png
+- Added Scentory-style scent profile and suitable-wear guidance for:
+  - Dior Sauvage EDT
+  - Stronger With You Intensely
+  - Stronger With You Absolutely
+  - Bleu De Chanel EDP
+  - Bois Impérial EDP
+- Regenerated all shareable product pages and sitemap.xml.
+- Bumped the storefront asset query version from 3060 to 3061 for cache refresh.

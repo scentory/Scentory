@@ -1,0 +1,7 @@
+SCENTORY Master v3064
+
+Upgrade:
+- Product-level perfume profiles (not size-level).
+- Added Scentory Profile Pyramid structure.
+- Preserved existing pricing, posters, website assets and features.
+- Existing catalogue data retained.

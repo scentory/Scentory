@@ -1,0 +1,10 @@
+Scentory Master Full Website v3036
+
+Changes from v3035:
+- Restored lightweight sticky/frozen global top search bar so search remains accessible while scrolling.
+- Clicking the Scentory logo/name now clears search/filters and jumps to the start of the product Collection/Price List area.
+- Fixed search suggestion navigation: tapping a perfume reliably renders and jumps to the exact matching product with correct sticky-header offset, without delayed duplicate scroll attempts.
+- Collection filter toolbar is non-sticky to avoid fighting the global sticky search header and reduce mobile scroll jank.
+- Added 4 genuine customer review screenshots to the general Reviews section only. Reviewer identifying header information is blurred; review text/product evidence is preserved.
+- Preserved all v3035 catalogue data, prices, product order, Hot Arrivals, Best Sellers, 120+ branding, moving banner, checkout/order features, SEO/GEO, and social preview image.
+- Cache/data version updated to 3036.

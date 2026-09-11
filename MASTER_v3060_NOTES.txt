@@ -1,0 +1,41 @@
+SCENTORY v3060 — PUBLIC COUNTS, BANNER AND FEATURED PERFUMES
+Development base: v3059. Release: 5 September 2026.
+This combined delivery includes both updates and installs directly over v3058.
+See UPDATE_v3060_INSTRUCTIONS.txt for the combined installation steps.
+
+PUBLIC PERFUME COUNT
+The public collection label is always 120+ Perfumes, including after search
+or filtering. Exact collection totals are not published in the interface,
+metadata, crawler summary or the ItemList numberOfItems field.
+Google/social titles and descriptions use 120+ perfume choices.
+Older release-note collection totals have been removed from this package.
+
+MOVING BANNER
+380+ Orderable Options
+Trusted by 2500+ Customers
+9000+ Decants Sold
+120+ Perfumes
+These are the business's supplied banner statements.
+
+HOT ARRIVALS — IN ORDER
+Mykonos Inception
+Mykonos Dreamscape
+Khadlaj Island Sun
+Club De Nuit Intense Overdose
+
+BEST SELLING — IN ORDER
+Versace Eros EDT
+Afnan Supremacy Collector's Edition
+Khadlaj Karus Gold Absolu
+Hawas Ice
+
+Prices, stock, catalogue records, all supplied posters, recommendation tools,
+cart/checkout, delivery fees, responsive design and other features are kept.
+Portrait posters remain uncropped in Hot Arrivals.
+Cache version: 3060.
+
+VALIDATION
+Current release check: node tools/validate-master-v3060.js
+Recommendation check: node tools/test-ui-v3053.js
+Earlier version checks are historical and may expect older display content.
+No deployment or live Google indexing change has been performed.

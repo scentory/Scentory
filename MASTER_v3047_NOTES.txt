@@ -1,0 +1,34 @@
+SCENTORY MASTER v3047 — FINAL AUGUST 2026 PRICE, STOCK AND SERIAL UPDATE
+
+Authoritative source:
+- The final applied price-and-stock list supplied by Scentory on 22 August 2026.
+- A cross beside a perfume name means the complete perfume is out of stock.
+- A cross beside an individual size means only that size is out of stock.
+- Every 30 ML entry remains excluded from the website.
+
+Catalogue result:
+- 107 perfume cards in the supplied serial order.
+- 98 available perfumes.
+- Nine fully out-of-stock perfumes.
+- Oud Al Layl Midnight EDP moved to the final serial position.
+- 170 existing website-size prices updated from v3046.
+- 51 existing size-stock values updated from v3046.
+- Titan by Khadlaj changed from available to fully out of stock.
+
+New cards:
+- Hawas Rouge EDP — fully out of stock; neutral image-coming-soon placeholder used because no product image was supplied.
+- Yusuf Bhai - Bois Imperial — supplied image added; 15 ML out of stock.
+- Yusuf Bhai - Men 212 — supplied image added; 15 ML out of stock.
+- Yusuf Bhai - Allure Homme Sport — supplied image added; 15 ML out of stock.
+
+Preserved features:
+- Find My Perfume.
+- Scentory Weather Match.
+- Build My Decant Box with Next Option.
+- Five-factor Similar Perfumes engine.
+- Cost Per Spray with the supplied spray ranges and 8/10/12-spray calculations.
+- Search, filters, product details, image viewer, cart, delivery charges, reviews, Messenger, WhatsApp and ordering flow.
+- Scent Passport remains removed.
+- No 30 ML website options.
+
+Cache and catalogue data version updated to 3047.

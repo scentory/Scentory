@@ -1,0 +1,13 @@
+SCENTORY MASTER v3042
+
+- The complete user-supplied price and availability list was reapplied and validated.
+- Product serial/order remains exactly aligned with the supplied master list.
+- A cross mark beside a perfume name means the full perfume is out of stock.
+- A cross mark beside an individual size means only that size is out of stock.
+- All 30 ML options remain excluded from the website.
+- Rave Plato by Lattafa remains the final catalogue item.
+- Rave Plato 6 ML remains a regular atomizer, matching the supplied list.
+- Catalogue contains 103 perfumes: 95 available and 8 fully out of stock.
+- Search, filters, Hot Arrivals, Best Sellers, product details, cart, delivery charges,
+  Messenger/WhatsApp ordering, reviews, SEO, and all existing website features are preserved.
+- Cache/data version updated to 3042.

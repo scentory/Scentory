@@ -1,0 +1,20 @@
+SCENTORY v3063 — PRODUCT POSTER UPDATE
+Release: September 2026
+
+Added new supplied product posters:
+1. Club De Nuit Intenso Fuego
+   - Image: club-de-nuit-intenso-fuego-poster-v3063.png
+   - Added as product profile visual update.
+
+2. Bujairami Sydney Hectic EDP
+   - Image: bujairami-sydney-hectic-poster-v3063.jpg
+   - Added as product profile visual update.
+
+Existing v3060 features preserved:
+- Catalogue structure
+- Pricing engine
+- Product profiles
+- Recommendation system
+- Existing assets and tools
+
+No folder structure is used in the v3063 packages.

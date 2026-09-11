@@ -1,0 +1,19 @@
+SCENTORY MASTER v3054 — AUGUST 2026 PRICE LIST RECONFIRMATION
+================================================================
+
+- Reapplied and compared the complete user-supplied August 2026 price list.
+- No price changes were found compared with v3053.
+- No stock or size-availability changes were found compared with v3053.
+- No premium-atomizer flag changes were found compared with v3053.
+- 30 ML remains intentionally excluded from the storefront.
+- Dolce & Gabbana The One EDP remains Upcoming and unavailable for ordering.
+- Azzaro The Most Wanted and YSL Y retain their selected 3/5/6/10 ML sizes.
+- All v3053 intelligence, source-review, recommendation-diversity and district-autocomplete improvements are preserved.
+- Browser cache identifiers were refreshed to v3054 so the confirmed catalogue is requested again after deployment.
+
+PRICE-LIST CHANGE SUMMARY FROM v3053
+------------------------------------
+Prices changed: 0
+Availability changes: 0
+Premium-atomizer changes: 0
+Product additions/removals: 0
