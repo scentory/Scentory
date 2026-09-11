@@ -1,0 +1,9 @@
+Scentory v3015 price + Modest Une poster update
+
+Upload/replace these files in the ROOT of your GitHub repository:
+1. perfumes.json
+2. afnan-modest-une.webp
+
+This keeps 30 ML out of the website price list and adds the Modest Une poster image.
+After upload, check:
+https://scentoryfragrance.com/?v=3015
