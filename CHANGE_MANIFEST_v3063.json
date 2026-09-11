@@ -1,0 +1,30 @@
+{
+  "release": "3063",
+  "files": [
+    {
+      "path": "club-de-nuit-intenso-fuego-poster-v3063.png",
+      "sha256": "e6738f3013c9e03a4cc1d6d2d8ebb6b749a175d6f86be42b80c0f22631e2ebfb",
+      "change": "added"
+    },
+    {
+      "path": "bujairami-sydney-hectic-poster-v3063.jpg",
+      "sha256": "2fc9fcb9297647cb0b86f11fa4d02cb4a270a3053c336e4ef23ab5379a58ec76",
+      "change": "added"
+    },
+    {
+      "path": "perfumes.json",
+      "sha256": "59d464844e23590a7231de2b09688fe24982816a2d893aa6da39942e11e7de69",
+      "change": "modified"
+    },
+    {
+      "path": "MASTER_v3063_NOTES.txt",
+      "sha256": "4a2e012e68dd4bd565cfd2c9f8dcd44f97757bd9c4f292a75df51d6a8a788cb3",
+      "change": "added"
+    },
+    {
+      "path": "UPDATE_v3063_INSTRUCTIONS.txt",
+      "sha256": "d36f6ac02d56e60607cf369669615edad281be543895ef07dadadff7239c8b08",
+      "change": "added"
+    }
+  ]
+}

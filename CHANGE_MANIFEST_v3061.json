@@ -1,0 +1,97 @@
+{
+  "release": "3061",
+  "package": "price-list-refresh-and-new-posters",
+  "baseRelease": "3060",
+  "includesReleases": [
+    "3061"
+  ],
+  "deletedFiles": [],
+  "files": [
+    {
+      "path": "index.html",
+      "change": "modified",
+      "sha256": "d62dc62855372cdba50a052db78067d40fb4aaaf1722a398a2c8938fb9b846b8"
+    },
+    {
+      "path": "perfumes.json",
+      "change": "modified",
+      "sha256": "b47cec8c49d7073930b2e297ac9dc0c9ef0ecc5ab5bf74e16b4a105658c1012f"
+    },
+    {
+      "path": "script-scentory-v3048.js",
+      "change": "modified",
+      "sha256": "ecaa929ca0fa2757d271ec438c908f9e75b36d6555df9226f45b7cd4245ce8e1"
+    },
+    {
+      "path": "tools/generate-seo-pages-v3048.js",
+      "change": "modified",
+      "sha256": "561b52b5271fa1f51f2c02dc7c0964f4b8e4bdad7f1ef24b9917d7668c58c2c2"
+    },
+    {
+      "path": "sitemap.xml",
+      "change": "modified",
+      "sha256": "6828b7074121a0fc8a0be243baa64f0818380583f1d51827e2ec960142ca1dc2"
+    },
+    {
+      "path": "MASTER_v3061_NOTES.txt",
+      "change": "added",
+      "sha256": "1b27a3bfceaab81ac5bc528279b2b6faef47ca6cc4cc9979aec99d29aed3ce65"
+    },
+    {
+      "path": "UPDATE_v3061_INSTRUCTIONS.txt",
+      "change": "added",
+      "sha256": "6e9aff3545e360a70b7591b23bcdaf53e3ab87c7f7ca34eec4abf17c69a73b02"
+    },
+    {
+      "path": "tools/supplied-prices-v3061.txt",
+      "change": "added",
+      "sha256": "b9e35f056ad7bda8f8b07b3447d1f31c643e4a5e2669ecf02474a7e2e45575b6"
+    },
+    {
+      "path": "dior-sauvage-edt-poster-v3061.png",
+      "change": "added",
+      "sha256": "d468b19ad00be29e94d5aa978abe7472d3b3d97e9b7cfb2a50a89deaf4c6aba9"
+    },
+    {
+      "path": "bleu-de-chanel-edp-poster-v3061.png",
+      "change": "added",
+      "sha256": "39a206b82ef39554f5cc05e5afddc3928e27f6b0a0b1ccc772e0414ba90f01d9"
+    },
+    {
+      "path": "bois-imperial-edp-poster-v3061.png",
+      "change": "added",
+      "sha256": "103afddef4c7c22f65870915345ff8a439e0d2d9c3e26c47329e17ca3b2cc6a8"
+    },
+    {
+      "path": "perfume/dior-sauvage-edt.html",
+      "change": "added",
+      "sha256": "254ec5d5d50a3b80e4be82e6937857cc91713441f31ec60b3d55c35d79440996"
+    },
+    {
+      "path": "perfume/stronger-with-you-intensely-edp.html",
+      "change": "added",
+      "sha256": "cc5b8306f886b231092afa0a4886c9bb2a20554200d8d14ce93ab70e6f5e29c3"
+    },
+    {
+      "path": "perfume/stronger-with-you-absolutely-edp.html",
+      "change": "added",
+      "sha256": "bdedfe70d75d4de1b7ea66696eea35ddcf81f68978b2197e310417f1027f50f0"
+    },
+    {
+      "path": "perfume/bleu-de-chanel-edp.html",
+      "change": "added",
+      "sha256": "8754033eaa1c9023e6a1fc3f0dae7e3c0f890ec2a706f19a3be02f7c13409ccb"
+    },
+    {
+      "path": "perfume/bois-imperial-edp.html",
+      "change": "added",
+      "sha256": "2747282a753494ef36b4504cc6dcb798b76809f57c6545439ef842189c29a6cd"
+    }
+  ],
+  "notes": [
+    "Full price list synced to the supplied master list.",
+    "Storefront behaviour preserved, including hidden 30 ML storefront pricing.",
+    "Three new supplied poster images added and wired to catalogue entries.",
+    "Five products received Scentory-style detailed profile guidance."
+  ]
+}

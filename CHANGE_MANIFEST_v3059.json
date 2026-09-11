@@ -1,0 +1,117 @@
+{
+  "release": "3059",
+  "baseRelease": "3058",
+  "date": "2026-09-05",
+  "changedFileCountExcludingManifest": 18,
+  "deletedFiles": [],
+  "files": [
+    {
+      "path": "MASTER_v3059_NOTES.txt",
+      "change": "added",
+      "sha256": "b5e31b103436893ac7df5cabad8991f8ee7191211fe63d5f4a21e60662b1f3d1",
+      "bytes": 2349
+    },
+    {
+      "path": "UPDATE_v3059_INSTRUCTIONS.txt",
+      "change": "added",
+      "sha256": "67193a2d2b89dd5f80f9466921560b9c2621e0a64230c03ebab8dd13d55213ef",
+      "bytes": 864
+    },
+    {
+      "path": "index.html",
+      "change": "modified",
+      "sha256": "f527c71d551940ff5ac0b69d67b07a0c1f5d1c30df28468d8581017feb2cd965",
+      "bytes": 29216
+    },
+    {
+      "path": "khadlaj-island-sun-edp-poster-v3059.jpg",
+      "change": "added",
+      "sha256": "f812181d9bb70a75f2277213790efeb91c1a2144b00e9762e4c166839b540e8d",
+      "bytes": 477286
+    },
+    {
+      "path": "mykonos-dreamscape-edp-poster-v3059.jpg",
+      "change": "added",
+      "sha256": "0bb9e81cece7bcd457b075fffe330611029bcae6d93cb5f447279bf4ec8864e8",
+      "bytes": 390606
+    },
+    {
+      "path": "mykonos-inception-edp-poster-v3059.jpg",
+      "change": "added",
+      "sha256": "e64be7b0a0d6b8ca0f771eea5c636a5ad11ab45ed1213b2999a183d4baa503e1",
+      "bytes": 331793
+    },
+    {
+      "path": "perfume/blue-by-ahmed-edp.html",
+      "change": "modified",
+      "sha256": "76c2ddd65020ddd50b5a6a4ba4cd6e85fa160fc3952ecdd6bb5044f4a9bc449c",
+      "bytes": 7066
+    },
+    {
+      "path": "perfume/khadlaj-island-sun-edp.html",
+      "change": "added",
+      "sha256": "02d1cb43ebb408548f57aeb943ba26a7f89628e0942b966a0a40c49b52ba9778",
+      "bytes": 7480
+    },
+    {
+      "path": "perfume/mykonos-dreamscape-edp.html",
+      "change": "modified",
+      "sha256": "3a2b8bdcc2ad498b81189ff13dfaca767f1dd5a6cc91d32dea4a7ad6e552c350",
+      "bytes": 7427
+    },
+    {
+      "path": "perfume/mykonos-inception-edp.html",
+      "change": "modified",
+      "sha256": "8fbf8a20d2a2719d03fae64c4a3620914e473d2e61e66c3b6a7d6f203b9f4c72",
+      "bytes": 7367
+    },
+    {
+      "path": "perfumes.json",
+      "change": "modified",
+      "sha256": "ab04bb9ff09bc3df5a20cae059217cb432d525ce0a39da03ff86e852153e1a86",
+      "bytes": 190299
+    },
+    {
+      "path": "script-scentory-v3048.js",
+      "change": "modified",
+      "sha256": "eed3a05a2d9eae263e2201d925d209381fe89abfe287219313de5d4c236d3d88",
+      "bytes": 55168
+    },
+    {
+      "path": "sitemap.xml",
+      "change": "modified",
+      "sha256": "21ca6213ad7517d10ba2fbe768cc9f63554f89bac973239722cec59f9f918b34",
+      "bytes": 19743
+    },
+    {
+      "path": "style-scentory-v3048.css",
+      "change": "modified",
+      "sha256": "a0ce851d78c6d1aceb8c2a22982d3b350cb832a406bc59e1409ba50f8ba72f51",
+      "bytes": 111260
+    },
+    {
+      "path": "tools/apply-final-price-list-v3059.js",
+      "change": "added",
+      "sha256": "8a14d82d4b93001331188ab61edf2318a2de30ef4464d755b1b80e1c9e79868f",
+      "bytes": 5134
+    },
+    {
+      "path": "tools/generate-seo-pages-v3048.js",
+      "change": "modified",
+      "sha256": "817ad3e18554445a040465c4cafce764b507f51de0122e2428556d19f9490bc5",
+      "bytes": 10014
+    },
+    {
+      "path": "tools/supplied-prices-v3059.txt",
+      "change": "added",
+      "sha256": "af6a9d1f266d5112ebf38aa96dfb1b377e1802daa90d3b19476aac80722c3735",
+      "bytes": 5375
+    },
+    {
+      "path": "tools/validate-master-v3059.js",
+      "change": "added",
+      "sha256": "54a15129f80e4ad290f0e22509bc63f78f695fb1e48d0dd7efc13add28d7a508",
+      "bytes": 5742
+    }
+  ]
+}
