@@ -53,7 +53,7 @@ const html = read('index.html');
 assert.ok(main.includes("const DATA_VERSION = '3059'"));
 for(const file of ['style-scentory-v3048.css','script-scentory-v3048.js','scentory-intelligence-v3048.js']) assert.ok(html.includes(file+'?v=3059'));
 assert.ok(html.includes('112 Perfumes'));
-assert.ok(html.includes('120+ PERFUME CHOICES'));
+assert.ok(html.includes('130+ PERFUME CHOICES'));
 assert.ok(html.includes('value="80"') && html.includes('value="130"'));
 assert.equal(fs.readdirSync(path.join(root,'perfume')).filter(f => f.endsWith('.html')).length,112);
 const sitemap = read('sitemap.xml');

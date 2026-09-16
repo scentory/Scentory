@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3062';
+const DATA_VERSION = '3065';
 const BEST_SELLING_IDS = [
   'versace-eros-edt',
   'afnan-supremacy-collector-s-edition-edp',
@@ -570,7 +570,7 @@ function injectCatalogueStructuredData() {
   node.textContent = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Scentory — 120+ perfume choices in Bangladesh',
+    name: 'Scentory — 130+ perfume choices in Bangladesh',
     itemListElement: itemList
   });
   document.head.appendChild(node);
@@ -579,7 +579,7 @@ function injectCatalogueStructuredData() {
 async function loadPerfumes() {
   try {
     productGrid.innerHTML = '<p class="order-items empty">Loading perfumes...</p>';
-    const response = await fetch(`perfumes.json?v=${DATA_VERSION}`, { cache: 'no-store' });
+    const response = await fetch(`perfumes.json?v=${DATA_VERSION}`, { cache: 'no-cache' });
     if (!response.ok) throw new Error('Could not load perfume database');
     perfumes = await response.json();
     normalizeCartAfterLoad();
@@ -588,6 +588,7 @@ async function loadPerfumes() {
     renderHotArrivals();
     renderBestSelling();
     renderCart();
+    if (location.hash === '#myOrder') scrollToOrderCard();
   } catch (error) {
     productGrid.innerHTML = '<p class="order-items empty">Could not load the price list. Please refresh the page.</p>';
     console.error(error);
@@ -798,7 +799,18 @@ function highlightElement(element, className = 'jump-highlight', duration = 900)
 function scrollToOrderCard() {
   const orderCard = document.getElementById('myOrder');
   if (!orderCard) return;
-  requestAnimationFrame(() => scrollElementIntoView(orderCard, 10, 'smooth'));
+  document.getElementById('scentoryNotice')?.close();
+  closeImageModal();
+  closeProductDetails();
+  if (typeof window.closeDiscoveryTool === 'function') window.closeDiscoveryTool();
+  requestAnimationFrame(() => {
+    const headerHeight = syncTopbarHeight();
+    const top = Math.max(0, window.scrollY + orderCard.getBoundingClientRect().top - headerHeight - 16);
+    window.scrollTo({ top, behavior: 'instant' });
+    orderCard.setAttribute('tabindex', '-1');
+    orderCard.focus({ preventScroll: true });
+    highlightElement(orderCard, 'order-jump-highlight');
+  });
 }
 
 function scrollToPerfume(id, options = {}) {
@@ -853,7 +865,7 @@ function renderProducts() {
     return matchesTerm(p) && matchesStock && matchesTag;
   });
 
-  if (perfumeCount) perfumeCount.textContent = '120+ Perfumes';
+  if (perfumeCount) perfumeCount.textContent = '130+ Perfumes';
 
   if (!filtered.length) {
     productGrid.innerHTML = '<p class="order-items empty">No perfume found. Try a different search or tag.</p>';
@@ -938,7 +950,7 @@ function toggleCartItem(id, ml) {
   } else {
     const added = addToCart(id, ml);
     if (added) {
-      showToast(`${perfume?.name || 'Item'} was added. Tap the bottom order bar to review.`, 'success');
+      showAddedPerfumes(perfume);
     }
   }
 }
@@ -946,6 +958,7 @@ function toggleCartItem(id, ml) {
 function changeQty(key, delta) {
   const item = cart.find(i => i.key === key);
   if (!item) return;
+  if (item.qty + delta > 20) { showToast('Maximum 20 of each size per order.', 'info'); return; }
   item.qty += delta;
   if (item.qty <= 0) cart = cart.filter(i => i.key !== key);
   saveCart();
@@ -1309,6 +1322,7 @@ imageModal?.addEventListener('click', event => {
   if (event.target === imageModal) closeImageModal();
 });
 document.addEventListener('keydown', event => {
+  if (document.getElementById('scentoryNotice')?.open) return;
   const modal = getTopOpenModal();
   if (!modal) return;
   if (event.key === 'Tab') {
@@ -1338,6 +1352,7 @@ document.addEventListener('keydown', event => {
   }
 });
 document.addEventListener('focusin', event => {
+  if (document.getElementById('scentoryNotice')?.open) return;
   const modal = getTopOpenModal();
   if (!modal || modal.contains(event.target)) return;
   (getFocusableElements(modal)[0] || modal).focus({ preventScroll: true });
@@ -1356,3 +1371,48 @@ if ('ResizeObserver' in window) {
 }
 requestAnimationFrame(syncTopbarHeight);
 loadPerfumes();
+
+// Lightweight native dialogs: keyboard focus, Escape and backdrop dismissal.
+const scentoryNotice = document.getElementById('scentoryNotice');
+function openScentoryNotice(title, body, primaryLabel, action) {
+  if (!scentoryNotice || typeof scentoryNotice.showModal !== 'function') { showToast(title); return; }
+  document.getElementById('noticeTitle').textContent = title;
+  document.getElementById('noticeBody').innerHTML = body;
+  const primary = document.getElementById('noticePrimary');
+  primary.textContent = primaryLabel;
+  primary.onclick = () => { scentoryNotice.close(); if (action) action(); };
+  if (!scentoryNotice.open) scentoryNotice.showModal();
+  document.body.classList.add('notice-open');
+}
+function showAddedPerfumes(perfume) {
+  const rows = cart.map(item => `<li><span><b>${escapeHtml(item.name)}</b><small>${escapeHtml(displayMl(item.ml))}${item.premium ? ' · Premium' : ''} × ${item.qty}</small></span><strong>${taka(item.price * item.qty)}</strong></li>`).join('');
+  openScentoryNotice('Added to your order', `<p>${escapeHtml(perfume?.name || 'Your perfume')} is in your cart.</p><ul class="notice-cart">${rows}</ul><div class="notice-total"><span>Subtotal</span><b>${taka(getSubtotal())}</b></div><p class="notice-fine">Delivery is calculated in your order.</p>`, 'View my order →', scrollToOrderCard);
+}
+if (scentoryNotice) {
+  scentoryNotice.addEventListener('keydown', event => { if (event.key === 'Escape') event.stopPropagation(); });
+  document.getElementById('noticeClose').addEventListener('click', () => scentoryNotice.close());
+  document.getElementById('noticeContinue').addEventListener('click', () => scentoryNotice.close());
+  scentoryNotice.addEventListener('close', () => document.body.classList.remove('notice-open'));
+  scentoryNotice.addEventListener('click', event => {
+    if (event.target === scentoryNotice) {
+      const box = scentoryNotice.getBoundingClientRect();
+      if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) scentoryNotice.close();
+    }
+  });
+  setTimeout(() => {
+    if (location.hash === '#myOrder' || getTopOpenModal() || scentoryNotice.open) return;
+    let shown = false;
+    try { shown = sessionStorage.getItem('scentoryAnniversary2026') === 'seen'; } catch {}
+    if (shown) return;
+    openScentoryNotice('One year of Scentory. More to come.', '<p class="anniversary-kicker">OUR FIRST ANNIVERSARY</p><p class="anniversary-message">Scentory’s first anniversary is coming soon. Get ready for special surprises!</p><p class="notice-fine">Thank you for being part of our story.</p>', 'Explore the collection', () => scrollElementIntoView(document.getElementById('collection'), 0, 'auto'));
+    try { sessionStorage.setItem('scentoryAnniversary2026', 'seen'); } catch {}
+  }, 700);
+}
+// Every cart link uses the same direct jump, including hero and footer links.
+document.addEventListener('click', event => {
+  const link = event.target.closest('a[href="#myOrder"]');
+  if (!link) return;
+  event.preventDefault(); event.stopImmediatePropagation();
+  history.replaceState(null, '', '#myOrder');
+  scrollToOrderCard();
+}, true);

@@ -119,7 +119,7 @@ for (const product of sourceChecked) {
 const oudAlLayl = current.find(product => product.id === 'oud-al-layl-midnight-edp');
 assert(oudAlLayl?.profile?.topPickEligible === false, 'Oud Al Layl Midnight must not be eligible as a first recommendation');
 assert((oudAlLayl?.profile?.character || []).includes('aquatic') && !(oudAlLayl?.profile?.character || []).includes('oud'), 'Oud Al Layl Midnight profile still conflicts with the marine-citrus product');
-assert(html.includes('120+ PERFUME CHOICES') && html.includes('108 Perfumes'), '120+ expanding-selection message or exact online count is missing');
+assert(html.includes('130+ PERFUME CHOICES') && html.includes('108 Perfumes'), '130+ expanding-selection message or exact online count is missing');
 assert(html.includes('v=3053'), 'Asset cache version is not 3053');
 const workerScript = fs.readFileSync(path.join(root, 'weather-worker-openweather-v3048.js'), 'utf8');
 for (const safeguard of ['Origin not allowed','RATE_LIMITER','AbortSignal.timeout','X-Content-Type-Options','OPENWEATHER_API_KEY']) {
@@ -134,4 +134,4 @@ if (failures.length) {
   failures.forEach(message => console.error(`- ${message}`));
   process.exit(1);
 }
-console.log('v3053 validation passed: 108 online products, 120+ expanding-selection messaging, 13 source-checked profiles, diversified mature recommendations, Oud Al Layl first-pick restriction, 64 districts, prices, stock, assets and 109 SEO URLs verified.');
+console.log('v3053 validation passed: 108 online products, 130+ expanding-selection messaging, 13 source-checked profiles, diversified mature recommendations, Oud Al Layl first-pick restriction, 64 districts, prices, stock, assets and 109 SEO URLs verified.');

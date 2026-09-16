@@ -2,7 +2,7 @@ SCENTORY — ALL TODAY'S UPDATES, COMBINED v3060 PACKAGE
 
 COMPLETE MASTER
 Standalone website containing the price/stock and poster update plus the
-120+ branding, banner and featured-perfume update. Extract into the website
+130+ branding, banner and featured-perfume update. Extract into the website
 root, keeping index.html, perfumes.json and perfume/ at their normal paths.
 
 COMBINED UPDATE ONLY — START FROM v3058
@@ -18,9 +18,9 @@ INCLUDES BOTH UPDATES
 - Blue by Ahmed fully out of stock; other existing prices preserved.
 - Supplied Mykonos Inception, Mykonos Dreamscape and Island Sun posters,
   with their Scentory-supplied profile guidance and uncropped presentation.
-- Public perfume count: 120+ throughout; exact public totals removed.
+- Public perfume count: 130+ throughout; exact public totals removed.
 - Banner: 380+ Orderable Options; Trusted by 2500+ Customers;
-  9000+ Decants Sold; 120+ Perfumes.
+  9000+ Decants Sold; 130+ Perfumes.
 - Hot Arrivals: Mykonos Inception, Mykonos Dreamscape, Khadlaj Island Sun,
   Club De Nuit Intense Overdose.
 - Best Selling: Versace Eros, Supremacy Collector's Edition,

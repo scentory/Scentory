@@ -1,0 +1,33 @@
+SCENTORY v3065
+Base: the supplied v3062 master. Existing v3062 browsing and ordering retained.
+
+NEW PERFUMES
+Sanaya by Junaid: 5 ML 279 Tk; 6 ML Premium 339 Tk; 10 ML 499 Tk; 15 ML 699 Tk.
+Hawas Tropical: 5 ML 270 Tk; 6 ML Premium 330 Tk; 10 ML 499 Tk; 15 ML 670 Tk (unavailable).
+
+STOCK CHANGES
+Mykonos Dreamscape EDP — 15 ML restocked
+Shuhrah Boisée EDP — fully out of stock
+Afnan 9 PM Rebel EDP — 15 ML restocked
+YSL Y (EDP) — 10 ML out of stock
+Kenzo Homme EDT Intense — fully out of stock
+Brandy Inspiration EDP — 15 ML out of stock
+Marwa by Arabiyat Prestige — 15 ML restocked
+Rayhaan Lion EDP — 15 ML out of stock
+Club De Nuit Urban man Elixir EDP — 15 ML restocked
+Lattafa Yara EDP — 15 ML restocked
+
+Existing numeric prices unchanged. All 6 ML options remain Premium. 30 ML is excluded from ordering.
+
+OTHER CHANGES
+Overdose source JPEG is truncated and unrecoverable from supplied backups. A clearly labelled Scentory image card replaces the broken display; upload the complete original to restore the poster.
+Hero button opens Scentory Tools. Public catalogue label: 130+ perfumes.
+One-click cart navigation and added-item popup.
+Anniversary glass popup once per browser session; dismissible, keyboard accessible.
+Compact catalogue and compressed new posters; no feature removed.
+
+INSTALL
+Upload the master contents as a complete website, OR overlay the update-only contents on the supplied v3062 website. Keep the perfume folder intact beside index.html. GitHub Pages must publish that directory. Do not flatten the folder. No changes are deployed automatically.
+
+VALIDATION
+Catalogue price/stock checks passed against the current supplier list. Existing numeric prices are unchanged. Active image files decode successfully (Overdose uses a labelled temporary SVG). Recommendation regression checks, JavaScript syntax and targeted cart/popup logic checks passed. A local browser run was unavailable because no browser executable is installed; mobile visual and live deployment verification remain outstanding.

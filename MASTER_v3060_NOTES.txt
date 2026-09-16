@@ -4,17 +4,17 @@ This combined delivery includes both updates and installs directly over v3058.
 See UPDATE_v3060_INSTRUCTIONS.txt for the combined installation steps.
 
 PUBLIC PERFUME COUNT
-The public collection label is always 120+ Perfumes, including after search
+The public collection label is always 130+ Perfumes, including after search
 or filtering. Exact collection totals are not published in the interface,
 metadata, crawler summary or the ItemList numberOfItems field.
-Google/social titles and descriptions use 120+ perfume choices.
+Google/social titles and descriptions use 130+ perfume choices.
 Older release-note collection totals have been removed from this package.
 
 MOVING BANNER
 380+ Orderable Options
 Trusted by 2500+ Customers
 9000+ Decants Sold
-120+ Perfumes
+130+ Perfumes
 These are the business's supplied banner statements.
 
 HOT ARRIVALS — IN ORDER

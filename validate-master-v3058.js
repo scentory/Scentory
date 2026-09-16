@@ -107,7 +107,7 @@ for (const asset of ['style-scentory-v3048.css?v=3058', 'script-scentory-v3048.j
   assert(html.includes(asset), `Cache version missing: ${asset}`);
 }
 assert(html.includes('111 Perfumes'), 'Exact storefront count is not 111');
-assert(html.includes('120+ PERFUME CHOICES'), '120+ expanding-selection message changed');
+assert(html.includes('130+ PERFUME CHOICES'), '130+ expanding-selection message changed');
 
 assert(!html.toLowerCase().includes('humidity'), 'Humidity remains in the main interface');
 assert(!intelligence.toLowerCase().includes('humidity'), 'Humidity remains in the weather tool');

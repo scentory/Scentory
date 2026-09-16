@@ -17,7 +17,7 @@ CHANGES FROM v3058
 - Cache version is 3059; sitemap date is 2026-09-05.
 
 PUBLIC COLLECTION LABEL
-120+ Perfumes
+130+ Perfumes
 
 PRESERVED RULES AND FEATURES
 Every 6 ML option is Premium Atomizer, including Island Sun.

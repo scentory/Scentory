@@ -3433,5 +3433,13 @@ body {
   height: auto;
 }
 
-/* Dedicated product browsing */
-a.product-image-wrap{display:block;text-decoration:none}a.product-image-wrap:focus-visible,.details-link:focus-visible{outline:3px solid #d8c39c;outline-offset:4px}.shop-price{display:flex;justify-content:space-between;gap:12px;padding:18px 20px;border-top:1px solid #333;color:#f2e6d3;text-decoration:none;font-weight:700}.shop-price span{font-size:14px;color:#b8b8b8}.details-link{text-decoration:none}
+/* v3065: stable layout prevents repeated cart jumps on long catalogues. */
+.product{content-visibility:visible!important;contain-intrinsic-size:none!important}
+#myOrder{overflow-anchor:none;scroll-margin-top:calc(var(--scentory-live-header-h,112px) + 16px)!important}
+.product-image,.hot-arrival-card img,.best-seller-card img,.product-modal-image img{object-fit:contain!important;object-position:center}
+.product-modal-image img{height:auto;max-height:75vh;aspect-ratio:auto}
+body.notice-open{overflow:hidden!important}
+.scentory-glass{position:fixed;inset:0;margin:auto;width:min(92vw,480px);max-height:85dvh;overflow:auto;padding:34px 26px 22px;color:#f7f5ed;border:1px solid #ffffff69;border-radius:26px;background:linear-gradient(135deg,#343e3bed,#151b1bef);box-shadow:inset 0 1px 1px #ffffff80,0 28px 90px #0008;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);font:16px/1.6 system-ui,sans-serif}
+.scentory-glass::backdrop{background:#060d1080}
+.scentory-glass:not([open]){display:none}.notice-brand{font-size:13px;letter-spacing:.2em;color:#e7d6b0}.scentory-glass h2{font:400 clamp(26px,6vw,34px)/1.2 Georgia,serif;letter-spacing:-.02em;margin:18px 25px 18px 0}.notice-close{position:absolute;right:15px;top:13px;width:40px;height:40px;border:1px solid #ffffff30;border-radius:50%;background:#ffffff0c;color:#fff;font-size:25px;cursor:pointer}.notice-primary,.notice-secondary{display:block;width:100%;padding:13px 16px;border-radius:12px;font:600 15px system-ui;cursor:pointer}.notice-primary{margin-top:22px;background:#e7d6b0;color:#17211e;border:1px solid #fff8}.notice-secondary{margin-top:9px;background:transparent;color:#eceee8;border:1px solid #ffffff35}.anniversary-kicker{font-size:12px;letter-spacing:.14em;color:#e7d6b0}.anniversary-message{font-size:19px;line-height:1.6}.notice-fine{font-size:13px;color:#c2c9c3}.notice-cart{list-style:none;padding:0;margin:14px 0;max-height:35vh;overflow:auto}.notice-cart li{display:flex;justify-content:space-between;gap:15px;padding:12px 0;border-bottom:1px solid #ffffff26}.notice-cart b{font-size:14px}.notice-cart small{display:block;font-size:13px;color:#c2c9c3}.notice-cart strong{font-size:14px;white-space:nowrap}.notice-total{display:flex;justify-content:space-between}.scentory-glass button:focus-visible{outline:3px solid white;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}.scentory-glass{animation:none!important}}
