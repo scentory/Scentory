@@ -1,0 +1,15 @@
+SCENTORY v3066 — ANNIVERSARY POSTER AND OVERDOSE RESTORATION
+
+Base: Scentory_MASTER_v3065.zip.
+- Opening popup now displays the supplied anniversary poster at 1:1 without cropping, with the existing dark theme and a close button. Tap the artwork to explore the collection.
+- Popup remains once per browser session and is skipped on a direct cart visit. This version uses a fresh session key so visitors can see the new artwork.
+- Per-item added popups removed. Selected sizes and cart counters continue updating; a hidden live status announces additions for screen readers.
+- Complete supplied Overdose poster restored in catalogue, product details, saved-cart refresh and product page.
+- Prices, stock, other profiles, tools, order navigation and ordering methods unchanged.
+
+INSTALLATION
+Master: use all contents as your complete website.
+Update only: overlay all contents onto v3065, replacing matching files. Keep the perfume folder intact beside index.html. Do not upload the enclosing ZIP folder.
+This update does not modify your GitHub Pages deployment settings.
+
+Focused file, image, catalogue and JavaScript checks performed. No live browser/deployment verification.

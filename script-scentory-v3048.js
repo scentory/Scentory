@@ -5,7 +5,7 @@ const WHATSAPP_NUMBER = '8801410939978';
 const FACEBOOK_PAGE_URL = 'https://m.me/Scentorybd';
 // Paste your deployed Google Apps Script Web App URL below. Keep it blank until setup.
 const GOOGLE_SCRIPT_URL = ''; // Example: https://script.google.com/macros/s/XXXXX/exec
-const DATA_VERSION = '3065';
+const DATA_VERSION = '3066';
 const BEST_SELLING_IDS = [
   'versace-eros-edt',
   'afnan-supremacy-collector-s-edition-edp',
@@ -950,7 +950,8 @@ function toggleCartItem(id, ml) {
   } else {
     const added = addToCart(id, ml);
     if (added) {
-      showAddedPerfumes(perfume);
+      const status = document.getElementById('cartStatus');
+      if (status) status.textContent = `${perfume?.name || 'Item'} added to your order.`;
     }
   }
 }
@@ -1374,24 +1375,19 @@ loadPerfumes();
 
 // Lightweight native dialogs: keyboard focus, Escape and backdrop dismissal.
 const scentoryNotice = document.getElementById('scentoryNotice');
-function openScentoryNotice(title, body, primaryLabel, action) {
-  if (!scentoryNotice || typeof scentoryNotice.showModal !== 'function') { showToast(title); return; }
-  document.getElementById('noticeTitle').textContent = title;
-  document.getElementById('noticeBody').innerHTML = body;
-  const primary = document.getElementById('noticePrimary');
-  primary.textContent = primaryLabel;
-  primary.onclick = () => { scentoryNotice.close(); if (action) action(); };
+function openAnniversaryNotice() {
+  if (!scentoryNotice || typeof scentoryNotice.showModal !== 'function') return;
   if (!scentoryNotice.open) scentoryNotice.showModal();
   document.body.classList.add('notice-open');
-}
-function showAddedPerfumes(perfume) {
-  const rows = cart.map(item => `<li><span><b>${escapeHtml(item.name)}</b><small>${escapeHtml(displayMl(item.ml))}${item.premium ? ' · Premium' : ''} × ${item.qty}</small></span><strong>${taka(item.price * item.qty)}</strong></li>`).join('');
-  openScentoryNotice('Added to your order', `<p>${escapeHtml(perfume?.name || 'Your perfume')} is in your cart.</p><ul class="notice-cart">${rows}</ul><div class="notice-total"><span>Subtotal</span><b>${taka(getSubtotal())}</b></div><p class="notice-fine">Delivery is calculated in your order.</p>`, 'View my order →', scrollToOrderCard);
 }
 if (scentoryNotice) {
   scentoryNotice.addEventListener('keydown', event => { if (event.key === 'Escape') event.stopPropagation(); });
   document.getElementById('noticeClose').addEventListener('click', () => scentoryNotice.close());
-  document.getElementById('noticeContinue').addEventListener('click', () => scentoryNotice.close());
+  document.getElementById('noticeExplore').addEventListener('click', event => {
+    event.preventDefault();
+    scentoryNotice.close();
+    requestAnimationFrame(() => scrollElementIntoView(document.getElementById('collection'), 0, 'auto'));
+  });
   scentoryNotice.addEventListener('close', () => document.body.classList.remove('notice-open'));
   scentoryNotice.addEventListener('click', event => {
     if (event.target === scentoryNotice) {
@@ -1402,10 +1398,10 @@ if (scentoryNotice) {
   setTimeout(() => {
     if (location.hash === '#myOrder' || getTopOpenModal() || scentoryNotice.open) return;
     let shown = false;
-    try { shown = sessionStorage.getItem('scentoryAnniversary2026') === 'seen'; } catch {}
+    try { shown = sessionStorage.getItem('scentoryAnniversaryPoster3066') === 'seen'; } catch {}
     if (shown) return;
-    openScentoryNotice('One year of Scentory. More to come.', '<p class="anniversary-kicker">OUR FIRST ANNIVERSARY</p><p class="anniversary-message">Scentory’s first anniversary is coming soon. Get ready for special surprises!</p><p class="notice-fine">Thank you for being part of our story.</p>', 'Explore the collection', () => scrollElementIntoView(document.getElementById('collection'), 0, 'auto'));
-    try { sessionStorage.setItem('scentoryAnniversary2026', 'seen'); } catch {}
+    openAnniversaryNotice();
+    try { sessionStorage.setItem('scentoryAnniversaryPoster3066', 'seen'); } catch {}
   }, 700);
 }
 // Every cart link uses the same direct jump, including hero and footer links.

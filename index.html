@@ -34,7 +34,7 @@
   <link rel="preload" as="image" href="logo-horizontal-white.png?v=3043" />
   <link rel="preload" as="image" href="hero-scentory-main-desktop.webp?v=3050" media="(min-width: 641px)" fetchpriority="high" />
   <link rel="preload" as="image" href="hero-scentory-main-mobile.webp?v=3050" media="(max-width: 640px)" fetchpriority="high" />
-  <link rel="stylesheet" href="style-scentory-v3048.css?v=3065" />
+  <link rel="stylesheet" href="style-scentory-v3048.css?v=3066" />
 
   <script type="application/ld+json">
   {
@@ -535,14 +535,16 @@
   </div>
 
   <noscript><p class="noscript-note">JavaScript is required to load current prices, stock and ordering tools.</p></noscript>
-  <script src="script-scentory-v3048.js?v=3065" defer></script>
-  <script src="scentory-intelligence-v3048.js?v=3065" defer></script>
-<dialog id="scentoryNotice" class="scentory-glass" aria-labelledby="noticeTitle">
-  <button type="button" id="noticeClose" class="notice-close" aria-label="Close popup">×</button>
-  <span class="notice-brand">SCENTORY</span><h2 id="noticeTitle"></h2>
-  <div id="noticeBody"></div>
-  <button type="button" id="noticePrimary" class="notice-primary">Continue</button>
-  <button type="button" id="noticeContinue" class="notice-secondary">Continue browsing</button>
+  <script src="script-scentory-v3048.js?v=3066" defer></script>
+  <script src="scentory-intelligence-v3048.js?v=3066" defer></script>
+<dialog id="scentoryNotice" class="scentory-glass anniversary-square" aria-labelledby="noticeTitle" aria-describedby="noticeDescription">
+  <h2 id="noticeTitle" class="visually-hidden">One year of Scentory. More to come.</h2>
+  <p id="noticeDescription" class="visually-hidden">Scentory’s first anniversary is coming soon. Get ready for special surprises. Select the poster to explore the collection, or close to continue browsing.</p>
+  <button type="button" id="noticeClose" class="notice-close" aria-label="Close anniversary popup" autofocus>×</button>
+  <a id="noticeExplore" href="#collection" aria-label="Explore the Scentory collection">
+    <img class="anniversary-artwork" src="scentory-anniversary-v3066.jpg" width="1536" height="1536" alt="One year of Scentory. More to come. Thank you for being part of our story." decoding="async">
+  </a>
 </dialog>
+<span id="cartStatus" class="visually-hidden" role="status" aria-live="polite"></span>
 </body>
 </html>
